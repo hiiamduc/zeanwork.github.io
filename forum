@@ -1,0 +1,456 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Fórum - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/forum">Fórum</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="boards"><div class="contentLeft">
+<div class="title">
+ Fóruns
+</div>
+</div><div class="contentRight">
+<div class="element">
+ Tópicos
+</div>
+
+<div class="element">
+ Respostas
+</div>
+
+<div class="element" style="width:200px;">
+ Última atividade
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/1-instalacao-e-configuracao">Instalação e Configuração</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas ou comentários sobre a instalação do Zeanwork e suas configurações.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 2
+</div>
+
+<div class="element">
+ 11
+</div>
+
+<div class="element" style="width:200px;">
+ 05/11/2010 13h 47min<br />
+<b>Em:</b> <a href="/forum/topics/view/6-rotas">Rotas</a><br />
+<b>Por:</b> Josemar Davi Luedke
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/2-estrutura-e-padronizacao">Estrutura e Padronização</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas ou comentários sobre a estrutura do Zeanwork e seus padrões.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 2
+</div>
+
+<div class="element">
+ 11
+</div>
+
+<div class="element" style="width:200px;">
+ 26/04/2012 08h 15min<br />
+<b>Em:</b> <a href="/forum/topics/view/7-estrutura-do-framework">Estrutura do Framework</a><br />
+<b>Por:</b> Adilson Rumao
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/3-models-e-banco-de-dados">Models e Banco de Dados</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas gerais, envolvendo models e banco de dados.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 3
+</div>
+
+<div class="element">
+ 5
+</div>
+
+<div class="element" style="width:200px;">
+ 16/04/2012 20h 54min<br />
+<b>Em:</b> <a href="/forum/topics/view/227-primary-key">Primary Key</a><br />
+<b>Por:</b> Flavio Cesarino
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/4-controllers-e-programacao">Controllers e Programação</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas gerais sobre os controllers e programação das aplicações,envolvendo o back-end.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 2
+</div>
+
+<div class="element">
+ 0
+</div>
+
+<div class="element" style="width:200px;">
+ 01/06/2012 11h 53min<br />
+<b>Em:</b> <a href="/forum/topics/view/228-class-folder">Class Folder</a><br />
+<b>Por:</b> Flavio Cesarino
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/5-components-helpers-e-extensions">Components, Helpers e Extensions</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas de utilização e de criação de novos conponents, helpers e extensions.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 3
+</div>
+
+<div class="element">
+ 32
+</div>
+
+<div class="element" style="width:200px;">
+ 27/04/2012 13h 32min<br />
+<b>Em:</b> <a href="/forum/topics/view/5-auth-component">Auth Component</a><br />
+<b>Por:</b> Flavio Cesarino
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/6-views-elements-e-layouts">Views, Elements e Layouts</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas sobre as views, elements e layout, envolvendo somente front-end.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 1
+</div>
+
+<div class="element">
+ 4
+</div>
+
+<div class="element" style="width:200px;">
+ 07/01/2012 14h 30min<br />
+<b>Em:</b> <a href="/forum/topics/view/222-foreach">foreach</a><br />
+<b>Por:</b> Flavio Cesarino
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/7-solicitacoes-de-recursos">Solicitações de Recursos</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para sugestões de novos recursos para o Zeanwork.
+Se você tem uma grande idéia, aqui é o local para compartilhá-la.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 0
+</div>
+
+<div class="element">
+ 0
+</div>
+
+<div class="element" style="width:200px;">
+ &nbsp;&nbsp;
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/8-reporte-de-bugs">Reporte de Bugs</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para reporte de bugs e erros encontrados no Zeanwork.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 0
+</div>
+
+<div class="element">
+ 0
+</div>
+
+<div class="element" style="width:200px;">
+ &nbsp;&nbsp;
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/9-duvidas-gerais">Dúvidas Gerais</a>
+</span>
+</div>
+
+<div class="description">
+ Espaço para dúvidas gerais, envolvendo PHP, Javascript, Css, HTML e tudo sobre desenvolvimento para a web.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 1
+</div>
+
+<div class="element">
+ 0
+</div>
+
+<div class="element" style="width:200px;">
+ 12/01/2012 17h 26min<br />
+<b>Em:</b> <a href="/forum/topics/view/225-cms-zeanwork">CMS Zeanwork</a><br />
+<b>Por:</b> Flavio Cesarino
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div><div class="boards"><div class="contentLeft">
+<div class="title">
+ <span>
+<a href="/forum/view/10-desenvolvimento">Desenvolvimento</a>
+</span>
+</div>
+
+<div class="description">
+ Discussão sobre o desenvolvimento do Zeanwork.
+</div>
+</div><div class="contentRight">
+<div class="element">
+ 3
+</div>
+
+<div class="element">
+ 8
+</div>
+
+<div class="element" style="width:200px;">
+ 25/07/2012 17h 29min<br />
+<b>Em:</b> <a href="/forum/topics/view/226-projeto-parado">Projeto parado</a><br />
+<b>Por:</b> Frankyston Lins Nogueira
+</div>
+
+<div style="clear:both;">
+ 
+</div>
+</div>
+<div style="clear:both;">
+ 
+</div>
+</div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0619s. Developed with Zeanwork Framework PHP -->

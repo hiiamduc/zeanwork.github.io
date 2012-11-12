@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Banco de dados - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes">Configurações</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes/banco-de-dados">Banco de dados</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Banco de dados</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  class="selected" href="/doc/configuracoes/banco-de-dados">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download">Force download</a>			</li>
+			<li><a  href="/doc/components/session">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date">Date</a>			</li>
+			<li><a  href="/doc/extensions/security">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	Bom, se a sua aplicação não requer banco de dados, você não irá precisar fazer nada em relação ao banco de dados, pois o Zeanwork esta pronto para ser executado. Mas se você irá utilizar banco de dados devemos fazer as configurações para o mesmo.<br />
+Para definir a configuração, você deve ir até o arquivo <span class="fontCode">App/Configs/database.php</span> e localizar a configuração chamada <span class="fontCode">database</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('database', array(
+	      'development' => array(
+				  'persistent' => false //Indica se a conexão será persistente.
+				, 'drive' => 'MySql' //Tipo do banco de dados.
+				, 'host' => 'localhost' //Endereço do servidor de banco de dados.
+				, 'user' => 'root' //Usuário para conexão com o banco de dados.
+				, 'password' => '' //Senha para conexão com o banco de dados.
+				, 'database' => 'zeanwork' //Nome da tabela do banco.
+				, 'prefix' => null //Prefixo nos nomes das tabelas do banco de dados
+				, 'charset' => 'utf8' //Charser do banco de dados
+		       )
+	      )
+	  );
+</pre><br />
+<br />
+<a name="connect"></a><div class="titleDoc">Auto conectar-se com o banco de dados</div><br />
+Para definir se o zeanwork conectará automáticamente com o servidor de banco de dados, você deve ir até o arquivo <span class="fontCode">App/Configs/database.php</span> e localizar a configuração chamada <span class="fontCode">auto.connect.database</span>.<br />
+O valor a ser definido é boolean (true/false).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('auto.connect.database', true);
+</pre><br />
+<br />
+<a name="disconnect"></a><div class="titleDoc">Auto desconectar-se com o banco de dados</div><br />
+Para definir se o zeanwork desconectará automáticamente com o servidor de banco de dados, você deve ir até o arquivo <span class="fontCode">App/Configs/database.php</span> e localizar a configuração chamada <span class="fontCode">auto.disconnect.database</span>.<br />
+O valor a ser definido é boolean (true/false).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('auto.disconnect.database', true);
+</pre><br />
+<div class="nota"><b>Nota:</b> Se a configuração de conexão com o banco de dados for persistente, então será ignorado esta configuração.</div></div>
+
+<div class="clear"></div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0336s. Developed with Zeanwork Framework PHP -->

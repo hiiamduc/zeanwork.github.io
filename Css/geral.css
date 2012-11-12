@@ -1,0 +1,124 @@
+html 						{overflow-y:scroll;}
+body 						{font-family: Arial, Helvetica, sans-serif; margin:auto; background:#1A1A1A; font-size:11px; text-align:left; color:#444444;}
+.content					{background:#FFFFFF; min-height:350px; padding-bottom: 15px;}
+img							{border:0px;}
+.clear						{clear:both;}
+.right						{float:right;}
+.left						{float:left;}
+.padding					{padding:5px;}
+.textCenter					{text-align:center;}
+.aplication					{width:950px; margin:auto;}	
+.bgTop						{background: url(../Images/bgTop.png) repeat-x; height:155px;}
+.bgTopCenter				{background: url(../Images/bgTopCenter.jpg) center no-repeat #1A1A1A; height:104px; margin-top: 7px;}
+.menuTop					{padding-top:7px; font-weight:bold;}
+.logo						{width:419px; height:105px; float:left; background:url(../Images/logo.png) no-repeat;}
+.search						{text-align:right; margin-top:20px; width:280px; float:right;}
+.search input				{height:15px; padding-top:3px; border:1px solid #000; background:#FFF; font-size:11px;}
+.search input.searchText	{width:248px; float:left; border-right:none; height: 13px}
+.search input.ok			{width:25px; float:right; font-weight:bold; padding-top:0px; height:19px; margin-right:4px; border-left:none; cursor:pointer;}
+.social						{margin-top:20px;}
+.path						{padding-top:6px; font-weight:bold;}
+.footer						{height:219px; background:url(../Images/bgFooter.jpg) center no-repeat; color:#F0F0F0;}
+.footer a					{color:#F0F0F0;}
+.contentFooter				{padding-top:30px; margin-bottom: 15px;}
+.version					{float:left; color:#F0F0F0; width:100px;}
+.numberVersion				{font-size:25px; font-weight:bold;}
+.menu ul					{list-style:none; margin:0px; padding:0px;}
+.menu ul li					{float:left; margin-right:15px;}
+.menu ul li a 				{color:#282828; padding:2px; text-decoration:none;}
+.menu ul li:hover a			{background:#666666; color:#F0F0F0;}
+a							{color:#282828; text-decoration:none;}
+a:hover						{text-decoration:underline;}
+
+input.bgGoogleCustomSearch	{background: #FFFFFF url(http://www.google.com/coop/intl/pt-BR/images/google_custom_search_watermark.gif) no-repeat; }
+
+.menuFooter					{width:970px;}
+.menuFooter ul				{list-style:none; padding-left:0px; width: 110px; float:left; margin-right: 10px}
+.menuFooter li				{padding-top:2px;}
+.menuFooter li.first		{font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #535353;}
+.menuFooter li.first a		{color:#999999; display: block; padding-bottom: 4px; text-shadow: 1px 2px 0 #000000;}
+.menuFooter ul li a 		{color:#F0F0F0; padding:1px; text-decoration:none; display: block;}
+.menuFooter ul li:hover a	{background:#666666; color:#F0F0F0;}
+
+ul.menuRight				{list-style:none; padding: 0px; margin-left: 15px; margin-right: 15px;}
+ul.menuRight li				{margin-bottom: 2px;}
+ul.menuRight li a			{color:#222; padding:2px; text-decoration:none; display: block;}
+ul.menuRight li:hover a,
+ul.menuRight li.selected a	{background:#666666; color:#F0F0F0;}
+
+ul.menuRight2				{list-style:none; padding: 0px; margin-left: 15px; margin-right: 15px;}
+ul.menuRight2 li			{margin-bottom: 2px;}
+ul.menuRight2 li a			{color:#222; padding:2px; text-decoration:none;}
+ul.menuRight2 li a:hover,
+ul.menuRight2 li a.selected	{background:#666666; color:#F0F0F0;}
+
+ul.tweets					{padding-left: 10px;}
+.tweetDate					{color:#999; font-size: 10px}
+.tweetStatus a 				{color: #000; text-decoration: underline;}
+ul.posts					{list-style: none; padding: 0;}
+.postTitle					{}
+.postContent				{color: #888}
+ul.listDownloads	li		{margin-bottom: 8px;}
+ul.listDownloads	li a	{color: #000;}
+ul.colaboradores	li 		{padding:5px;}
+ul.caracters		li 		{padding:3px; line-height: 19px;}
+.title, .titleHome			{font-size:25px; color:#282828; text-shadow: 0 1px 2px #999; font-family:'DroidSansRegular',"Trebuchet MS",Trebuchet,Verdana,sans-serif; margin-bottom:20px}
+.titleHome					{font-size:20px; margin-bottom:5px;}
+.homePreview				{background:url(../Images/bg.jpg) center; font-size:23px; text-align:center; color:#FFFFFF; line-height:70px; text-shadow: 0 1px 2px #333333; font-family:'DroidSansRegular',"Trebuchet MS",Trebuchet,Verdana,sans-serif}
+.box						{background:url(../Images/bgBox.jpg) repeat-x; width:290px; margin-right:25px; float:left; padding:5px 5px 0 5px; line-height:17px;}
+.noBackground				{background: none;}
+.bgBox						{background:url(../Images/bgBox.jpg) repeat-x;}
+.boxBorderRight				{border-right: 1px solid #CCCCCC; margin-right:13px; padding-right: 12px}
+.downloadHome				{background:url(../Images/bgBox.jpg) repeat-x; margin-top:15px; margin-bottom:20px; padding-top:10px;}
+.login						{background:url(../Images/login.jpg) no-repeat; height:357px; width:370px; margin:auto; margin-top:50px; padding:10px}
+.login .content				{margin-top:20px; background:none;}
+.login .label, .login .labelSubmit {width:95px; float:left; margin-bottom:10px; padding-top:5px; text-align:right; font-weight:bold}
+.login .input, .login .inputSubmit {width:200px; float:right; margin-bottom:10px; margin-right:70px}
+.login .input input			{width:200px; height:15px; padding-top:3px; border:1px solid #666; background:#FFF; font-size:11px;}
+.login .submit				{float:right;}
+.login .inputSubmit			{margin-top:2px; float:right;}
+input.inputRegister			{width:400px;}
+input.inputContact			{width:730px;}
+.login .authError			{margin-bottom:20px; text-align:center;}
+.login .register			{font-weight:bold; font-size:13px}
+.submit 					{background-color:#E0E0E0; border:1px solid; border-color:#E7E7E7 #666666 #666666 #E7E7E7; cursor:pointer; font-weight:bold; margin:0; overflow:visible; padding:0; width:auto; padding:2px 4px 3px; color:#333333; font-size:13px; line-height:16px; }
+.boards						{border-bottom:1px solid #BBBBBB;}
+.boards .contentLeft		{float:left; width:540px;}
+.boards .contentRight		{float:right; width:375px}
+.boards .title				{margin:0px;}
+.boards .title span a		{font-size:13px; color:#666666; font-weight:bold; text-shadow: 0 0 1px #EEEEEE; font-family:Verdana, sans-serif;}
+.boards .description		{color:#999999;}
+.boards .contentRight .element{float:left; width:75px; border-left:1px solid #BBBBBB; padding-left:5px; margin-top:20px;}
+.responses .list			{margin-bottom:20px; border-top: 1px solid #BBBBBB; padding-top:10px}
+.responses .contentLeft		{float:left; width:200px;}
+.responses .contentRight	{float:right; width:730px; font-size: 12px;}
+.nameUser					{font-size: 13px; font-weight: bold;}
+input, textarea, select		{padding-top:3px; border:1px solid #BBBBBB; background:#FFF; font-size:11px;}
+pre.code					{background:#F2F2F2; display:block; margin-bottom:10px; overflow:auto; padding:5px; width:640px; border:1px solid #D3D3D0; color:#444444; font: 12px Monaco,Consolas,'Courier New',monospace;  -moz-border-radius: 4px 4px 4px 4px;}
+code						{padding-top: 0; margin-top: 0}
+.imgHome					{margin-top: 12px;}
+.flagBrazil					{background:url("../Images/brazil.jpg") no-repeat transparent; float:left; padding:5px 5px 5px 35px; color: #999999}
+img.jc-show, img.jc-hide	{vertical-align: text-top;}
+.video						{margin-top: 20px; width: 720px; min-height: 385px; background: #DADADA; text-align: center;}
+.duracaoScreencast			{padding: 5px; background: #F0F0F0; -moz-border-radius:4px 4px 4px 4px}
+ul.listScreencasts			{margin: 0; padding: 0px;}
+ul.listScreencasts li		{list-style: none; float: left; width: 200px; background: #F0F0F0; margin: 10px; margin-left: 0px; padding: 5px; text-align: center;}
+ul.listScreencasts li a		{display: block; font-size: 12px; font-weight: bold;}
+ul.listScreencasts li a:hover{text-decoration: none;}
+ul.listScreencasts li a span{background: #FFFFFF; padding: 2px; margin-top: 5px; font-size: 10px; text-align: right; -moz-border-radius:4px 4px 4px 4px; float: right;}
+
+span.current				{font-weight: bold;}
+#paginationZeanwork	span	{padding: 3px;}
+
+
+
+.titleDoc					{font-size:20px; color:#282828; text-shadow: 0 1px 2px #999; font-family:'DroidSansRegular',"Trebuchet MS",Trebuchet,Verdana,sans-serif;}
+.nameMethod					{font-size:15px; color:#282828; text-shadow: 0 1px 2px #999; font-family:'DroidSansRegular',"Trebuchet MS",Trebuchet,Verdana,sans-serif; margin-top: 5px;}
+
+.nota						{background: #f0f0f0; -moz-border-radius:4px 4px 4px 4px; font-style: italic; padding: 5px;}
+.fontCode					{font-family: "Courier New";}
+.boxDoc						{border: 1px solid #AAAAAA; padding: 0 5px 5px 5px;}
+.lineBoxDoc					{border-top: 1px solid #AAAAAA; margin-top: 5px 0 5px 0;}
+.marginDoc					{margin-left: 40pt; margin-right: 40pt;}
+
+.footerFooter				{margin-bottom: 15px; background: url(../Images/bg-footer.png) repeat-x; padding-top: 5px;}

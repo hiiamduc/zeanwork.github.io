@@ -1,0 +1,249 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Layouts - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/views">Views</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/views/layouts">Layouts</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Layouts</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  class="selected" href="/doc/views/layouts">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download">Force download</a>			</li>
+			<li><a  href="/doc/components/session">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date">Date</a>			</li>
+			<li><a  href="/doc/extensions/security">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O layout é uma página sem conteúdo, com apenas a apresentação visual que será fixa em todas as páginas, apenas cabeçalhos e menus por exemplo.<br />
+Os layouts tem o mesmo principio das views, deve ser utilizado, HTML, CSS, JavaScript e algumas estruturas básicas do PHP.<br />
+<br />
+<br />
+<a name="create"></a><div class="titleDoc">Criando um layout</div><br />
+Como você deve ter visto na estrutura do Zeanwork, temos um diretório somente para armazenar os arquivos dos layouts, é localizado em <span class="fontCode">App/Layouts/</span>. Você também deve ter visto os padrões do Zeanwork, o nome do arquivo deve ser no padrão lowerCamelCase, seguindo com a extensão <span class="fontCode">.html</span>, seguindo com o <span class="fontCode">.php</span>, tornando assim  <span class="fontCode">nomeDoLayout.html.php</span>.<br />
+<br />
+O layout padrão do Zeanwork é o default, então se você desejar sobrescrever este layout, você deve criar o arquivo de layout em: <span class="fontCode">App/Layouts/default.html.php</span><br />
+<br />
+<br />
+<a name="contentForLayout"></a><div class="titleDoc">Definindo o local do conteúdo</div><br />
+Como o local do conteúdo pode variar de layout para layout, você deve definir onde o conteúdo deverá ficar, o Zeanwork possui uma variável que possui o conteúdo da view, que deverá ser impressa no layout.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php"><!--
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+       <title>My first layout</title>
+   </head>
+   <body>
+       <?php echo $this->contentForLayout; ?>
+   </body>
+</html>
+--!></pre><br />
+<br />
+<a name="pageTitle"></a><div class="titleDoc">Definindo o títudo da página</div><br />
+Como o Zeanwork monta a view antes de montar o layout, podemos definir um título entro da view, com isso deixamos o layout mais flexível, a variável <span class="fontCode">Vew::$pageTitle</span> é a responsável por isso, ela está disponível pela view e pelo layout como <span class="fontCode">$this->pageTitle</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php"><!--
+//Na view
+<?php this->pageTitle = 'Produtos'; ?>
+
+//No layout
+<title><?php echo $this->pageTitle; ?></title>
+--!></pre><br />
+<br />
+<a name="vars"></a><div class="titleDoc">Variáveis acessíveis da view para o layout</div><br />
+Muitas vezes precisamos passar alguns dados para o layout, que necessitamos definir na view, assim como o título da página.<br />
+<br />
+<div class="boxDoc"><div class="nameMethod">dataForLayout</div><div class="marginDoc">Define dados que estarão acessíveis no layout.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">cssForLayout</div><div class="marginDoc">Define css adicionais para o layout.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">scriptsForLayout</div><div class="marginDoc">Define scripts adicionais para o layout.<br />
+</div><br />
+</div><br />
+<div class="nota"><b>Nora:</b> As variáveis aqui apresentadas também estão disponíveis no controller, podem ser definidas em qualquer local da classe.</div><br />
+<br />
+<a name="example"></a><div class="titleDoc">Exemplo completo de um layout</div><br />
+Veja um exemplo completo de um layout utilizando helpers e variáveis da view.<br />
+<pre class="brush: php"><!--
+<?php
+$this->load->helper('html');
+echo $this->html->doctype('html5');
+?>
+<html lang="<?php echo Inflector::underscore(Configure::read('toLanguage')); ?>">
+   <head>
+        <title><?php echo $this->pageTitle; ?></title>
+        <?php
+           echo $this->html->metaCharset();
+           echo $this->html->css('geral');
+           echo $this->html->js('geral');
+           echo $this->html->jsBlock('var APP_HOST = "'.APP_HOST.'";', null);
+           echo $this->cssForLayout;
+           echo $this->scriptsForLayout;
+        ?>
+   </head>
+   <body>
+       <?php echo $this->contentForLayout; ?>
+   </body>
+</html>
+--!></pre></div>
+
+<div class="clear"></div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0327s. Developed with Zeanwork Framework PHP -->

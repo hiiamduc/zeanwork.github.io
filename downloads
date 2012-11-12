@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Downloads - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/downloads">Downloads</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Downloads</div>
+<div style="float:left; width:460px;">
+	<div style="line-height:1em; margin:0; font-size:18px; font-weight:bold; padding-left:15px">
+		<a name="currentVersion"></a>
+		<img src="http://zeanwork.com.br/Images/Zeanwork/z.png" style="margin-bottom:-7px;" /> Versão atual
+	</div>
+	<br />
+	&nbsp;Zeanwork está atualmente na versão 0.1.0<br />
+	<a href="/downloads/down/1/zeanwork"><img src="http://zeanwork.com.br/Images/download.jpg" style="margin-top:3px" /></a>	
+</div>
+<div style="float:right; width:460px;">
+	<div style="line-height:1em; margin:0; font-size:18px; font-weight:bold; padding-left:15px">
+		<a name="svn"></a>
+		<img src="http://zeanwork.com.br/Images/subversion.jpg" style="margin-bottom:-11px;" /> SVN - Subversion no <img src="http://zeanwork.com.br/Images/googlecode.jpg" style="margin-bottom:-11px;" />	</div>
+	<br />
+	Subversion é um sistema de controle de versão.
+	<br /><br />
+	Se você quer ficar a par das atualizações, modificações e novidades do Zeanwork faça um checkout no subversion do Google Code.
+	<br /><br />
+	<b>SVN Checkout:</b><br /><code>svn checkout http://zeanwork.googlecode.com/svn/trunk/</code>
+	<br /><br />
+	<b>Página no Google Code:</b><br /><a href="http://code.google.com/p/zeanwork/" target="_blank"><code>http://code.google.com/p/zeanwork/</code></a>
+</div>
+<div class="clear"><br /><br /></div>
+<div style="float:left; width:460px;">
+	<div style="line-height:1em; margin:0; font-size:18px; font-weight:bold; padding-left:15px">
+		<a name="oldVersions"></a>
+		<img src="http://zeanwork.com.br/Images/archived.jpg" style="margin-bottom:-11px;" /> Versões anteriores
+	</div>
+	<br /><br />
+	Você pode baixar qualquer uma das versões anteriores abaixo.<br />
+	
+	<b>Nota:</b> As versões anteriores não são mantidas.
+	<br /><br />
+	<span style="color:#888888">Não há versões anteriores no momento!</spam>	
+</div>
+<div style="float:right; width:460px;">
+	<div style="line-height:1em; margin:0; font-size:18px; font-weight:bold; padding-left:15px">
+		<a name="requirements"></a>
+		<img src="http://zeanwork.com.br/Images/server.jpg" style="margin-bottom:-11px;" /> Requisitos
+	</div>
+	<br /><br />
+	O Zeanwork é desenvolvido com as mais recentes tecnologias no mercado para ser o mais compativel possível com diferentes plataformas, e assim garantir o melhor desempenho e qualidade para a sua aplicação.
+	<br /><br />
+	<b>Alguns requisitos:</b>
+	<br />
+    * PHP 5 ou superior<br />
+	<br />
+</div>
+<div class="clear"><br /><br /></div>
+<div style="float:left; width:460px;">
+	<div style="line-height:1em; margin:0; font-size:18px; font-weight:bold; padding-left:15px">
+		<a name="components"></a>
+		<img src="http://zeanwork.com.br/Images/components.jpg" style="margin-bottom:-11px;" /> Components
+	</div>
+	<br /><br />
+	Faça download de components que foram desenvolvidos para gerar soluções para a sua aplicação.<br />
+	<b>Nota:</b> Os components aqui apresentados, não fazem parte da versão oficial do Zeanwork.
+	<br /><br />
+	<ul class="listDownloads"><li><a href="/downloads/down/2/ultimos-tweets">Últimos tweets</a><br />
+<span style="color:#888888">Componente para pegar os últimos tweets de um usuário do twitter
+<br />
+Desenvolvido por: Josemar Davi Luedke</span></li></ul>	
+</div>
+<div style="float:right; width:460px;">
+	<div style="line-height:1em; margin:0; font-size:18px; font-weight:bold; padding-left:15px">
+		<a name="helpers"></a>
+		<img src="http://zeanwork.com.br/Images/helpers.jpg" style="margin-bottom:-11px;" /> Helpers
+	</div>
+	<br /><br />
+	Faça download de helpers que foram desenvolvidos para gerar soluções para a sua aplicação.<br />
+	<b>Nota:</b> Os helpers aqui apresentados, não fazem parte da versão oficial do Zeanwork.
+	<br /><br />
+	<span style="color:#888888">Não há helpers para download!</span></div>
+<div class="clear"><br /><br /></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0299s. Developed with Zeanwork Framework PHP -->

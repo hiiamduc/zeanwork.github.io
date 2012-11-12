@@ -1,0 +1,158 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Características - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/about">Sobre</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/about/caracters">Características</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Características</div>
+
+<div class="left" style="width: 730px; margin-right: 10px; text-align: justify; font-size: 12px;">
+
+Aqui temos uma pequena lista de algumas das características que o Zeanwork tem.
+<br /><br />
+
+<ul class="caracters"><li><b>Poucas configurações</b> - Você pode somente alterar as configurações de conexão com o banco de dados (se for utilizar) e sair programando a sua aplicação.</li>
+<li><b>Open Source</b> - Licenciado sob a licença MIT, que é uma ótima licença! </li>
+<li><b>POO (OOP)</b> - Programação Orientada à Objetos.</li>
+<li><b>Qualidade</b> - Aplicativos com qualidade, de código e do resultado da aplicação.</li>
+<li><b>Produtividade</b> - Produza muito mais em menos tempo, e mantenha seus projetos dentro dos prazos.</li>
+<li><b>Segurança</b> - Seus projetos serão mais seguros, pois existem filtros automáticos e validações de grande eficácia.</li>
+<li><b>PHP5 e PHP6</b> - Desenvolvido para ser utilizado com PHP5 e está focado na compatibilidade da próxima versão do PHP.</li>
+<li><b>Padronização</b> - É de extrema importância ter um código padronizado, por isso o Zeanwork segue os seus padrões e outros também, tais como o <a rel="nofollow" href="http://pt.wikipedia.org/wiki/CamelCase">CamelCase</a>,	<a rel="nofollow" href="http://pt.wikipedia.org/wiki/CamelCase">lowerCamelCase</a> e <a rel="nofollow" href="http://pt.wikipedia.org/wiki/CamelCase">UpperCamelCase</a>.</li>
+<li><b>Framework horizontal</b> - Pode ser utilizado para diversos tipos de aplicações.</li>
+<li><b>Cache</b> - Podemos determinar que será utilizado cache e através de requisição de páginas, gerar automaticamente o cache, podendo ser renovado automaticamente.</li>
+<li><b>Helpers</b> - Ajudantes para HTML, Formulários, Tabelas e outros. Você também pode criar os seus conforme as suas necessidades.</li>
+<li><b>Components</b> - Componentes de Autenticação de usuários, Sessions, Cookies e outros. Você também pode criar os seus conforme as suas necessidades.</li>
+<li><b>Extensions</b> - Você pode criar extensões para suas aplicações, tais como funções e classes, sendo elas de total independência do Zeanwork.</li>
+<li><b>MVC</b> - Utilizamos o design pattern MVC, separando a aplicação em camadas (separa a lógica de aplicação da sua apresentação), com isso tornamos o desenvolvimento e manutenção dos aplicativos muito mais fácil e eficaz, sendo estes complexos ou não.</li>
+<li><b>URL’s Amigáveis</b> - O uso de url’s amigáveis é de grande importância para os buscadores.</li>
+<li><b>Multi-idiomas</b> - Podemos criar facilmente aplicações com vários idiomas, identificando o idioma pela URL.</li>
+<li><b>Independente do mod_rewrite</b> - Você não precisa se preocupar com o mod_rewrite do Apache pois você pode escolher qual tipo do protocolo que será utilizado na hora de interpretar a URL.</li>
+<li><b>Múltiplas bases de dados</b> - Você pode configurar uma conexão com o banco de dados e alternar entre as bases de dados.</li>
+<li><b>Múltiplos tipos de bases de dados</b> - Você pode escolher qual drive (tipo de bando de dados ex: MySQL, Oracle, PostreSQL, MsSQL...) será utilizado em uma determinada conexão, podendo você criar os seus próprios drives.</li>
+<li><b>Validações</b> - Temos uma classe para lhe ajudar nas validações do dia a dia.</li>
+<li><b>Ajax</b> - Identificamos automaticamente se é uma requisição via XMLHttpRequest (Ajax) e executamos alguns procedimentos que você pode determinar.</li>
+<li><b>Logs</b> - Temos suporte a logs, que você pode gerar em um determinado ponto de sua aplicação.</li>
+<li><b>Manipulação de pastas e arquivos</b> - Temos algumas soluções para a manipulação de arquivos e pastas, podendo recuperar facilmente o seu conteúdo e assim escrever, alterar e apagar arquivos e pastas.</li></ul>
+
+
+
+</div>
+
+
+<div class="right box" style="width: 200px; margin: 0px">
+	<div class="title textCenter" style="font-size: 20px">Veja também!</div>
+	<ul class="menuRight">
+		<li ><a href="/about">Sobre</a></li><li class="selected"><a href="/about/caracters">Características</a></li><li ><a href="/about/team">Equipe e colaboradores</a></li><li ><a href="/about/contact">Entre em contato</a></li>	</ul>
+</div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.026s. Developed with Zeanwork Framework PHP -->

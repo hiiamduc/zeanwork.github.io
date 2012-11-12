@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Methods chaining - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models">Models</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models/methods-chaining">Methods chaining</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Methods chaining</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao">Paginação</a>			</li>
+			<li><a  class="selected" href="/doc/models/methods-chaining">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download">Force download</a>			</li>
+			<li><a  href="/doc/components/session">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date">Date</a>			</li>
+			<li><a  href="/doc/extensions/security">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	Method Chaining (encadeamento de métodos) é uma técnica de programação que permite reduzir o tamanho de seus códigos.<br />
+<br />
+Veja os métodos disponíveis para o encadeamento de métodos:<br />
+<div class="boxDoc"><div class="nameMethod">Model::conditions()</div><div class="marginDoc">Define as condições para a instrução SQL.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $conditions [opcional]</em><br />
+<div class="marginDoc">Condições a ser definido.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::where()</div><div class="marginDoc">Este método é apenas uma alias para <span class="fontCode">Model::conditions().</span><br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::fields()</div><div class="marginDoc">Define os campos que serão retornados em uma consulta SQL.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array | string $fields [opcional]</em><br />
+<div class="marginDoc">Campos a ser definidos.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::data()</div><div class="marginDoc">Define dados para uma inclusão de registro ou alteração.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $data</em><br />
+<div class="marginDoc">Dados a ser definidos.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::values()</div><div class="marginDoc">Este método é apenas uma alias para <span class="fontCode">Model::data().</span><br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::join()</div><div class="marginDoc">Define um join.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $join</em><br />
+<div class="marginDoc">Nome da tabela que será feito o join.</div><br />
+<div class="lineBoxDoc"></div><em>array $conditions [opcional]</em><br />
+<div class="marginDoc">Define as condições para o join.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::innerJoin()</div><div class="marginDoc">Define um inner join.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $join</em><br />
+<div class="marginDoc">Nome da tabela que será feito o inner join.</div><br />
+<div class="lineBoxDoc"></div><em>array $conditions [opcional]</em><br />
+<div class="marginDoc">Define as condições para o inner join.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::leftJoin()</div><div class="marginDoc">Define um left join.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $join</em><br />
+<div class="marginDoc">Nome da tabela que será feito o left join.</div><br />
+<div class="lineBoxDoc"></div><em>array $conditions [opcional]</em><br />
+<div class="marginDoc">Define as condições para o left join.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::rightJoin()</div><div class="marginDoc">Define um right join.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $join</em><br />
+<div class="marginDoc">Nome da tabela que será feito o right join.</div><br />
+<div class="lineBoxDoc"></div><em>array $conditions [opcional]</em><br />
+<div class="marginDoc">Define as condições para o right join.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::orderBy()</div><div class="marginDoc">Define uma ordem.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $order [opcional]</em><br />
+<div class="marginDoc">Campos a ser ordenado.</div><br />
+<div class="lineBoxDoc"></div><em>string $direction [opcional]</em><br />
+<div class="marginDoc">Direção da ordenação.<br />
+Valores aceitos: <span class="fontCode">DESC</span> e <span class="fontCode">ASC</span>;</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::groupBy()</div><div class="marginDoc">Define campos para serem agrupados.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array | string $group [opcional]</em><br />
+<div class="marginDoc">Campos a ser agrupados.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::limit()</div><div class="marginDoc">Define um limite.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string | number $limit [opcional]</em><br />
+<div class="marginDoc">Limite a ser definido.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::keyResult()</div><div class="marginDoc">Define a chave da array do resultado, deve ser o nome de um campo da tabela.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $keyResult</em><br />
+<div class="marginDoc">Chave da array a ser definida.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::paginationParams()</div><div class="marginDoc">Define os parâmetros para a paginação e para o select.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $params</em><br />
+<div class="marginDoc">Parâmetros a ser definidos.<br />
+Para ver mais sobre os parâmetros da paginação vá em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/paginacao">Paginação</a> &gt;&gt; <a href="/doc/models/paginacao#params">Parâmetros para paginação</a></span></div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executeRead()</div><div class="marginDoc">Executa um select.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc">Este método não possui parâmetros.<br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Retorna uma matriz que corresponde a todas as linhas obtidas no select.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executeSelect()</div><div class="marginDoc">Este método é apenas uma alias para <span class="fontCode">Model::executeRead()</span>.</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executeUpdate()</div><div class="marginDoc">Executa um update.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc">Este método não possui parâmetros.<br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo update.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executeDelete()</div><div class="marginDoc">Executa um delete.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc">Este método não possui parâmetros.<br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo delete.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executeInsert()</div><div class="marginDoc">Executa um insert.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc">Este método não possui parâmetros.<br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo insert.</div><br />
+</div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executePaginate()</div><div class="marginDoc">Executa uma paginação.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc">Este método não possui parâmetros.<br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Retorna uma matriz que corresponde a todas as linhas obtidas no select.</div><br />
+</div></div><br />
+</div><br />
+Veja alguns exemplos de method chaining:<br />
+<pre class="brush: php">
+//Select
+$this->users->fields('user, pass, created')
+	->conditions(array('active' => 1))
+	->limit(20)
+	->orderBy('user', 'DESC')
+	->executeRead();
+
+//Insert
+$this->users->data(array(
+			  'user' => 'test'
+			, 'pass' => md5('test')
+			, 'active' => 1
+			)
+		)
+	->executeInsert();
+
+//Update
+$this->users->data(array(
+			  'user' => 'test alterado'
+			, 'pass' => md5('test2')
+			, 'active' => 1
+			)
+		)
+	->conditions(array('idUsers' => 2))
+	->limit(1)
+	->executeUpdate();
+
+//Delete
+$this->users->conditions(array('idUsers' => 2))
+	->limit(1)
+	->executeDelete();
+</pre></div>
+
+<div class="clear"></div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0349s. Developed with Zeanwork Framework PHP -->

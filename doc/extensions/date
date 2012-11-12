@@ -1,0 +1,348 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Date - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/extensions">Extensions</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/extensions/date">Date</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Date</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download">Force download</a>			</li>
+			<li><a  href="/doc/components/session">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  class="selected" href="/doc/extensions/date">Date</a>			</li>
+			<li><a  href="/doc/extensions/security">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	A extension date ajuda você a trabalhar com datas.<br />
+<br />
+<br />
+<a name="load"></a><div class="titleDoc">Carregando a extension</div><br />
+Para você utilizar esta extension, você prescisa definir que irá utiliza-lo. Veja mais em: <strong><a href="/doc/controllers">Controllers</a> &gt; <a href="/doc/controllers#loadFeatures">Carregando models, components, helpers e extensions</a></strong>.<br />
+O nome desta extension é <span class="fontCode">date</span>, este é o nome que você irá utilizar para carrega-lo.<br />
+<br />
+<br />
+<a name="format"></a><div class="titleDoc">Formatos de datas que o Zeanwork aceita</div><br />
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt;"><tbody><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">Valor</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">Exemplo</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">br</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd/mm/aaaa</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd/mm/aa</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/09</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd-mm-aaaa</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02-10-2009</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd-mm-aa</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02-10-09</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">eua</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">date</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">aaaa-mm-dd</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">aaaa/mm/dd</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009/10/02</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd/mm/aaaa H:i:s</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009 09:05:20</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd/mm/aaaa H:i</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009 09:05</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">brtime</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009 09h 05min</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd/mm/aaaa Hh imin</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009 09h 05min</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd/mm/aaaa H:ih</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02/10/2009 09:05h</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd-mm-aaaa H:i:s</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02-10-2009 09:05:20</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd-mm-aaaa H:i</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02-10-2009 09:05</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd-mm-aaaa Hh imin</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02-10-2009 09h 05min</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">dd-mm-aaaa H:ih</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">02-10-2009 09:05h</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">datetime</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02 09:05:20</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">aaaa-mm-dd H:i:s</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02 09:05:20</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">aaaa-mm-dd H:i</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02 09:05</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">aaaa-mm-dd Hh imin</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02 09h 05min</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">aaaa-mm-dd H:ih</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">2009-10-02 09:05h</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">H:i:s</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">09:05:20</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">H:i</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">09:05</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">Hh imin</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">09h 05min</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 127.55pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">H:ih</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 141.7pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">09:05h</span></p></td></tr></tbody></table><br />
+<br />
+<a name="convert"></a><div class="titleDoc">Convertendo o formato de datas</div><br />
+<div class="boxDoc"><div class="nameMethod">convert()</div><div class="marginDoc">Este método converte o formato de uma data.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $date</em><br />
+<div class="marginDoc">Data, pode ser em qualquer formato que o Zeanwork reconheça.</div><br />
+<div class="lineBoxDoc"></div><em>string $format [opcional]</em><br />
+<div class="marginDoc">Formato a ser convertido.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">Data convertida.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::convert('2010-02-14', 'dd/mm/aaaa');
+</pre></div><br />
+</div><br />
+<br />
+<a name="sum"></a><div class="titleDoc">Somando dias em uma data</div><br />
+<div class="boxDoc"><div class="nameMethod">sum()</div><div class="marginDoc">Este método soma dias em uma data e retorna uma nova data.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $data</em><br />
+<div class="marginDoc">Data inicial.</div><br />
+<div class="lineBoxDoc"></div><em>number $dias</em><br />
+<div class="marginDoc">Número de dias a ser somado.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">Data final, no formato dd/mm/aaaa.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::sum('2010-02-14', 3);
+</pre></div><br />
+</div><br />
+<br />
+<a name="min"></a><div class="titleDoc">Diminuindo dias de uma data</div><br />
+<div class="boxDoc"><div class="nameMethod">min()</div><div class="marginDoc">Este método diminui dias de uma data e retorna uma nova data.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $data</em><br />
+<div class="marginDoc">Data inicial.</div><br />
+<div class="lineBoxDoc"></div><em>number $dias</em><br />
+<div class="marginDoc">Número de dias a diminuido.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">Data final, no formato dd/mm/aaaa.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::min('2010-02-14', 3);
+</pre></div><br />
+</div><br />
+<br />
+<a name="daysInMonth"></a><div class="titleDoc">Dias de um mês</div><br />
+<div class="boxDoc"><div class="nameMethod">daysInMonth()</div><div class="marginDoc">Este método retorna a quantia de dias de um determinado mês.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>number $month</em><br />
+<div class="marginDoc">Número do mês.</div><br />
+<div class="lineBoxDoc"></div><em>number $year</em><br />
+<div class="marginDoc">Ano.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Dias no mês.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::daysInMonth(2, 2010);
+</pre></div><br />
+</div><br />
+<br />
+<a name="daysInYear"></a><div class="titleDoc">Dias de um ano</div><br />
+<div class="boxDoc"><div class="nameMethod">daysInYear()</div><div class="marginDoc">Este método retorna a quantia de dias de um determinado ano.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>number $year</em><br />
+<div class="marginDoc">Ano.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Dias no ano.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::daysInYear(2010);
+</pre></div><br />
+</div><br />
+<br />
+<a name="diff"></a><div class="titleDoc">Diferença de dias entre datas</div><br />
+<div class="boxDoc"><div class="nameMethod">diff()</div><div class="marginDoc">Este método retorna a diferença de dias entre duas datas.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $startDate</em><br />
+<div class="marginDoc">Data inicial.</div><br />
+<div class="lineBoxDoc"></div><em>string $endDate</em><br />
+<div class="marginDoc">Data final.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Diferença de dias.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::diff('20/09/2010', '20/10/2010');
+</pre></div><br />
+</div><br />
+<br />
+<a name="dayWeeks"></a><div class="titleDoc">Dia da semana</div><br />
+<div class="boxDoc"><div class="nameMethod">dayWeeks()</div><div class="marginDoc">Este método retorna o número do dia da semana a partir de um data.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $date</em><br />
+<div class="marginDoc">Data.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número do dia da semana. Ex: quarta-feira = 4, quinta-feira = 5...</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::dayWeeks('20/09/2010');
+</pre></div><br />
+</div><br />
+<br />
+<a name="calendar"></a><div class="titleDoc">Calendário</div><br />
+<div class="boxDoc"><div class="nameMethod">calendar()</div><div class="marginDoc">Este método retorna uma matriz como um calendário.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>number $month</em><br />
+<div class="marginDoc">Número do mês.</div><br />
+<div class="lineBoxDoc"></div><em>number $year</em><br />
+<div class="marginDoc">Ano.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Matriz com o calendário.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo Date::dayWeeks('20/09/2010');
+</pre></div><br />
+</div></div>
+
+<div class="clear"></div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0328s. Developed with Zeanwork Framework PHP -->

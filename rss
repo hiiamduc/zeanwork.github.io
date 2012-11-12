@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Fórum - Zeanwork Framework PHP</title>
+		<link>http://zeanwork.com.br/forum</link>
+		<description>Tópicos e respostas mais recentes do fórum do Zeanwork</description>
+		<item>
+			<title>Resposta: Documentação para Download</title>
+			<link>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-74</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-74</guid>
+			<description><![CDATA[ Muito legal, vou baixar para vê como estar xD<br />
+<br />
+Obrigado por disponibilizar. ]]></description>
+			<pubDate>Wed, 25 Jul 2012 17:32:49 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Projeto parado</title>
+			<link>http://zeanwork.com.br/forum/topics/view/226-projeto-parado#response-73</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/226-projeto-parado#response-73</guid>
+			<description><![CDATA[ Cara até aonde sei não esta parado, e se estiver estou estudando ele ao máximo para ajudar a continuar ele, eu gosto deste framework, mas vou procurar saber.<br />
+<br />
+Obrigado ]]></description>
+			<pubDate>Wed, 25 Jul 2012 17:29:34 -0300</pubDate>
+		</item>
+		<item>
+			<title>Class Folder</title>
+			<link>http://zeanwork.com.br/forum/topics/view/228-class-folder</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/228-class-folder</guid>
+			<description><![CDATA[ A classe Folder do Zeanwork lista arquivos que estão dentro de _Elements? ]]></description>
+			<pubDate>Fri, 01 Jun 2012 11:53:44 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Auth Component</title>
+			<link>http://zeanwork.com.br/forum/topics/view/5-auth-component#response-72</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/5-auth-component#response-72</guid>
+			<description><![CDATA[ Esse troço não funciona por nada. já estou tentando desde o ano passado, mas como não consegui fiz minha própria classe.<br />
+<br />
+Exemplo: O que eu devo colocar nas seguintes variáveis?<br />
+<br />
+public $permissions = array();<br />
+<br />
+public $userData = array(); ]]></description>
+			<pubDate>Fri, 27 Apr 2012 13:32:57 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Estrutura do Framework</title>
+			<link>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-71</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-71</guid>
+			<description><![CDATA[ Bom dia cheguei até aqui após uma busca no Google sobre Framework em PHP. Baixei e instalei o ZW sem problemas mas, agora é que vem as dúvidas. Como nunca mexi em um Framework gostaria de tirar umas dúvidas.<br />
+Vi que ele contém várias pastas e gostaria de saber se vou precisar istalar um ZW para cada Site que for desenvolver. E gostaria de saber por onde começar. Devo alterar o padrão que ele tras para começar um site do zero?<br />
+<br />
+Desculpe se não fui claro o bastante.<br />
+E parabéns pelo projeo. ]]></description>
+			<pubDate>Thu, 26 Apr 2012 08:15:38 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Paginação</title>
+			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-70</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-70</guid>
+			<description><![CDATA[ Resolvi o problema<br />
+<br />
+Deixei o código como está acima e na linha 11 coloquei da seguinte forma:<br />
+<br />
+, 'orderBy' => 'conteudoartigos.nome ASC' ]]></description>
+			<pubDate>Thu, 19 Apr 2012 17:31:13 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Paginação</title>
+			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-69</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-69</guid>
+			<description><![CDATA[ Opa, Consegui resolver mas só tirando o array "leftJoin".<br />
+<br />
+Como faço para manter as tabelas relacionadas? ]]></description>
+			<pubDate>Thu, 19 Apr 2012 17:21:10 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Paginação</title>
+			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-68</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-68</guid>
+			<description><![CDATA[ Olá, meu controller está assim:<br />
+<br />
+    <script src="http://pastebin.com/embed_js.php?i=tvtZ9qc5"></script><br />
+<br />
+<br />
+E minha View está assim:<br />
+<br />
+<script src="http://pastebin.com/embed_js.php?i=ufzm1ZHH"></script><br />
+<br />
+Estou tendo problemas para visualizar as setas de "próximo". Quando estou navegando não aparece setas de próximo. ]]></description>
+			<pubDate>Tue, 17 Apr 2012 02:56:04 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Primary Key</title>
+			<link>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-67</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-67</guid>
+			<description><![CDATA[ Opa, fiz diferente.<br />
+<br />
+Como vou ter que relacionar algumas tabelas, utilizei o método read(), removi do banco de dados o campo alias e estou filtrando pelo pelo campo "nome" do artigo e utilizando o Inflector::humanize()<br />
+<br />
+Está funcionando legalzinho aqui.<br />
+<br />
+Estou fazendo um cms simples com o zeanwork, quando estiver pronto disponibilizo mas creio que ainda demore um pouco. ]]></description>
+			<pubDate>Mon, 16 Apr 2012 20:54:12 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Primary Key</title>
+			<link>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-66</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-66</guid>
+			<description><![CDATA[ Opa, cara.<br />
+<br />
+Qual é a sua primaryKey do banco de dados? É "id" certo?<br />
+<br />
+O campo "alias" contem o url, certo? Então você pode fazer assim:<br />
+<pre class="code"><code><span style="color: #000000">
+$this-&gt;conteudoArtigos-&gt;findByAlias($_GET&amp;#91;'blabla'&amp;#93;);</span>
+</code></pre><br />
+<br />
+Como vc vai usar no site e no admin, você coloca duas actions. ]]></description>
+			<pubDate>Fri, 13 Apr 2012 15:58:37 -0300</pubDate>
+		</item>
+		<item>
+			<title>Primary Key</title>
+			<link>http://zeanwork.com.br/forum/topics/view/227-primary-key</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/227-primary-key</guid>
+			<description><![CDATA[ Fiz Meus Models assim<br />
+<br />
+<?php<br />
+class ConteudoArtigos extends AppModel {<br />
+	public $table = 'conteudoartigos';<br />
+	public $primaryKey = 'id';<br />
+}<br />
+?><br />
+<br />
+Sendo que deste jeito só consigo buscar dados no mysql da seguinte forma:<br />
+<br />
+$this->conteudoArtigos->findById(2);<br />
+<br />
+Estou querendo buscar dados de outro campo que não seja o primaryKey.<br />
+<br />
+Exemplo:<br />
+<br />
+$this->conteudoArtigos->findByAlias(artigo-teste);<br />
+<br />
+Como faço isto sem ter que mudar o primaryKey do Model para alias?<br />
+<br />
+O problema é que quando eu for utilizar isto na administração vou precizar buscar pelo "id", e quando eu for usar pelo frontend vou precisar buscar pelo "alias" para ficar a url amigavel na barra de endereços ]]></description>
+			<pubDate>Wed, 11 Apr 2012 18:51:45 -0300</pubDate>
+		</item>
+		<item>
+			<title>Projeto parado</title>
+			<link>http://zeanwork.com.br/forum/topics/view/226-projeto-parado</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/226-projeto-parado</guid>
+			<description><![CDATA[ Alguém por aqui sabe se o projeto está tendo continuidade ou se foi abandonado?<br />
+<br />
+Obrigado! ]]></description>
+			<pubDate>Mon, 09 Apr 2012 17:45:32 -0300</pubDate>
+		</item>
+		<item>
+			<title>CMS Zeanwork</title>
+			<link>http://zeanwork.com.br/forum/topics/view/225-cms-zeanwork</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/225-cms-zeanwork</guid>
+			<description><![CDATA[ Olá pessoal, estou desenvolvendo um cms utilizando o zeanwork sendo que ta pegando em um ponto:<br />
+<br />
+Estou criando um formulário de registro de usuário com as validações do zeanwork. Até aí tudo bem.<br />
+<br />
+O problema é que o formulário é dinâmico e o administrador do sistema pode criar, editar e deletar campos no formulário de registro através da página php e eu não estou sabendo como fazer para validar campos criados pelo administrador do sistema.<br />
+<br />
+Alguém tem alguma sugestão? ]]></description>
+			<pubDate>Thu, 12 Jan 2012 17:26:16 -0300</pubDate>
+		</item>
+		<item>
+			<title>Tags php</title>
+			<link>http://zeanwork.com.br/forum/topics/view/224-tags-php</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/224-tags-php</guid>
+			<description><![CDATA[ Vi que no Zeanwork os arquivos php numca fecham as tags php no final.<br />
+<br />
+Exemplo:<br />
+<br />
+?><br />
+<br />
+Por que isto?<br />
+<br />
+Se eu fechar pode ocorrer problemas futuramente? ]]></description>
+			<pubDate>Sat, 07 Jan 2012 18:18:28 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Back-End Front-End</title>
+			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-65</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-65</guid>
+			<description><![CDATA[ Eu também consegui com isto:<br />
+<br />
+function blabla(){<br />
+}<br />
+<br />
+function adminBlabla(){<br />
+    static :: blabla();<br />
+}<br />
+<br />
+Pode ser assim ou isto pode gerar algum conflito futuramente?<br />
+<br />
+E se eu quiser chamar a função de um controller em outro arquivo de controller? como eu faço? ]]></description>
+			<pubDate>Sat, 07 Jan 2012 15:48:24 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Validação</title>
+			<link>http://zeanwork.com.br/forum/topics/view/4-validacao#response-64</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/4-validacao#response-64</guid>
+			<description><![CDATA[ Eu fiz as validações assim:<br />
+<br />
+No controller:<br />
+<br />
+if($this->input->post()){<br />
+		  <br />
+          $campos = $this->view = array('nome' => $this->input->post('nome'),<br />
+                                'email' => $this->input->post('email'),<br />
+                                'telefone' => $this->input->post('telefone'));;<br />
+		  <br />
+                if (Validation::notEmpty($this->input->post('nome')) == false) {<br />
+    <br />
+            $this->setVar('message', 'Preencha o nome corretamente');<br />
+            $this->setVar('campos', $campos);<br />
+    <br />
+        }else if (Validation::email($this->input->post('email'), false) == false) {<br />
+    <br />
+            $this->setVar('message', 'Preencha o e-mail corretamente');<br />
+            $this->setVar('campos', $campos);<br />
+        <br />
+        }else{<br />
+            <br />
+            $this->usuarios->autoSave();<br />
+			$this->setVar('message', 'O cadastro foi realizado com sucesso');<br />
+		}<br />
+        }<br />
+<br />
+Na view:<br />
+<br />
+echo $message;<br />
+<br />
+Deste modo é validado um campo por vez, onde o campo telefone não é obrigatório e não tem nenhum tipo de validação.<br />
+<br />
+A variável $campos é utilizada para manter os campos preenchidos caso algum campo não passe pela validação ]]></description>
+			<pubDate>Sat, 07 Jan 2012 15:23:33 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Estrutura do Framework</title>
+			<link>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-63</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-63</guid>
+			<description><![CDATA[ Mas não vale a pena. É melhor utilizar o prefixo admin.<br />
+<br />
+Agora que eu vi que se for adicionado o prefixo admin no nome do arquivo o mesmo pode ser acessado como se estivesse dentro de uma pasta chamada admin se o prefixo estiver configurado em routers.<br />
+<br />
+Exemplo:<br />
+<br />
+Nome do arquivo: adminAdd<br />
+<br />
+Localizado em: App/Views/Usuarios<br />
+<br />
+Pode ser acessado assim: site.com.br/admin/usuarios/add<br />
+<br />
+Ao invés de: site.com.br/usuarios/adminAdd<br />
+<br />
+Um ponto bastatnte interessante. ]]></description>
+			<pubDate>Sat, 07 Jan 2012 14:54:15 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: foreach</title>
+			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-62</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-62</guid>
+			<description><![CDATA[ Opa consegui. Fiz o seguinte:<br />
+<br />
+<?php<br />
+<br />
+$options = array(array('label' => 'Selecione o Estado'));<br />
+<br />
+foreach($usuariosestados as $estado):<br />
+<br />
+if($estado['id'] == $usuario['estadoId']):<br />
+    <br />
+    $selected = '" selected="selected';<br />
+    <br />
+else:<br />
+    <br />
+    $selected = '';<br />
+                <br />
+endif;<br />
+<br />
+   $options[] = array('value' => $estado['id'].$selected, 'text' => $estado['nome']);<br />
+   <br />
+endforeach;<br />
+<br />
+echo $this->form->select('estadoId', array(<br />
+  'options' => $options<br />
+, 'class' => 'classCss'<br />
+, 'label' => 'Estado:'<br />
+, 'divForLabel' => true<br />
+, 'divForInput' => true<br />
+)<br />
+).br(); ]]></description>
+			<pubDate>Sat, 07 Jan 2012 14:30:05 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: foreach</title>
+			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-61</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-61</guid>
+			<description><![CDATA[ e neste caso como eu faria para deixar um campo selecionado com o comando selected? ]]></description>
+			<pubDate>Tue, 20 Dec 2011 04:18:46 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: foreach</title>
+			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-60</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-60</guid>
+			<description><![CDATA[ Opa, obrigado. Deu certinho aqui. ]]></description>
+			<pubDate>Tue, 20 Dec 2011 03:03:43 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: foreach</title>
+			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-59</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-59</guid>
+			<description><![CDATA[ Opa, você pode fazer assim:<br />
+<br />
+<pre class="code"><code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php$options&nbsp;</span><span style="color: #007700">=&nbsp;array(array(</span><span style="color: #DD0000">'label'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Selecione&nbsp;o&nbsp;Estado'</span><span style="color: #007700">));foreach(</span><span style="color: #0000BB">$usuariosestados&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$estado</span><span style="color: #007700">):&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$options</span><span style="color: #007700">&amp;</span><span style="color: #FF8000">#91;&amp;#93;&nbsp;=&nbsp;array('value'&nbsp;=&gt;&nbsp;$estado&amp;#91;'sigla'&amp;#93;,&nbsp;'text'&nbsp;=&gt;&nbsp;$estado&amp;#91;'nome'&amp;#93;);</span><span style="color: #007700">endforeach;echo&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">form</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">select</span><span style="color: #007700">(</span><span style="color: #DD0000">'estado'</span><span style="color: #007700">,&nbsp;array(&nbsp;&nbsp;</span><span style="color: #DD0000">'options'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$options</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'classCss'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'label'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Estado'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'divForLabel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'divForInput'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">)).</span><span style="color: #0000BB">br</span><span style="color: #007700">();</span>
+</span>
+</code></pre><br />
+<br />
+Att, ]]></description>
+			<pubDate>Tue, 20 Dec 2011 00:43:57 -0300</pubDate>
+		</item>
+		<item>
+			<title>foreach</title>
+			<link>http://zeanwork.com.br/forum/topics/view/222-foreach</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach</guid>
+			<description><![CDATA[ Como faço um foreach para exibir dados do banco de dados no select do formulário?<br />
+<br />
+Só consegui resposta deste modo mas só que deste modo fica um select para cada opção.<br />
+<br />
+foreach($usuariosestados as $estado):<br />
+<br />
+echo $this->form->select('estado',<br />
+array(<br />
+    'options' => array(<br />
+    array('optgroup' => true, 'label' => 'Selecione o Estado')<br />
+    , array('value' => $estado['sigla'], 'text' => $estado['nome']<br />
+    )<br />
+    )<br />
+    , 'class' => 'classCss'<br />
+    , 'label' => 'Estado'<br />
+    , 'divForLabel' => true<br />
+    , 'divForInput' => true<br />
+    )<br />
+    ).br();<br />
+    <br />
+endforeach; ]]></description>
+			<pubDate>Mon, 19 Dec 2011 20:39:33 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Back-End Front-End</title>
+			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-58</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-58</guid>
+			<description><![CDATA[ Obrigado ]]></description>
+			<pubDate>Mon, 19 Dec 2011 17:31:57 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: innerJoin</title>
+			<link>http://zeanwork.com.br/forum/topics/view/221-innerjoin#response-57</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/221-innerjoin#response-57</guid>
+			<description><![CDATA[ Obrigado, abri um tópico com nome igual ao anterior porque não estava conseguindo adicionar resposta no outro. Se quiser pode apagar o outro. ]]></description>
+			<pubDate>Mon, 19 Dec 2011 17:31:44 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Back-End Front-End</title>
+			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-56</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-56</guid>
+			<description><![CDATA[ Então, para você aproveitar a action você pode chamar ela dentro na action do admin.<br />
+<br />
+Por exemplo:<br />
+<br />
+<pre class="code"><code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php</span><span style="color: #007700">....function&nbsp;</span><span style="color: #0000BB">blabla</span><span style="color: #007700">(){}function&nbsp;</span><span style="color: #0000BB">adminBlabla</span><span style="color: #007700">(){&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">blabla</span><span style="color: #007700">();}</span>
+</span>
+</code></pre><br />
+<br />
+Att, ]]></description>
+			<pubDate>Fri, 16 Dec 2011 19:56:23 -0300</pubDate>
+		</item>
+		<item>
+			<title>Resposta: Documentação para Download</title>
+			<link>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-55</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-55</guid>
+			<description><![CDATA[ Cara, você está de nota 10!<br />
+<br />
+Parabéns pela iniciativa.<br />
+<br />
+Att, ]]></description>
+			<pubDate>Fri, 16 Dec 2011 19:52:17 -0300</pubDate>
+		</item>
+		<item>
+			<title>innerJoin</title>
+			<link>http://zeanwork.com.br/forum/topics/view/221-innerjoin</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/221-innerjoin</guid>
+			<description><![CDATA[ Não estou conseguindo fazer o innerJoin para relacionar mais de uma tabela<br />
+<br />
+<strong>Deste modo não da certo</strong><br />
+<br />
+public function adminIndex(){<br />
+		<br />
+  $this->setVar('usuarios', $this->usuarios->read(array( <br />
+      'fields' => array('usuarios.id', 'usuarios.nome', 'usuarios.email', 'usuarios.dataregistro', 'permissoes.nome as permissao', 'usuariosstatus.nome as status')<br />
+      , 'innerJoin' => array('permissoes' => array('permissoes.nivel' => 'usuarios.permissaoid'))<br />
+      , 'innerJoin' => array('usuariosstatus' => array('usuariosstatus.codigo' => 'usuarios.statusid'))<br />
+      )<br />
+      ) <br />
+      );<br />
+}<br />
+<br />
+<strong>Deste modo da certo:</strong><br />
+<br />
+public function adminIndex(){<br />
+		<br />
+  $this->setVar('usuarios', $this->usuarios->read(array( <br />
+      'fields' => array('usuarios.id', 'usuarios.nome', 'usuarios.email', 'usuarios.dataregistro', 'permissoes.nome as permissao')<br />
+      , 'innerJoin' => array('permissoes' => array('permissoes.nivel' => 'usuarios.permissaoid'))<br />
+      )<br />
+      ) <br />
+      );<br />
+}<br />
+<br />
+<strong>Deste modo também da certo:</strong><br />
+<br />
+public function adminIndex(){<br />
+		<br />
+  $this->setVar('usuarios', $this->usuarios->read(array( <br />
+      'fields' => array('usuarios.id', 'usuarios.nome', 'usuarios.email', 'usuarios.dataregistro', 'usuariosstatus.nome as status')<br />
+      , 'innerJoin' => array('usuariosstatus' => array('usuariosstatus.codigo' => 'usuarios.statusid'))<br />
+      )<br />
+      ) <br />
+      );<br />
+} ]]></description>
+			<pubDate>Fri, 16 Dec 2011 03:01:32 -0300</pubDate>
+		</item>
+		<item>
+			<title>Documentação para Download</title>
+			<link>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download</guid>
+			<description><![CDATA[ Fiz uma cópia da documentação e converti para PDF para poder ser disponibilizada para download.<br />
+O conteúdo da documentação PDF é igual ao conteúdo da documentação do site oficial do zeanwork: http://zeanwork.com.br/doc<br />
+<br />
+E ainda peguei mais alguns conteúdos do site para acrescentar na documentação.<br />
+Possui Índice e Bookmarks<br />
+<br />
+Gerei este pdf porque as vezes necessito de utilizar a documentação quando não estou navegando na internet. <br />
+<br />
+Segue o link para download:<br />
+https://skydrive.live.com/redir.aspx?cid=c9f1de420d1f9342&resid=C9F1DE420D1F9342!261&parid=C9F1DE420D1F9342!124 ]]></description>
+			<pubDate>Sun, 11 Dec 2011 09:19:58 -0300</pubDate>
+		</item>
+		<item>
+			<title>INNER JOIN</title>
+			<link>http://zeanwork.com.br/forum/topics/view/219-inner-join</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/219-inner-join</guid>
+			<description><![CDATA[ Como fazer o Inner Join para relacionar tabelas do banco de dados? Se possível postar um exemplo de como fazer isso.<br />
+<br />
+Outra dúvida. Como colocar uma condição com um valor do banco de dados? EX.:<br />
+<br />
+if($usuarios['PermissaoUsuario'] == 1){<br />
+echo 'Administrador';<br />
+}<br />
+<br />
+ou<br />
+<br />
+if($usuarios['PermissaoUsuario'] == 1){<br />
+$Permissao = 'Administrador';<br />
+}<br />
+<br />
+Até consegui fazer esta condição mas só consegui colocando o código na View e não com o código no Controller ]]></description>
+			<pubDate>Thu, 01 Dec 2011 21:10:25 -0300</pubDate>
+		</item>
+		<item>
+			<title>Back-End Front-End</title>
+			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end</guid>
+			<description><![CDATA[ Estava lendo sobre rotas do ZeanWork e pelo que vi, se eu quiser ter uma área de administração tenho que criar o prefixo "admin".<br />
+Sendo assim me ficou uma dúvida:<br />
+Os arquivos do admin devem ficar na pasta "App\Views\NomeDaPasta" junto com os arquivos visualizados pelos usuários do site?<br />
+Não daria para fazer como se fosse no joomla, com uma pasta separada chamada "Admin"? ]]></description>
+			<pubDate>Sun, 27 Nov 2011 07:18:13 -0300</pubDate>
+		</item>
+		<item>
+			<title>Estrutura do Framework</title>
+			<link>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework</guid>
+			<description><![CDATA[ Olá Galera, sou novo com framework e achei o ZW muito legal e facil de mexer,<br />
+estou desenvolvendo um portal onde terá que ter 3 setores separados,<br />
+setor de aministração do portal<br />
+setor de clientes ou anunciantes<br />
+e setor do usuário do portal<br />
+<br />
+pois bem eu vi a estrutura do ZW que possui a pasta App<br />
+que é acessada pelo framework<br />
+é possível fazer uma pasta Admin para ser utilizada do mesmo jeito da app ficando assim:<br />
+<br />
++ Admin<br />
++ App<br />
++ Feactures<br />
++ Public<br />
++ Zeanwork<br />
+<br />
+att wender ]]></description>
+			<pubDate>Mon, 18 Jul 2011 02:39:53 -0300</pubDate>
+		</item>
+		<item>
+			<title>Rotas</title>
+			<link>http://zeanwork.com.br/forum/topics/view/6-rotas</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/6-rotas</guid>
+			<description><![CDATA[ Olá estava dando uma olhada no zeanwork, e tive alguns problemas de como criar rotas...<br />
+tenho dentro de Controllers/produtos.php com o seguinte<br />
+class ProdutosController extends AppController {<br />
+<br />
+    public $uses = array('produtos'); <br />
+     public function index(){<br />
+    $this->setVar('produtos', $this->produtos->read());<br />
+}}<br />
+e dentro de Models/produtos.php<br />
+class Produtos extends AppModel {<br />
+<br />
+    public $table = 'produtos';<br />
+    public $primaryKey = 'produto_id';<br />
+} <br />
+e em view/Produtos a index.html.php na view tem só um echo 'Hello word!'<br />
+<br />
+Minha dúvida é como criar a rota para essa controller??<br />
+Pois a minha Router::setRoot('home') funciona certinha... ]]></description>
+			<pubDate>Fri, 05 Nov 2010 12:39:08 -0300</pubDate>
+		</item>
+		<item>
+			<title>Auth Component</title>
+			<link>http://zeanwork.com.br/forum/topics/view/5-auth-component</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/5-auth-component</guid>
+			<description><![CDATA[ Bom Dia,<br />
+<br />
+<br />
+Como fazer para ter duas áreas de logins distintas?<br />
+<br />
+Exemplo:<br />
+<br />
+No meu site eu terei uma área do cliente, e teria outra área para administração do site, onde o cliente nao pode acessar a area de admin e o admin nao pode acessa a area do cliente.<br />
+<br />
+É possivel? ]]></description>
+			<pubDate>Fri, 24 Sep 2010 09:47:24 -0300</pubDate>
+		</item>
+		<item>
+			<title>Validação</title>
+			<link>http://zeanwork.com.br/forum/topics/view/4-validacao</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/4-validacao</guid>
+			<description><![CDATA[ Sobre a validação, não entendi como ele valida o campo dentro do array, por exemplo validar cada campo com uma rule diferente ... com na documentação.<br />
+<br />
+fiz assim:<br />
+<br />
+	$this->contacts->validates(array(<br />
+              'name' => array(<br />
+                      'message' => 'Favor preencher o campo nome'<br />
+                    , 'rule' => 'notEmpty'<br />
+                    , 'required' => true),<br />
+					'email' => array(<br />
+                      'message' => 'Favor preencher corretamente o e-mail'<br />
+                    , 'rule' => 'notEmpty'<br />
+                    ),<br />
+					'phone' => array(<br />
+                      'message' => 'Favor preencher corretamente o e-mail'<br />
+                    , 'rule' => 'notEmpty'<br />
+                    )));<br />
+<br />
+OBS. quando o usuário envia o campo vazio ele valida mas nao exbie a mensagem de qual campo deve ser preenchido. ]]></description>
+			<pubDate>Wed, 22 Sep 2010 14:10:13 -0300</pubDate>
+		</item>
+		<item>
+			<title>Paginação</title>
+			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao</guid>
+			<description><![CDATA[ Preciso de um help na paginação<br />
+<br />
+Como insiro a paginação?<br />
+<br />
+Coloquei nos Controllers mas não rolou<br />
+<br />
+Bloco<br />
+<br />
+$this->contacts->paginate(array(<br />
+              'page' => $this->input->get('page')<br />
+            , 'recordsInPage' =>5<br />
+                       )<br />
+        );<br />
+<br />
+Aguardo. ]]></description>
+			<pubDate>Tue, 21 Sep 2010 23:59:22 -0300</pubDate>
+		</item>
+		<item>
+			<title>Aonde ficam os exemplos do Zeanwork</title>
+			<link>http://zeanwork.com.br/forum/topics/view/2-aonde-ficam-os-exemplos-do-zeanwork</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/2-aonde-ficam-os-exemplos-do-zeanwork</guid>
+			<description><![CDATA[ Olá!<br />
+Não sei se estou postando no local correto.<br />
+Mas aonde estão os exemplos do Zeanwork.<br />
+Obrigado. ]]></description>
+			<pubDate>Sat, 07 Aug 2010 22:57:24 -0300</pubDate>
+		</item>
+		<item>
+			<title>Ops!   View não encontrada.</title>
+			<link>http://zeanwork.com.br/forum/topics/view/1-ops-view-nao-encontrada</link>
+			<guid>http://zeanwork.com.br/forum/topics/view/1-ops-view-nao-encontrada</guid>
+			<description><![CDATA[ Tentei rodar o ZW e obtive a mensagem:<br />
+<blockquote>Ops!   Controller não encontrado.<br />
+<br />
+O controlador solicitado não foi encontrado. Verifique se o arquivo zeanwork.php existe em App/Controllers/ e se a classe ZeanworkController esteja declarada no mesmo.<br />
+<br />
+Caso o arquivo não exista ou a classe não esteja declarada, crie em App/Controllers/zeanwork.php com a seguinte estrutura abaixo.<br />
+<pre class="code"><code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php</span><span style="color: #007700">class&nbsp;</span><span style="color: #0000BB">ZeanworkController&nbsp;</span><span style="color: #007700">extends&nbsp;</span><span style="color: #0000BB">AppController&nbsp;</span><span style="color: #007700">{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;function&nbsp;</span><span style="color: #0000BB">index</span><span style="color: #007700">(){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}</span>
+</span>
+</code></pre><br />
+<br />
+Criei o arquivo conforme especificado. Então recebi a seguinte mensagem:<br />
+Ops!   View não encontrada.<br />
+<br />
+O arquivo de visão solicitado não foi encontrado. Verifique se existe o arquivo index.html.php em App/Views/Zeanwork/ </blockquote><br />
+<br />
+O que fazer? A Pasta App/Views/Zeanwork/ não existe dentro de App/Views/<br />
+<br />
+Renato ]]></description>
+			<pubDate>Thu, 05 Aug 2010 08:17:33 -0300</pubDate>
+		</item>
+	</channel>
+</rss>
+
+<!-- Runtime: 0.0464s. Developed with Zeanwork Framework PHP -->

@@ -1,0 +1,184 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Um pouco sobre MVC - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/um-pouco-sobre-mvc">Um pouco sobre MVC</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Um pouco sobre MVC</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  class="selected" href="/doc/um-pouco-sobre-mvc">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download">Force download</a>			</li>
+			<li><a  href="/doc/components/session">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date">Date</a>			</li>
+			<li><a  href="/doc/extensions/security">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	<p>O  Zeanwork utiliza o design pattern MVC, separando a aplica&ccedil;&atilde;o em camadas  (separa a l&oacute;gica de aplica&ccedil;&atilde;o da sua apresenta&ccedil;&atilde;o), com isso tornamos o  desenvolvimento e manuten&ccedil;&atilde;o dos aplicativos muito mais f&aacute;cil e eficaz,  sendo estes complexos ou n&atilde;o. A utiliza&ccedil;&atilde;o de MVC &eacute; extremamente  importante no desenvolvimento em um grupo de programadores e designers,  pois eles podem trabalhar simultaneamente de maneira harmoniosa e  eficaz.<br />Outra  vantagem da utiliza&ccedil;&atilde;o de MVC &eacute; a portabilidade entre SGBDs (tipos de  bancos de dados: MySQL, Oracle, PostreSQL, MsSQL&hellip;) e al&eacute;m da facilidade  de modifica&ccedil;&otilde;es no layout do aplicativo, sem interferir na l&oacute;gica do  mesmo.</p><br />
+<br />
+<span class="titleDoc">Modelos de Dados (Model)</span><br />
+<p>o modelo de dados ou Model representa a estrutura de dados. &Eacute; atrav&eacute;s do Model que voc&ecirc; faz consultas, altera&ccedil;&otilde;es, inser&ccedil;&otilde;es e exclus&otilde;es de registros no banco de dados.<br />O  Zeanwork auxilia voc&ecirc; com essas tarefas sem que voc&ecirc; precise escrever  uma &uacute;nica linha de c&oacute;digo SQL. Todos os dados e condi&ccedil;&otilde;es a serem  enviados ao banco s&atilde;o montados atrav&eacute;s de arrays simples ou m&eacute;todos do Zeanwork, sem que voc&ecirc; precise de grandes conhecimentos de SQL.<br />Hoje  o Zeanwork da suporte ao banco de dados MySQL, mas voc&ecirc; pode criar  datasources para o banco que voc&ecirc; necessite e/ou outros tipos de fonte  de dados, como XML.</p><br />
+<br />
+<span class="titleDoc">Vis&atilde;o (View)</span><br />
+<p>A vis&atilde;o ou View  representa a camada de apresenta&ccedil;&atilde;o da aplica&ccedil;&atilde;o. Aqui voc&ecirc; cria a  interface de sua aplica&ccedil;&atilde;o, preocupado somente em mostrar os dados para o  usu&aacute;rio, sem precisar se preocupar da l&oacute;gica do aplicativo, utilizando o  HTML, CSS, JavaScript e algumas estruturas b&aacute;sicas do PHP.<br />O Zeanwork tem alguns Helpers inclusos no pacote inicial, Helpers que ajudam na cria&ccedil;&atilde;o de formul&aacute;rios, links e inser&ccedil;&atilde;o de imagens, entre outros. Voc&ecirc; tamb&eacute;m pode criar seus pr&oacute;prios Helpers conforme sua aplica&ccedil;&atilde;o necessite.</p><br />
+<br />
+<span class="titleDoc">Controlador (Controller)</span><br />
+<p>O controlador ou Controller  &eacute; a camada onde voc&ecirc; faz as regras de sua aplica&ccedil;&atilde;o, onde ir&aacute; tratar as  a&ccedil;&otilde;es do usu&aacute;rio. Aqui voc&ecirc; buscar&aacute; os dados do model e tratar&aacute; para a view,  aplicando as regras de neg&oacute;cio, nada de c&oacute;digos HTML, nada de CSS e  nada de JavaScript, somente o poderoso PHP, c&oacute;digos puros sem nada de  misturas.<br />As funcionalidades de um controller s&atilde;o separadas por m&eacute;todos (functions) que s&atilde;o conhecidas como actions (a&ccedil;&otilde;es). Cada action, como o nome j&aacute; diz, executa uma a&ccedil;&atilde;o no aplicativo, podendo ter a sua perspectiva view contendo o seu HTML, CSS&hellip; mas n&atilde;o &eacute; necess&aacute;rio ter uma view para cada action, tornando assim uma action independente.<br />O Zeanwork tem alguns Components no pacote inicial, Components que ajudam a manipula&ccedil;&atilde;o de session, cookie, xml entre ourtos. Assim como os Helpers, voc&ecirc; tamb&eacute;m pode criar seus pr&oacute;prios Components conforme sua aplica&ccedil;&atilde;o necessite.</p></div>
+
+<div class="clear"></div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.033s. Developed with Zeanwork Framework PHP -->

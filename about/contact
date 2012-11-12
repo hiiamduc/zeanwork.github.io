@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Entre em contato - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads">Downloads</a></li>
+						<li><a href="/license">Licença</a></li>
+						<li><a href="/doc">Documentação</a></li>
+						<li><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/about">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/about">Sobre</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/about/contact">Entre em contato</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Entre em contato</div>
+<div class="left" style="width: 730px; margin-right: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+
+Aqui você pode expor suas opiniões, conversar diretamente com nós, tirar algumas duvidadas em particular, etc...<br />
+O formulário abaixo será enviado diretamente para nossos e-mails, e assim que possivel respondidos.
+
+<br />
+<br />
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('form#contact').submit(function(){
+			if($('input#name').val() == ''){
+				alert('Você deve preencher o campo nome!');
+				$('input#name').focus();
+				return false;
+			}
+			if($('input#email').val() == ''){
+				alert('Você deve preencher o campo e-mail!');
+				$('input#email').focus();
+				return false;
+			}else{
+				email = document.getElementById('email');
+				string_mail = email.value;
+				letra1 = "@";
+				letra2 = ".";
+				pos1 = string_mail.indexOf(letra1);
+				pos2 = string_mail.indexOf(letra2);
+				if((email.value.length < 6) || (pos1 < 1) || (pos2 < 1) || (pos1 == email.value.length - 1) || (pos2 == email.value.length - 1)) {
+					alert('Por favor, informe um e-mail correto!');
+					email.focus();
+					return false;
+				}
+			}
+			if($('#mensagem').val() == ''){
+				alert('Você deve preencher o campo mensagem!');
+				$('input#mensagem').focus();
+				return false;
+			}
+		});
+	});
+</script>
+
+<form name="contact" id="contact" action="" method="post">
+<div style="margin-top:5px;">
+ <label for="name">Nome:</label>
+</div>
+
+<div>
+ <input name="name" class="inputContact" type="text" id="name" />
+</div>
+
+<div style="margin-top:5px;">
+ <label for="email">E-mail:</label>
+</div>
+
+<div>
+ <input name="email" class="inputContact" type="text" id="email" />
+</div>
+
+<div style="margin-top:5px;">
+ <label for="webSite">Site/Blog:</label>
+</div>
+
+<div>
+ <input name="webSite" value="http://" class="inputContact" type="text" id="webSite" />
+</div>
+
+<div style="margin-top:5px;">
+ <label for="mensagem">Mensagem:</label>
+</div>
+
+<div>
+ <textarea name="mensagem" id="mensagem" class=""></textarea>
+</div>
+<br />
+<br />
+<input name="submit" value="Enviar" class="submit" type="submit" id="submit" /></form>
+
+
+
+</div>
+
+
+<div class="right box" style="width: 200px; margin: 0px">
+	<div class="title textCenter" style="font-size: 20px">Veja também!</div>
+	<ul class="menuRight">
+		<li ><a href="/about">Sobre</a></li><li ><a href="/about/caracters">Características</a></li><li ><a href="/about/team">Equipe e colaboradores</a></li><li class="selected"><a href="/about/contact">Entre em contato</a></li>	</ul>
+</div>
+
+<div class="clear"></div>			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads">Downloads</a></li>
+						<li><a href="/downloads#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads#svn">Subversion</a></li>
+						<li><a href="/downloads#requirements">Requisitos</a></li>
+						<li><a href="/downloads#components">Components</a></li>
+						<li><a href="/downloads#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license">Licença</a></li>
+						<li><a href="/license">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc">Documentação</a></li>
+						<li><a href="/doc">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts">Screencasts</a></li>
+						<li><a href="/screencasts">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials">Tutoriais</a></li>
+						<li><a href="/tutorials">Aprenda</a></li>
+						<li><a href="/tutorials/add">Escreva o seu</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about">Sobre</a></li>
+						<li><a href="/about">O projeto</a></li>
+						<li><a href="/about/caracters">Características</a></li>
+						<li><a href="/about/team">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0297s. Developed with Zeanwork Framework PHP -->

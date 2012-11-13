@@ -1,0 +1,582 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Models - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models.html">Models</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Models</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  class="selected" href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O modelo de dados ou Model representa a estrutura de dados. É através do Model que você faz consultas, alterações, inserções e exclusões de registros no banco de dados.<br />
+O Zeanwork auxilia você com essas tarefas sem que você precise escrever uma única linha de código SQL. Todos os dados e condições a serem enviados ao banco são montados através de arrays simples ou métodos do Zeanwork, sem que você precise de grandes conhecimentos de SQL.<br />
+<br />
+<br />
+<a name="createModel"></a><div class="titleDoc">Criando um model</div><br />
+Como você deve ter visto na estrutura do Zeanwork, temos um diretório somente para armazenar os arquivos dos models, é localizado em <span class="fontCode">App/Models/</span>. Você também deve ter visto os padrões do Zeanwork, o nome do arquivo deve ser no padrão <span class="fontCode">lowerCamelCase</span>, seguindo com a extensão .php. Por exemplo: <span class="fontCode">nomeDoModel.php</span>.<br />
+<br />
+Todo model deve ser uma classe, portando o nome da classe deve corresponder o nome do arquivo criado. Por exemplo: Você criou um arquivo chamado <span class="fontCode">nomeDoModel.php</span>, o nome da classe deve ser <span class="fontCode">NomeDoModel</span>, seguindo o padrão <span class="fontCode">CamelCase</span>.<br />
+Todos os models devem ser estendidos da classe <span class="fontCode">AppModel</span>, pois o seu model deve herdar os métodos do Zeanwork. Se você desejar criar métodos que serão utilizados em alguns dos seus models, você deve recriar o model <span class="fontCode">AppModel</span> no mesmo local dos models comuns, este model deverá ser estentido da classe <span class="fontCode">Model</span>.<br />
+<br />
+Veja exemplo de um model comun:<br />
+<pre class="brush: php">
+class Posts extends AppModel {
+}
+</pre><br />
+Veja exemplo do AppModel:<br />
+<pre class="brush: php">
+class AppModel extends Model {
+}
+</pre><br />
+Como uma das funcionalidades dos models é executar operações em um banco de dados, nós devemos definir a perspectiva tabela que pertence este model e sua chave primária. Para esta tarefa nós devemos utilizar as seguintes variáveis da classe <span class="fontCode">Model</span>:  <span class="fontCode">Model::$table</span> e <span class="fontCode">Model:$primaryKey</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class Posts extends AppModel {
+   public $table = 'posts';
+   public $primaryKey = 'idPosts';
+}
+</pre><br />
+<br />
+<a name="params"></a><div class="titleDoc">Parâmetros</div><br />
+Estes parâmetros servem para configurar suas querys nas consultas, inserções, alterações e exclusões de dados, você deve avaliar o que irá solucionar o seu problema e assim utilizalas.<br />
+<br />
+Veja quais parâmetros estão disponíveis.<br />
+<table style="border: medium none; border-collapse: collapse;"><tbody><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">Nome do par&acirc;metro:</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">Informa&ccedil;&otilde;es:</td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">conditions</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">Serve para criar uma condi&ccedil;&atilde;o (where). Veja mais em: </span><span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/condicoes">Condi&ccedil;&otilde;es</a></span></span></p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">fields</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array | string</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define quais campos retornar&aacute; de uma consulta.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">data</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define valores para uma inser&ccedil;&otilde;es ou altera&ccedil;&atilde;o.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">join</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define um join.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">innerJoin</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define um inner join.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">leftJoin</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define um left join.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">rightJoin</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define um right join.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">orderBy</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">string</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define uma ordem.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">groupBy</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">array | string</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define campos para serem agrupados.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">limit</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style=" font-style: italic; text-decoration: none; vertical-align: baseline;">string</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define um limite.</p></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;">keyResult</td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="font-style: italic; text-decoration: none; vertical-align: baseline;">string</span><br /><p style="margin-left: 40pt; margin-top: 0pt; margin-bottom: 0pt;">Define a chave da array do resultado, deve ser o nome de um campo da tabela.</p></td></tr></tbody></table><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->read(array(
+		  'fields' => array('name', 'users.name as nameUser')
+		, 'join' => array('users' => array('users.idUsers' => 'posts.idPosts'))
+		, 'conditions' => array('users.created <' => now())
+		, 'groupBy' => 'name'
+		, 'limit' => 20
+		)
+      );
+</pre><br />
+Query montada pelo Zeanwork:<br />
+<pre class="brush: sql">SELECT name, users.name as nameUser FROM posts JOIN users ON users.idUsers = posts.idPosts WHERE users.created < '2010-07-13 17:21:30' GROUP BY name LIMIT 20</pre><br />
+<div class="nota"><b>Nota:</b> Os dados informados pelos parâmetros aqui apresentados, são filtrados automáticamente para evitar SQL Injection.</div><br />
+<br />
+<a name="read"></a><div class="titleDoc">Buscando registros</div><br />
+Temos várias maneiras de buscar registros de um banco de dados, você pode utilizar a que for mais adequada para você ou para solucionar o seu problema da melhor forma possivel.<br />
+<br />
+Veja os métodos disponiveis:<br />
+<div class="boxDoc"><div class="nameMethod">Model::read()</div><div class="marginDoc">Este método retorna uma lista de registros.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $params [opcional]</em><br />
+<div class="marginDoc">Parâmetros para o select.</div><br />
+<div class="lineBoxDoc"></div><em>mixed $id [opcional]</em><br />
+<div class="marginDoc">Se você desejar buscar um registro cuja a chave primaria seja igual a do valor informado.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Retorna uma matriz que corresponde a todas as linhas obtidas no select.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->read();
+//Retorno
+Array
+(
+	[0] => Array
+	(
+		[idPosts] => 1
+		[name] => Um pouco mais sobre o Zeanwork
+		[text] => Texto, Texto....
+	)
+	[1] => Array
+	(
+		[idPosts] => 2
+		[name] => Um pouco mais sobre o Zeanwork
+		[text] => Texto, Texto do post 2....
+	)
+	[2] => Array
+	(
+		[idPosts] => 3
+		[name] => Um pouco mais sobre o Zeanwork e MVC
+		[text] => Texto, Texto do post 3....
+	)
+)
+</pre></div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::select()</div><div class="marginDoc">Este método é apenas uma alias para o método <span class="fontCode">Model::read()</span>.</div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::findAllBy()</div><div class="marginDoc">Este método procura um registro cujo um valor de um campo da tabela seja igual a outro valor informado por parâmetros. Também deve ser informado um sufixo juntamente com o nome do método, este sufixo deve ser o nome do campo da tabela. O retorno é uma lista de registros.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>mixed $value [opcional]</em><br />
+<div class="marginDoc">Valor para comparação.</div><br />
+<div class="lineBoxDoc"></div><em>array $conditions [opcional]</em><br />
+<div class="marginDoc">Condições adcionais.</div><br />
+<div class="lineBoxDoc"></div><em>array $params [opcional]</em><br />
+<div class="marginDoc">Parâmetros para o select.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Retorna uma matriz que corresponde a todas as linhas obtidas no select. (igual ao método: <span class="fontCode">Model::read()</span>)</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->findAllByName('Um pouco mais sobre o Zeanwork');
+//Retorno
+Array
+(
+	[0] => Array
+	(
+		[idPosts] => 1
+		[name] => Um pouco mais sobre o Zeanwork
+		[text] => Texto, Texto....
+	)
+	[1] => Array
+	(
+		[idPosts] => 2
+		[name] => Um pouco mais sobre o Zeanwork
+		[text] => Texto, Texto do post 2....
+	)
+)
+</pre></div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::findBy()</div><div class="marginDoc">Este método é igual ao <span class="fontCode">Model::findAllBy()</span>, porém ele retorna somente um registro.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->findByName('Um pouco mais sobre o Zeanwork');
+
+//Retorno
+Array
+(
+	[idPosts] => 1
+	[name] => Um pouco mais sobre o Zeanwork
+	[text] => Texto, Texto....
+)
+</pre><br />
+</div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::executeRead()</div><div class="marginDoc">Este método utiliza a tecnologia de encadeamento de métodos (Method chaining), veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/methods-chaining">Methods chaining</a></span><br />
+O retorno deste método é o mesmo do <span class="fontCode">Model::read()</span>.<br />
+</div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::executeSelect()</div><div class="marginDoc">Este método é apenas uma alias para o método <span class="fontCode">Model::executeRead()</span>.<br />
+</div></div><br />
+<br />
+<a name="create"></a><div class="titleDoc">Inserindo registros</div><br />
+Veja os métodos disponíveis para inserir registros no banco de dados.<br />
+<div class="boxDoc"><div class="nameMethod">Model::create()</div><div class="marginDoc">Este método faz um insert em uma tabela no banco de dados.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $data</em><br />
+<div class="marginDoc">Dados que serão inseridos, o key da array deve ser o nome do campo da tabela.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo insert.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->create(array(
+			  'name' => 'Nome do post'
+			, 'text' => 'Texto para o post'
+			)
+		);
+</pre></div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::insert()</div><div class="marginDoc">Este método é apenas uma alias para o método <span class="fontCode">Model::create()</span>.</div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::executeInsert()</div><div class="marginDoc">Este método utiliza a tecnologia de encadeamento de métodos (Method chaining), veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/methods-chaining">Methods chaining</a></span><br />
+O retorno deste método é o mesmo do <span class="fontCode">Model::create()</span>.</div><br />
+</div><br />
+<br />
+<a name="update"></a><div class="titleDoc">Alterando registros</div><br />
+Veja os métodos disponíveis para alterar registros de um banco de dados.<br />
+<div class="boxDoc"><div class="nameMethod">Model::update()</div><div class="marginDoc">Este método faz um update em um registro da tabela no banco de dados.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>number | boolean $id</em><br />
+<div class="marginDoc">Id do resgistro a ser alterado, caso seja informado um número, o Zeanwork criará automáticamente a condição para a chave primária. Se você não desejar utilizar esta condição, você deve informar o valor ‘false’ (boolean).</div><br />
+<div class="lineBoxDoc"></div><em>array $params</em><br />
+<div class="marginDoc">Parâmetros para o update.</div><br />
+<div class="lineBoxDoc"></div><em>array $data</em><br />
+<div class="marginDoc">Dados que serão alterados, a chave da array deve ser o nome do campo da tabela.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo update.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->update(
+			  1039
+			, array()
+			, array(
+				  'name' => 'Novo nome do post'
+				, 'text' => 'Novo texto para o post'
+				)
+			);
+</pre></div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::executeUpdate()</div><div class="marginDoc">Este método utiliza a tecnologia de encadeamento de métodos (Method chaining), veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/methods-chaining">Methods chaining</a></span><br />
+O retorno deste método é o mesmo do <span class="fontCode">Model::update()</span>.</div><br />
+</div><br />
+<br />
+<a name="delete"></a><div class="titleDoc">Deletando registros</div><br />
+Veja os métodos disponíveis para deletar registros de um banco de dados.<br />
+<div class="boxDoc"><div class="nameMethod">Model::delete()</div><div class="marginDoc">Este método apaga registros da tabela no banco de dados.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>number | boolean $id</em><br />
+<div class="marginDoc">Id do resgistro a ser deletado, caso seja informado um número, o Zeanwork criará automáticamente a condição para a chave primária. Se você não desejar utilizar esta condição, você deve informar o valor ‘false’ (boolean).</div><br />
+<div class="lineBoxDoc"></div><em>array $params [opcional]</em><br />
+<div class="marginDoc">Parâmetros para o delete.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo delete.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->delete(1039);
+</pre></div><br />
+<div class="lineBoxDoc"></div><br />
+<div class="nameMethod">Model::executeDelete()</div><div class="marginDoc">Este método utiliza a tecnologia de encadeamento de métodos (Method chaining), veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/methods-chaining">Methods chaining</a></span><br />
+O retorno deste método é o mesmo do <span class="fontCode">Model::delete()</span>.</div><br />
+</div><br />
+<br />
+<a name="autoSave"></a><div class="titleDoc">Salvando registros automáticamente</div><br />
+O Zeanwork possui um método automático que salva dados em uma tabela, tanto para uma alteração quanto para uma inserção.<br />
+<br />
+Os dados são resgatados automáticamente do form pelo método post, o Zeanwork identifica os campos que existem em sua tabela e os que existem no form, com isso ele sabe quais dados serão alterados ou inseridos.<br />
+Para que o Zeanwork idendifique qual campo do seu form corresponde ao campo da tabela, você deve criar as tags do form com o name igual ao nome do campo correspondente da tabela.<br />
+Para o Zeanwork saber se será uma alteração ou uma inserção, ele verifica se foi informado um valor para a chave primária da tabela e se existir o registro na tabela, o Zeanwork fará uma alteração neste registro, caso contrário fará uma inserção.<br />
+O Zeanwork também verifica se existe os campos created e modified, estes campos servirão para salvar a data da alteração ou inserção do registro, estes campos devem ser do tipo datetime ou date.<br />
+O Zeanwork também executa a validação automáticamente antes de salvar os dados, em caso de erro ele não salvará.<br />
+<br />
+<div class="boxDoc"><div class="nameMethod">Model::autoSave()</div><div class="marginDoc"><br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $data [opcional]</em><br />
+<div class="marginDoc">Dados que não se originaram do método post.<br />
+Caso você informe um valor que venha pelo post, o Zeanwork rescreverá este valor, ficando somente os dados aqui informados.<br />
+A chave da array deve ser o nome do campo da tabela.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de linhas afetadas pelo insert ou update.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+// Controller
+$this->posts->autoSave(array('idPosts' => $this->getParam('id')));
+// View
+<!--
+<form name="contact" id="contact" action="" method="post">
+	Nome: <input name="name" type="text" id="name" />
+	
+	Texto: <textarea name="text" id="text"></textarea>
+</form>
+-->
+</pre></div><br />
+</div><br />
+<br />
+<a name="count"></a><div class="titleDoc">Contando registros</div><br />
+O Zeanwork possui um método que facilita a contagem de registros de um banco de dados.<br />
+<div class="boxDoc"><div class="nameMethod">Model::count()</div><div class="marginDoc"><br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $params [opcional]</em><br />
+<div class="marginDoc">Parâmetros para o count.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número de registros encontrado.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->count(array('conditions' => array('published' => 1));
+</pre></div><br />
+</div><br />
+<br />
+<a name="exist"></a><div class="titleDoc">Verificando de existe um registro</div><br />
+Em certos casos precisamos verificar se existe um determinado registro em uma tabela, por isso temos esse método.<br />
+<div class="boxDoc"><div class="nameMethod">Model::exists()</div><div class="marginDoc"><br />
+Parâmetros:<br />
+<div class="boxDoc"><em>number $id</em><br />
+<div class="marginDoc">Valor da chave primária para a condição.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>boolean</em><br />
+<div class="marginDoc">True se existir o registro e false se não existir.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->exists(542);
+</pre></div><br />
+</div><br />
+<br />
+<a name="query"></a><div class="titleDoc">Executando SQL manualmente</div><br />
+Em aplicações mais complexas, é comum haver querys que o Zeanwork não venha atender ou o tempo de execução é muito alto, então você tem essa opção de executar manualmente as instruções SQL’s.<br />
+<div class="boxDoc"><div class="nameMethod">Model::query()</div><div class="marginDoc">Com este método você exetuda uma instrução SQL.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $query</em><br />
+<div class="marginDoc">Query a ser executada.</div><br />
+<div class="lineBoxDoc"></div><em>string $database [opcional]</em><br />
+<div class="marginDoc">Nome do banco de dados. Este parâmetro é util quando você desejar executar uma query em outro banco de dados porem na mesma conexão.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>boolean</em><br />
+<div class="marginDoc">True se não houve erro e false se existir.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->query('SELECT * FROM posts WHERE published = 1');
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::fetch()</div><div class="marginDoc">Este método busca uma linha obtida da query.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $position [opcional]</em><br />
+<div class="marginDoc">Caso você deseja pegar somente um valor do resultado obtido, você deve informar o nome do campo que deseja.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array | mixed</em><br />
+<div class="marginDoc">Se você deseja pegar todos os dados obtidos na linha, então retorna uma array, caso contrário retornará o valor do campo especificado.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+// Informando a posição
+while($name = $this->posts->fetch('name')){
+	echo $name;
+}
+// Retornado toda a linha obtida
+while($row = $this->posts->fetch()){
+	echo $row['name'];
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::fetchAll()</div><div class="marginDoc">Este método busca todas as linha obtida da query.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc">Este método não possui parâmetros.<br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Retorna uma matriz que corresponde a todas as linhas obtidas.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->fetchAll();
+//Retorno
+Array
+(
+	[0] => Array
+	(
+		[idPosts] => 1
+		[name] => Um pouco mais sobre o Zeanwork post 1
+		[text] => Texto, Texto....
+	)
+	[1] => Array
+	(
+		[idPosts] => 2
+		[name] => Um pouco mais sobre o Zeanwork post 2
+		[text] => Texto, Texto do post 2....
+	)
+)
+</pre></div><br />
+</div><br />
+<div class="nota"><b>Nota:</b> As instruções SQL’s que foram criadas manualmente, não são filtrados automáticamente, assim passibilita ataques de SQL Injection.</div><br />
+<br />
+<a name="paramsDefaults"></a><div class="titleDoc">Parâmetros padrões</div><br />
+Existe uma opção de configurar parâmetros padrões para as instruções realizadas apartir dos métodos do model.<br />
+<div class="boxDoc"><div class="nameMethod">Model::$conditions</div><div class="marginDoc">Armazena as condições padrões para suas querys.<br />
+Os valores aqui informados serão fundidos com os valores informados nos métodos.<br />
+O valor a ser informado é uma array.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class Posts extends AppModel {
+	public $conditions = array('published' => 1);
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::$orderBy</div><div class="marginDoc">Armazena o order by padão para suas querys.<br />
+Se não foi informado este valor pelos métodos, então utilizara desta variável.<br />
+O valor a ser informado é uma string.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class Posts extends AppModel {
+	public $orderBy = 'created DESC';
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::$limit</div><div class="marginDoc">Armazena o limit padão para suas querys.<br />
+Se não foi informado este valor pelos métodos, então utilizara desta variável.<br />
+O valor a ser informado deve ser uma string ou números.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class Posts extends AppModel {
+	public $limit = '0, 8';
+}
+</pre></div><br />
+</div></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0396s. Developed with Zeanwork Framework PHP -->

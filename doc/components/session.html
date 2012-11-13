@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="pt-br">
 	<head>
-		<title>Documentação - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<title>Session - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
 			<!-- Salve a web, por favor -->
 			$(document).ready(function(){
@@ -45,11 +45,11 @@
 				<div class="clear"></div>
 			</div>
 			<div class="aplication path">
-				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>			</div>
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/components.html">Components</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/components/session.html">Session</a>			</div>
 		</div>
 				<div class="content">
 			<div class="aplication padding">
-				<div class="title">Documentação</div>
+				<div class="title">Session</div>
 
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -87,7 +87,7 @@
 			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
 			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
 			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
-			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  class="selected" href="/doc/components/session.html">Session</a>			</li>
 			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
 		</ul>
 		</li>
@@ -107,9 +107,136 @@
 </div>
 
 <div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
-	<p>Ficamos  gratos por voc&ecirc; estar aqui para apreender mais sobre o desenvolvimento  com o Zeanwork. Nesta documenta&ccedil;&atilde;o voc&ecirc; ter&aacute; a chance de apreender a  desenvolver aplica&ccedil;&otilde;es com grande produtividade e boas t&eacute;cnicas no  desenvolvimento web. Tamb&eacute;m apreender&aacute; sobre o design pattern MVC e &aacute;  utilizar o Zeanwork da melhor forma poss&iacute;vel.<br /><br />Se  voc&ecirc; nunca utilizou um Framework PHP com MVC, voc&ecirc; ver&aacute; que n&atilde;o &eacute; t&atilde;o  complicado assim! O Zeanwork &eacute; perfeito para quem esta come&ccedil;ando no  mundo dos frameworks, mas &eacute; preciso saber um pouco sobre POO  (Programa&ccedil;&atilde;o Orientada &agrave; Objetos). No desenvolvimento de uma aplica&ccedil;&atilde;o, o  Zeanwork vai lhe dando o caminho certo para que voc&ecirc; possa prosseguir,  com erros que lhe diz o que fazer para solucionar o seu problema.</p><br />
-<span class="titleDoc">Iniciando</span><br />
-<p>Se  voc&ecirc; esta iniciando no mundo dos frameworks, j&aacute; deve ter notado que  existem muitos outros, ent&atilde;o voc&ecirc; pergunta: Porque mais um framework?<a href="http://zeanwork.com.br/blog/2010/05/14/porque-mais-um-framework/"> Aqui</a> temos uma resposta para esta pergunta! Conhe&ccedil;a tamb&eacute;m nossas <a href="http://zeanwork.com.br/about/caracters"> caracter&iacute;sticas</a>.<br /><br />Se  voc&ecirc; esta iniciando o desenvolvimento de aplica&ccedil;&otilde;es com o Zeanwork,  voc&ecirc; pode ler nossas documenta&ccedil;&otilde;es e os tutoriais, ver os screencasts e  trocar ideias com outros programadores que utilizam o Zeanwork.<br />Para que voc&ecirc; possa desenvolver aplica&ccedil;&otilde;es com o Zeanwork voc&ecirc; deve saber programar em PHP e ter no&ccedil;&otilde;es de POO (Programa&ccedil;&atilde;o Orientada &agrave; Objetos). No&ccedil;&otilde;es sobre o design pattern MVC tamb&eacute;m &eacute; desej&aacute;vel, mas se voc&ecirc; n&atilde;o conhece, n&atilde;o tem problema, pois voc&ecirc; ir&aacute; aprender conosco.</p></div>
+	O component session serve para manipular as suas sessions.<br />
+<br />
+<br />
+<a name="load"></a><div class="titleDoc">Carregando o component</div><br />
+Para você utilizar este component, você prescisa definir que irá utiliza-lo. Veja mais em: <strong><a href="/doc/controllers">Controllers</a> &gt; <a href="/doc/controllers#loadFeatures">Carregando models, components, helpers e extensions</a></strong>.<br />
+O nome deste component é <span class="fontCode">session</span>, este é o nome que você irá utilizar para carrega-lo.<br />
+<br />
+<br />
+<a name="start"></a><div class="titleDoc">Iniciando a session</div><br />
+<div class="boxDoc"><div class="nameMethod">start()</div><div class="marginDoc">Este método inicia a session.<br />
+É executado automaticamente pelo Zeanwork quando este component é carregado.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	$this->session->start();
+}
+</pre></div><br />
+</div><br />
+<br />
+<a name="destroy"></a><div class="titleDoc">Destruindo a session</div><br />
+<div class="boxDoc"><div class="nameMethod">destroy()</div><div class="marginDoc">Este método destrói a session.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	$this->session->destroy();
+}
+</pre></div><br />
+</div><br />
+<br />
+<a name="started"></a><div class="titleDoc">Verificando se a session foi iniciada</div><br />
+<div class="boxDoc"><div class="nameMethod">started()</div><div class="marginDoc">Este método verifica se a session foi iniciada.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>boolean</em><br />
+<div class="marginDoc">True se iniciado e false se não.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	$this->session->started();
+}
+</pre></div><br />
+</div><br />
+<br />
+<a name="set"></a><div class="titleDoc">Salvando valores</div><br />
+<div class="boxDoc"><div class="nameMethod">set()</div><div class="marginDoc">Este método salva um valor na session.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $name</em><br />
+<div class="marginDoc">Nome da session.</div><br />
+<div class="lineBoxDoc"></div><em>mixed $value</em><br />
+<div class="marginDoc">Valor para a session.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	$this->session->set('username', 'zeanwork');
+}
+</pre></div><br />
+</div><br />
+<br />
+<a name="get"></a><div class="titleDoc">Lendo uma session</div><br />
+<div class="boxDoc"><div class="nameMethod">get()</div><div class="marginDoc">Este método retorna o valor da session.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $name</em><br />
+<div class="marginDoc">Nome da session.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>mixed</em><br />
+<div class="marginDoc">Valor da session.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	echo $this->session->get('username');
+}
+</pre></div><br />
+</div><br />
+<br />
+<a name="delete"></a><div class="titleDoc">Excluindo uma session</div><br />
+<div class="boxDoc"><div class="nameMethod">delete()</div><div class="marginDoc">Este método deleta uma session.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $name</em><br />
+<div class="marginDoc">Nome da session.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	echo $this->session->delete('username');
+}
+</pre></div><br />
+</div><br />
+<br />
+<a name="flash"></a><div class="titleDoc">Salvando/Retornando sessions temporárias</div><br />
+<div class="boxDoc"><div class="nameMethod">flash()</div><div class="marginDoc">Este método salva/retorna um valor de uma session temporária.<br />
+Se você não informar um valor para a session, então retornará o valor da mesma, caso contrário definirá um valor.<br />
+Esta session será excluída quando você resgatar o seu valor.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $name</em><br />
+<div class="marginDoc">Nome da session temporária.</div><br />
+<div class="lineBoxDoc"></div><em>mixed $value [opcional]</em><br />
+<div class="marginDoc">Valor para a sesssion temporária.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>mixed</em><br />
+<div class="marginDoc">Valor da session temporária ou boolean caso seja a definição da session.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+public function index(){
+	//Define um valor
+	$this->session->flash('username', 'zeanwork');
+	
+	//Retorna o valor e deleta esta session
+	echo $this->session->flash('username');
+}
+</pre></div><br />
+</div></div>
 
 <div class="clear"></div>
 			</div>
@@ -174,4 +301,4 @@
 			</body>
 </html>
 
-<!-- Runtime: 0.0322s. Developed with Zeanwork Framework PHP -->
+<!-- Runtime: 0.0373s. Developed with Zeanwork Framework PHP -->

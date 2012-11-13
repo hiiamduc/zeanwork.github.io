@@ -1,0 +1,525 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Controllers - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/controllers.html">Controllers</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Controllers</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  class="selected" href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O controlador ou Controller  é a camada onde você faz as regras da sua aplicação, onde irá tratar as ações do usuário. Aqui você buscará os dados do model e tratará para a view, aplicando as regras de negócio, nada de códigos HTML, nada de CSS e nada de JavaScript, somente o poderoso PHP, códigos puros, sem misturas.<br />
+<br />
+<a name="create"></a><div class="titleDoc">Criando um controller</div><br />
+Como você deve ter visto na estrutura do Zeanwork, temos um diretório somente para armazenar os arquivos dos controllers, é localizado em <span class="fontCode">App/Controllers/</span>. Você também deve ter visto os padrões do Zeanwork, o nome do arquivo deve ser no padrão lowerCamelCase, seguindo com a extensão <span class="fontCode">.php</span>. Por exemplo: <span class="fontCode">nomeDoController.php</span>.<br />
+<br />
+Todo controller deve ser uma classe, portando o nome da classe deve corresponder o nome do arquivo criado, acrescentando <span class="fontCode">Controller</span>. Por exemplo: Você criou um arquivo chamado <span class="fontCode">nomeDoController.php</span>, o nome da classe deve ser <span class="fontCode">NomeDoControllerController</span>, seguindo o padrão CamelCase.<br />
+Todos os controllers devem ser estendidos da classe <span class="fontCode">AppController</span>, pois o seu controller deve herdar os métodos do Zeanwork. <br />
+<br />
+Veja exemplo de um controller chamado posts (post de um blog, por exemplo.):<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+}
+</pre><br />
+Como o Zeanwork trabalha com a seguite estrutura de URL’s: <span class="fontCode">/controller/action/.....</span> Para executarmos este controller, devemos utilizar a seguinte URL: <span class="fontCode">/posts</span>.<br />
+Como você não definiu qual action será executada, o Zeanwork por padrão executará a action <span class="fontCode">index</span>, porem não criamos ela ainda, então será informado um erro.<br />
+<br />
+<br />
+<a name="createAction"></a><div class="titleDoc">Criando actions</div><br />
+As funcionalidades de um controller são separadas por métodos (functions) que são conhecidas como actions (ações). Cada action, como o nome já diz, executa uma ação no aplicativo.<br />
+É nas actions que você irá escrever os seus códigos que podem executar dirverços procedimentos, comunicar-se com o model e muito mais.<br />
+Estes métodos devem ser publicos, caso você deseja que um método não seja acessível pela URL, você deve definir este método como private ou protected.<br />
+O nome dos métodos devem seguir o padrão lowerCamelCase, por exemplo: <span class="fontCode">nomeDaAction</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	//Método acessível pela URL
+	public function index(){
+		//Procedimento qualquer.
+	}
+
+//Método acessível pela URL
+	function view(){
+		//Procedimento qualquer.
+	}
+
+//Método não acessível pela URL
+	private function getPost(){
+		//Procedimento qualquer.
+	}
+}
+</pre><br />
+Veja como acessar as actions publicas:<br />
+<pre class="brush: php">
+/posts          //Acessará o método index
+/posts/index    //Acessará o método index
+/posts/view     //Acessará o método view
+</pre><br />
+<br />
+<a name="vars"></a><div class="titleDoc">Variáveis de configuração</div><br />
+O Zeanwork possui algumas variáveis de configuração que determinam como proceder em determinadas situações.<br />
+Estas variáveis estão no nível da classe, portanto você pode seta-las em qualquer local do controller e até mesmo dentro de um método.<br />
+<br />
+Veja as variáveis disponíveis:<br />
+<div class="boxDoc"><div class="nameMethod">Controller::$autoView</div><div class="marginDoc">Esta configuração serve para definir se será renderizado automáticamente a view da action.<br />
+Cada action deve ter sua perspectiva view, contendo o seu HTML, CSS… mas as vezes não precissamos ter uma view para cada action, então temos esta configuração.<br />
+O valor a ser definido é boleano (boolean).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->autoView = false;
+		//Procedimento qualquer.
+	}
+
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Controller::$autoLayout</div><div class="marginDoc">Esta configuração serve para definir se será renderizado automáticamente o layout.<br />
+O valor a ser definido é boleano (boolean).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->autoView = false;
+		//Procedimento qualquer.
+	}
+
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Controller::$autoRender</div><div class="marginDoc">Esta configuração serve para definir se será renderizado automáticamente o layout e a view.<br />
+O valor a ser definido é boleano (boolean).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public $autoRender = false;
+	public function index(){
+		//Procedimento qualquer.
+	}
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Controller::$writeTimeExecution</div><div class="marginDoc">Esta configuração serve para definir se será escrito um comentário no fim do código fonte do HTML contento o tempo de execução da página.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+	$this->writeTimeExecution = false;
+		//Procedimento qualquer.
+	}
+}
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Controller::$layout</div><div class="marginDoc">Com esta variável você define qual layout será utilizado para este controller.<br />
+O valor a ser definido é uma string, deve ser o nome do layout. O layout padrão é <span class="fontCode">default</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public $layout = 'webSite';
+	public function index(){
+		//Procedimento qualquer.
+	}
+}
+</pre></div><br />
+</div><br />
+<div class="nota"><b>Nota:</b> Os valores das variáveis definidas dentro de um método terão vigor somente para aquele método, porem as que foram definidas na classe (fora dos métodos) entrará em vigor para todos os métodos.</div><br />
+<br />
+<a name="varsView"></a><div class="titleDoc">Passando valores para a view</div><br />
+Uma das funções do controller é comunicar-se com as views, para que isso venha acontecer devemos passar valores para as view quando necessário.<br />
+<br />
+Veja os métodos e variáveis disponíveis:<br />
+<div class="boxDoc"><div class="nameMethod">Controller::$view</div><div class="marginDoc">Os valores desta variável estará automáticamente na view com o nome $data.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->view = array('message' => 'Hello World');
+	}
+}
+
+//Na view
+<?php
+	echo $data['message'];
+?>
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Contrller::setVar()</div><div class="marginDoc">Este método seta variáveis na view.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $var</em><br />
+<div class="marginDoc">Nome da variável que será criado na view.</div><br />
+<div class="lineBoxDoc"></div><em>mixed $value [opcional]</em><br />
+<div class="marginDoc">Valor para a variável.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->setVar('message', 'Hello World');
+	}
+}
+
+//Na view
+<?php
+	echo $message;
+?>
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Loader::vars()</div><div class="marginDoc">Este método esta disponível no controller como: $this->load->vars();<br />
+Para saber mais sobre este método veja em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/classes">Classes</a> &gt;&gt; <a href="/doc/classes/loader">Loader</a></span></div><br />
+</div><br />
+<br />
+<a name="input"></a><div class="titleDoc">Dados de entrada</div><br />
+Para receber dados de entrada (<span class="fontCode">POST, GET, FILES...</span>) o Zeanwok tem uma classe especialmente para isso. É a classe <span class="fontCode">Input</span>, ela esta disponível através da variável <span class="fontCode">input</span> nas classes <span class="fontCode">Model</span>, <span class="fontCode">View</span> e <span class="fontCode">Controller</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		if($this->input->post()){
+			$this->users->create($this->input->post());
+		}
+	}
+}
+</pre><br />
+Para saber mais sobre a classe Input, você deve buscar informações em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/classes">Classes</a> &gt;&gt; <a href="/doc/classes/input">Input</a></span><br />
+<br />
+<br />
+<a name="loadFeatures"></a><div class="titleDoc">Carregando models, components, helpers e extensions</div><br />
+Pensando em velocidade, o Zeanwork trabalha com a tese de que não há necessidade de carregar o que não será utilizado, é por isso que temos algumas opções diferentes para carregar <span class="fontCode">models</span>, <span class="fontCode">components</span>, <span class="fontCode">helpers</span> e <span class="fontCode">extensions</span>.<br />
+<br />
+Veja os métodos e variáveis disponíveis:<br />
+<div class="boxDoc"><div class="nameMethod">Models</div><br />
+<div class="marginDoc"><div class="boxDoc"><div class="nameMethod">Controller::$uses</div><div class="marginDoc"><br />
+Variável disponível no controller, somente pode ser definida na classe.<br />
+O valor a ser informado deve ser uma array, contendo os nomes dos models, estes models estarão disponíveis em todo o controller.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public $uses = array('posts', 'users');
+	public function index(){
+		$this->view['posts'] = $this->posts->read();
+	}
+}
+</pre><br />
+</div><div class="lineBoxDoc"></div><div class="nameMethod">Loader::model()</div><div class="marginDoc"><br />
+Em determinados casos não precisamos utilizar todos os models em todas as actions, por isso temos este método que pode ser chamado em qualquer parte de um método do controller.<br />
+Este método esta disponível no controller como: <span class="fontCode">$this->load->model()</span>.<br />
+O valor a ser informado pode ser uma string contendo somente o nome do model, como também pode ser uma array, contendo o nomes de todos os models.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->load->model('posts');
+		$this->view['posts'] = $this->posts->read();
+	}
+}
+</pre><br />
+Para saber mais sobre este método veja em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/classes">Classes</a> &gt;&gt; <a href="/doc/classes/loader">Loader</a></span><br />
+</div></div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Components</div><br />
+<div class="marginDoc"><div class="boxDoc"><div class="nameMethod">Controller::$components</div><div class="marginDoc"><br />
+Variável disponível no controller, somente pode ser definida na classe.<br />
+O valor a ser informado deve ser uma array, contendo os nomes dos components, estes components estarão disponíveis em todo o controller.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public $components = array('cookie', 'session');
+	public function index(){
+		$this->session->set('userVisited', 1);
+	}
+}
+</pre><br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Loader::component()</div><div class="marginDoc"><br />
+Este método esta disponível no controller como: <span class="fontCode">$this->load->component()</span><br />
+O valor a ser informado pode ser uma string contendo somente o nome do component, como também pode ser uma array, contendo os nomes de todos os components.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->load->component('session');
+		$this->session->set('userVisited', 1);
+	}
+}
+</pre><br />
+Para saber mais sobre este método veja em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/classes">Classes</a> &gt;&gt; <a href="/doc/classes/loader">Loader</a></span><br />
+</div></div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Helpers</div><br />
+<div class="marginDoc">	<div class="boxDoc"><div class="nameMethod">Controller::$helpers</div><div class="marginDoc"><br />
+Variável disponível no controller, somente pode ser definida na classe.<br />
+O valor a ser informado deve ser uma array, contendo os nomes dos helpers, estes helpers estarão disponíveis em todas views do controller.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public $helpers = array('html', 'pagination');
+		public function index(){
+	}
+}
+
+//Na view Posts/index.html.php
+echo $this->html->js('geral');
+</pre><br />
+</div><div class="lineBoxDoc"></div><div class="nameMethod">Loader::helper()</div><div class="marginDoc"><br />
+Este método esta disponível na view como: <span class="fontCode">$this->load->helper()</span>.<br />
+O valor a ser informado pode ser uma string contendo somente o nome do helper, como também pode ser uma array, contendo os nomes de todos os helpers.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+//Na view Posts/index.html.php
+$this->load->helper(array('html', 'pagination'));
+echo $this->html->js('geral');
+</pre><br />
+Para saber mais sobre este método veja em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/classes">Classes</a> &gt;&gt; <a href="/doc/classes/loader">Loader</a></span><br />
+</div></div></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Extensions</div><br />
+<div class="marginDoc"><div class="boxDoc"><div class="nameMethod">Controller::$extensions</div><div class="marginDoc"><br />
+Variável disponível no controller, somente pode ser definida na classe.<br />
+O valor a ser informado deve ser uma array, contendo os nomes das extensions.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public $extensions = array('date', 'security');
+	public function index(){
+		$this->view['calendar'] = Date::caleandar(08, 2010);
+	}
+}
+</pre><br />
+</div><div class="lineBoxDoc"></div><div class="nameMethod">Loader::extension()</div><div class="marginDoc"><br />
+Este método esta disponível na view como: <span class="fontCode">$this->load->extension()</span>.<br />
+O valor a ser informado pode ser uma string contendo somente o nome da extension, como também pode ser uma array, contendo os nomes de todas as extensions.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function index(){
+		$this->load->extension('date');
+		$this->view['calendar'] = Date::caleandar(08, 2010);
+	}
+}
+</pre><br />
+Para saber mais sobre este método veja em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/classes">Classes</a> &gt;&gt; <a href="/doc/classes/loader">Loader</a></span><br />
+</div></div></div><br />
+</div><br />
+<br />
+<a name="callbacks"></a><div class="titleDoc">Callbacks</div><br />
+Os callbacks são métodos executadas em determinados momentos da execução da aplicação e do Zeanwork.<br />
+<br />
+Veja os métodos disponíveis:<br />
+<table id="internal-source-marker_0.92399931563531" style="border: medium none; border-collapse: collapse;"><tbody><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;"><span class="fontCode">beforeExecution()</span></span></td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">&Eacute; executado antes de executar a action.</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;"><span class="fontCode">beforeRender()</span></span></td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">&Eacute; executado antes de renderizar a view.</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;"><span class="fontCode">afterExecution()</span></span></td><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">&Eacute; executado depois de executar a action.</span></td></tr></tbody></table><br />
+Para definir estes métodos, você deve criar estas funções no seu controller, também podem ser definidos no AppController.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class PostsController extends AppController {
+	public function beforeExecution(){
+		$this->load->extension('date');
+	}
+}
+</pre><br />
+<br />
+<a name="appController"></a><div class="titleDoc">AppController</div><br />
+Todos os controllers devem ser estendidos da classe AppController, pois o seu controller deve herdar os métodos do Zeanwork. Se você desejar criar métodos que serão utilizados em alguns dos seus controllers, você deve recriar o controller <span class="fontCode">AppController</span> no mesmo local dos controllers comuns, este controller deverá ser estentido da classe <span class="fontCode">Model</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class AppController extends Controller {
+}
+</pre><br />
+<br />
+<a name="defaults"></a><div class="titleDoc">Definições padrões para toda aplicação</div><br />
+Caso você deseja definir <span class="fontCode">components</span>, <span class="fontCode">helpers</span>, <span class="fontCode">extensions</span> e <span class="fontCode">cache</span> para toda a aplicação, você deve fazer isso no <span class="fontCode">AppController</span>.<br />
+<br />
+Veja as variáveis disponíveis:<br />
+<div class="boxDoc"><div class="nameMethod">$defaultsComponents</div><div class="marginDoc">Components padrões.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">$defaultsHelpers</div><div class="marginDoc">Helpers padrões.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">$defaultsExtensions</div><div class="marginDoc">Extensions padrões.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">$defaultCache</div><div class="marginDoc">Configurações do cache para toda a aplicação.<br />
+Para saber mais sobre cache, veja em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/controllers">Controllers</a> &gt;&gt; <a href="/doc/controllers/cache">Cache</a></span><br />
+</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class AppController extends Controller {
+	public $defaultsComponents = array('session', 'cookie');
+	public $defaultsHelpers = array('html', 'pagination');
+	public $defaultsExtensions = array('date');
+	public $defaultCache = array('tweets' => array('index' => 300));
+}
+</pre></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0385s. Developed with Zeanwork Framework PHP -->

@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="pt-br">
 	<head>
-		<title>Documentação - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<title>Paginação - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
 			<!-- Salve a web, por favor -->
 			$(document).ready(function(){
@@ -45,11 +45,11 @@
 				<div class="clear"></div>
 			</div>
 			<div class="aplication path">
-				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>			</div>
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models.html">Models</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models/paginacao.html">Paginação</a>			</div>
 		</div>
 				<div class="content">
 			<div class="aplication padding">
-				<div class="title">Documentação</div>
+				<div class="title">Paginação</div>
 
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -68,7 +68,7 @@
 		</ul>
 		</li>
 		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
-			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  class="selected" href="/doc/models/paginacao.html">Paginação</a>			</li>
 			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
 			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
 			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
@@ -107,9 +107,48 @@
 </div>
 
 <div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
-	<p>Ficamos  gratos por voc&ecirc; estar aqui para apreender mais sobre o desenvolvimento  com o Zeanwork. Nesta documenta&ccedil;&atilde;o voc&ecirc; ter&aacute; a chance de apreender a  desenvolver aplica&ccedil;&otilde;es com grande produtividade e boas t&eacute;cnicas no  desenvolvimento web. Tamb&eacute;m apreender&aacute; sobre o design pattern MVC e &aacute;  utilizar o Zeanwork da melhor forma poss&iacute;vel.<br /><br />Se  voc&ecirc; nunca utilizou um Framework PHP com MVC, voc&ecirc; ver&aacute; que n&atilde;o &eacute; t&atilde;o  complicado assim! O Zeanwork &eacute; perfeito para quem esta come&ccedil;ando no  mundo dos frameworks, mas &eacute; preciso saber um pouco sobre POO  (Programa&ccedil;&atilde;o Orientada &agrave; Objetos). No desenvolvimento de uma aplica&ccedil;&atilde;o, o  Zeanwork vai lhe dando o caminho certo para que voc&ecirc; possa prosseguir,  com erros que lhe diz o que fazer para solucionar o seu problema.</p><br />
-<span class="titleDoc">Iniciando</span><br />
-<p>Se  voc&ecirc; esta iniciando no mundo dos frameworks, j&aacute; deve ter notado que  existem muitos outros, ent&atilde;o voc&ecirc; pergunta: Porque mais um framework?<a href="http://zeanwork.com.br/blog/2010/05/14/porque-mais-um-framework/"> Aqui</a> temos uma resposta para esta pergunta! Conhe&ccedil;a tamb&eacute;m nossas <a href="http://zeanwork.com.br/about/caracters"> caracter&iacute;sticas</a>.<br /><br />Se  voc&ecirc; esta iniciando o desenvolvimento de aplica&ccedil;&otilde;es com o Zeanwork,  voc&ecirc; pode ler nossas documenta&ccedil;&otilde;es e os tutoriais, ver os screencasts e  trocar ideias com outros programadores que utilizam o Zeanwork.<br />Para que voc&ecirc; possa desenvolver aplica&ccedil;&otilde;es com o Zeanwork voc&ecirc; deve saber programar em PHP e ter no&ccedil;&otilde;es de POO (Programa&ccedil;&atilde;o Orientada &agrave; Objetos). No&ccedil;&otilde;es sobre o design pattern MVC tamb&eacute;m &eacute; desej&aacute;vel, mas se voc&ecirc; n&atilde;o conhece, n&atilde;o tem problema, pois voc&ecirc; ir&aacute; aprender conosco.</p></div>
+	Muitas vezes precisamos exibir muitos dados em uma tela, mas geralmente as páginas são muito extensas, por isso devemos paginar estes dados. O Zeanwork auxilia você nessa tarefa.<br />
+<br />
+<a name="params"></a><div class="titleDoc">Parâmetros para paginação</div><br />
+Para que você possa fazer a paginação de forma que atenda aos seus problemas, temos algumas configurações para paginação.<br />
+<br />
+Veja as configurações disponíveis:<br />
+<div class="boxDoc"><div class="nameMethod">recordsInPage</div><div class="marginDoc">Define o número de registros que deve ter em cada página.<br />
+Esta configuração não é obrigatória. O valor padrão é: 25 registros por página.</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">page</div><div class="marginDoc">Define o número da página atual.<br />
+Esta configuração não é obrigatória, porem o Zeanwork tentará buscar esta informação do método GET. Exemplo: <span class="fontCode">$_GET['page']</span>.</div><br />
+</div><br />
+<br />
+<a name="exec"></a><div class="titleDoc">Executando a paginação</div><br />
+Veja os método disponíveis para executar a paginação:<br />
+<div class="boxDoc"><div class="nameMethod">Model::paginate()</div><div class="marginDoc">É com este método que executamos o select e automáticamente ele faz a paginação.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $params [opcional]</em><br />
+<div class="marginDoc">Parâmetros para o select e paginação.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>array</em><br />
+<div class="marginDoc">Retorna uma matriz que corresponde a todas as linhas obtidas no select.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->posts->paginate(array(
+			  'page' => $this->input->get('page')
+			, 'recordsInPage' => 10
+			, 'conditions' => array('published' => 1)
+			, 'orderBy' => 'created DESC'
+			)
+		);
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::paginationParams()</div><div class="marginDoc">Este método utiliza a tecnologia de encadeamento de métodos (Method chaining), veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/methods-chaining">Methods chaining</a></span><br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">Model::executePaginate()</div><div class="marginDoc">Este método utiliza a tecnologia de encadeamento de métodos (Method chaining), veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/models">Models</a> &gt;&gt; <a href="/doc/models/methods-chaining">Methods chaining</a></span><br />
+O retorno deste método é o mesmo do <span class="fontCode">Model::paginate()</span>.<br />
+</div><br />
+</div><br />
+<br />
+Além destes métodos, o Zeanwork possui um Helper que auxilia você a gerar os botões para as páginas, entre outras funcionalidades. Veja mais em: <span style="font-size: 10pt; color: #000000; background-color: transparent; font-weight: bold; font-style: italic; text-decoration: none; vertical-align: baseline;"><a href="/doc/helpers">Helpers</a> &gt;&gt; <a href="/doc/helpers/pagination">Pagination</a></span></div>
 
 <div class="clear"></div>
 			</div>
@@ -174,4 +213,4 @@
 			</body>
 </html>
 
-<!-- Runtime: 0.0322s. Developed with Zeanwork Framework PHP -->
+<!-- Runtime: 0.0383s. Developed with Zeanwork Framework PHP -->

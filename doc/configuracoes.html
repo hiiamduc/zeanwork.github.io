@@ -1,0 +1,335 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Configurações - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes.html">Configurações</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Configurações</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  class="selected" href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O Zeanwork possui uma grande gama de configurações, tornado assim um framework bem flexível, mais você não precisa se preocupar em configurar tudo isso, pois o Zeanwork já traz configurações padrões.<br />
+<br />
+Estas configurações são utilizadas pelo core do Zeanwork e também podem ser usadas na aplicação, você pode criar suas próprias configurações sem nenhum problema. No desenvolvimento dos seus projetos, você pode personalizar ao máximo as configurações para que a aplicação fique o melhor possível para você e para as regras do negocio.<br />
+<br />
+<br />
+<a name="environment"></a><div class="titleDoc">Ambiente (Environment)</div><br />
+O Zeanwork trabalha com ambientes, com isso você pode criar várias configurações para cada ambiente. Por exemplo, você deseja ter uma determinada configuração quando sua aplicação estiver publicada, outra quando estiver sendo desenvolvida e mais uma quando estiver sendo testada.<br />
+Para selecionar o ambiente (environment) que você deseja, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">environment</span>.<br />
+O valor a ser definido é uma string.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('environment', 'development');
+</pre><br />
+<br />
+<a name="charset"></a><div class="titleDoc">Definindo o charset</div><br />
+Para definir o charset, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">charset</span>.<br />
+O valor a ser definido é uma string.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('charset', 'UTF-8');
+</pre><br />
+<br />
+<a name="uriProtocol"></a><div class="titleDoc">Protocolo de interpretação da URL</div><br />
+Como o Zeanwork trabalha com URL’s Amigáveis, nós usamos um interpretador de URL's, nós chamamos de URI. Possuímos um sistema de URI muito eficiente, por isso você pode usar o Zeanwork em qualquer servidor, seja ele apache ou não.<br />
+Bom, se você usa apache com o module rewrite habilitado, então você não precisa fazer nada, o Zeanwork sai funcionando perfeitamente. Mas se você não usa apache, então devemos alterar esta configuração.<br />
+Para alterar esta configuração, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">uriProtocol</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('uriProtocol', 'REQUEST_URI');
+</pre><br />
+Protocolos que é aceito pelo Zeanwork.<br />
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt;"><tbody><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 113.35pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">Valor</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 375.6pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: bold; text-decoration: none;">Comentário ou exemplo</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 113.35pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">AUTO</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 375.6pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">Automático</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 113.35pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">REQUEST_URI</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 375.6pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">Com apache e module rewrite habilitado</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 113.35pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">PATH_INFO</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 375.6pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">example.com.br/index.php/home</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 113.35pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">ORIG_PATH_INFO</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 375.6pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">example.com.br/index.php/home</span></p></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 113.35pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">QUERY_STRING</span></p></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 375.6pt;"><p style="font-size: 10pt; line-height: 115%; margin: 0pt;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; font-style: normal; font-weight: normal; text-decoration: none;">example.com.br/?/home</span></p></td></tr></tbody></table><br />
+<br />
+<br />
+<a name="rewriteShortTags"></a><div class="titleDoc">Ativando o suporte a short tag</div><br />
+Se a versão do seu php não da suporte a short tag (ex: <?=$variavel?>), você pode definir que deseja utilizar esta opção nas views. O Zeanwork fará a imterpretação das tags sem nenhum problema.<br />
+Para ativar o suporte a short tag, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">rewriteShortTags</span>.<br />
+O valor a ser definido é boolean (true/false), onde que true, será ativado este recurso e false não será ativado.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('rewriteShortTags', true);
+</pre><br />
+<br />
+<a name="debugger"></a><div class="titleDoc">Ativando/Desativando erros</div><br />
+Para ativar ou desativar os erros que são exibidos na tela, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">debugger</span>.<br />
+O valor a ser definido é uma array, onde o key deve ser o nome do ambiente (environment) com o valor boolean (true/false).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('debugger', array(
+                            'development' => true
+                          , 'published' => false
+                      )
+               );
+</pre><br />
+<br />
+<a name="logs"></a><div class="titleDoc">Ativando/Desativando logs</div><br />
+Para ativar ou desativar os logs, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">logs</span>.<br />
+O valor a ser definido é uma array, onde o key deve ser o nome do ambiente (environment) com uma array, informando pelo key o tipo do log a ser definido, o valor que ele deverá receber é boolean (true/false).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('logs', array('development' => array(
+						  LOG_WARNING => true
+						, LOG_DEBUG => true
+						, LOG_ERR => true
+						, LOG_ERROR => true
+						, LOG_SECURITY => true
+						),
+				'published' => array(
+						  LOG_WARNING => false
+						, LOG_DEBUG => false
+						, LOG_ERR => false
+						, LOG_ERROR => false
+						, LOG_SECURITY => true
+						)
+				));
+</pre><br />
+<br />
+<a name="cookie"></a><div class="titleDoc">Cookies</div><br />
+Para alterar as configurações dos cookies, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar as configurações com o prefixo chamado <span class="fontCode">cookie</span>.<br />
+O cookie requer várias configurações diferentes para o bom funcionamento deste recurso.<br />
+<br />
+<b>Veja quais opções você pode definir:</b><br />
+<pre class="brush: php">Configure::write('cookie.path', '/');</pre> Se for definido '/', o cookie estará disponível dentro de todo o domínio. Se for definido '/foo/', o cookie estará disponível apenas no /foo/ diretório e todos os subdiretórios como /foo/bar/ do domínio.<br />
+<br />
+<pre class="brush: php">Configure::write('cookie.secure', false);</pre>Define se o cookie será transmitido através de uma conexão segura HTTPS do cliente.<br />
+<br />
+<pre class="brush: php">Configure::write('cookie.prefix', 'Zeanwork.');</pre>Define um prefixo para os cookies que serão salvos atravez do Zeanwork.<br />
+<br />
+<pre class="brush: php">Configure::write('cookie.domain', null);</pre>Define os domínios em que o cookie estará disponível.<br />
+<br />
+<pre class="brush: php">Configure::write('cookie.expires', null);</pre>Define quando tempo o cookie será valido, o valor a ser definido deve ser em timestamp.<br />
+<br />
+<br />
+<a name="security"></a><div class="titleDoc">Segurança</div><br />
+Para alterar as configurações de segrança, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">security</span>.<br />
+O key 'encrypts' armazena dados adicionais quando é salvo algo encriptado pelo Zeanwork.<br />
+<br />
+Veja quais opções você pode definir:<br />
+<pre class="brush: php">
+Configure::write('security', array('encrypts' => array(
+						  'dataStart' => 'Kp4LU1S9DkFpRkCrKFQoGi3F4'    //Prefixo que será adicionado nos dados encriptados.
+						, 'dataEnd' => '1S9DkFpRkCrQoi34'    //Sufixo que será acrescentado nos dados encriptados.
+						)
+
+					)
+				);
+</pre><br />
+<br />
+<a name="dateFormat"></a><div class="titleDoc">Formato da data padrão</div><br />
+Para alterar o formato da data padrão, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">dateFormat</span>.<br />
+O Zeanwork possui uma extensão (extension) para datas que faz converções de um formato para outro, esta configuração é utilizado por esta extensão. Por exemplo, quando você manda converter uma data e não especifica para qual formato será convertido, ele irá utilizar este.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('dateFormat', 'dd/mm/aaaa');
+</pre><br />
+Veja os formatos que é aceito pela extensão do Zeanwork em: <strong><a href="/doc/extensions/date">Extensions</a> &gt; <a href="/doc/extensions/date#format">Formatos de datas que o Zeanwork aceita</a></strong><br />
+<br />
+<br />
+<a name="autoLayout.isAjax"></a><div class="titleDoc">Renderização automática, se for ajax</div><br />
+O Zeanwork possui uma opção de auto renderização do layout, você pode definir que não será renderizado o layout automáticamente se for um requisição ajax (XMLHttpRequest).<br />
+Para alterar esta configuração, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">autoLayout.isAjax</span>.<br />
+O valor a ser definido é boolean (true/false), onde que true, será renderizado automáticamente e false não será renderizado.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('autoLayout.isAjax', false);
+</pre><br />
+<br />
+<a name="aplicationVersion"></a><div class="titleDoc">Versão da aplicação</div><br />
+Para definir a versão do aplicativo, você deve ir até o arquivo <span class="fontCode">App/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">aplicationVersion</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('aplicationVersion', '1');
+</pre><br />
+<br />
+<a name="defaultExtension"></a><div class="titleDoc">Extensão dos arquivos de view, layout e elements</div><br />
+Para definir a extensão de arquivos de view, layout e elements, você deve ir até o arquivo <span class="fontCode">Zeanwork/Configs/settings.php</span> e localizar a configuração chamada <span class="fontCode">defaultExtension</span>.<br />
+O valor a ser definido é uma string.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('defaultExtension', 'html');
+</pre><br />
+<br />
+<a name="definesMedia"></a><div class="titleDoc">Constantes para mídias</div><br />
+O Zeanwork possui constantes que definem o local onde estão os arquivos de mídias tais como: CSS, JS, IMG e SWF.<br />
+Para definir as constantes, você deve ir até o arquivo <span class="fontCode">App/Configs/definesMedia.php</span>.<br />
+O valor a ser definido é uma string.<br />
+<br />
+<br />
+<a name="doctypes"></a><div class="titleDoc">Tipos de documentos HTML (doctype)</div><br />
+Para definir os doctypes, você deve ir até o arquivo <span class="fontCode">App/Configs/doctypes.php</span> e localizar a configuração chamada <span class="fontCode">doctypes</span>.<br />
+O valor a ser definido é uma array, o key é  uma string com o nome do doctype e o valor deve ser uma string contendo o doctype.</div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.034s. Developed with Zeanwork Framework PHP -->

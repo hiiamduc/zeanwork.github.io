@@ -1,0 +1,339 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Form - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/helpers.html">Helpers</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/helpers/form.html">Form</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Form</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  class="selected" href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O helper form ajuda você a trabalhar com formulários.<br />
+<br />
+<br />
+<a name="load"></a><div class="titleDoc">Carregando o helper</div><br />
+Para você utilizar este helper, você prescisa definir que irá utiliza-lo. Veja mais em: <strong><a href="/doc/controllers">Controllers</a> &gt; <a href="/doc/controllers#loadFeatures">Carregando models, components, helpers e extensions</a></strong>.<br />
+O nome deste helper é <span class="fontCode">form</span>, este é o nome que você irá utilizar para carrega-lo.<br />
+<br />
+<br />
+<a name="start"></a><div class="titleDoc">Iniciando um form</div><br />
+<div class="boxDoc"><div class="nameMethod">start()</div><div class="marginDoc">Este método inicia um novo form.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $formName [opcional]</em><br />
+<div class="marginDoc">Texto a ser exibido no link.</div><br />
+<div class="lineBoxDoc"></div><em>array $options [opcional]</em><br />
+<div class="marginDoc">Opções e atributos para a tag form.<br />
+Veja algumas opções deste parâmetro:<br />
+<div class="boxDoc"><em>string id</em><br />
+<div class="marginDoc">Id do form [opcional]</div><br />
+<div class="lineBoxDoc"></div><em>array action [opcional]</em><br />
+<div class="marginDoc">URL para o post.</div><br />
+<div class="lineBoxDoc"></div><em>array method [opcional]</em><br />
+<div class="marginDoc">Método do form (post/get).</div><br />
+</div></div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->form->start('users');
+</pre></div><br />
+</div><br />
+<br />
+<a name="end"></a><div class="titleDoc">Finalizando o form</div><br />
+<div class="boxDoc"><div class="nameMethod">end()</div><div class="marginDoc">Este método finaliza um form.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->form->end();
+</pre></div><br />
+</div><br />
+<br />
+<a name="input"></a><div class="titleDoc">Criando um input</div><br />
+<div class="boxDoc"><div class="nameMethod">input()</div><div class="marginDoc">Este método monta input.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $fieldName</em><br />
+<div class="marginDoc">Nome do input.</div><br />
+<div class="lineBoxDoc"></div><em>string $tag [opcional]</em><br />
+<div class="marginDoc">Nome da tag a ser utilizada.</div><br />
+<div class="lineBoxDoc"></div><em>array | string $options [opcional]</em><br />
+<div class="marginDoc">Opções e atributos para o input. <br />
+Se o valor informado for uma array ele interpretará como opções e atributos, mas se for uma string então será uma class de css.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->form->input('username');
+</pre></div><br />
+</div><br />
+<br />
+<a name="options"></a><div class="titleDoc">Algumas opções que o Zeanwork faz um tratamento special</div><br />
+<div class="boxDoc"><div class="nameMethod"><em>string [type]</em></div><div class="marginDoc">Define o tipo do input. Podem ser: text, checkbox, radio, password, hidden, submit, reset, button, file, image, textarea e select.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod"><em>string [value]</em></div><div class="marginDoc">Define um valor para o input.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod"><em>string [id]</em></div><div class="marginDoc">Define o id do input, caso não informado será utilizado o nome do input.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod"><em>string [class]</em></div><div class="marginDoc">Define a class css que irá utilizar.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod"><em>string [label]</em></div><div class="marginDoc">Define um label para este input.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod"><em>boolean | string | array [divForLabel] </em></div><div class="marginDoc">Define que o label deste input terá uma div somente para ela.<br />
+Se o valor informado for uma array ele interpretará como atributos para a div, mas se for uma string então será uma class de css.<br />
+</div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod"><em>boolean | string | array [divForInput] </em></div><div class="marginDoc">Define que o input terá uma div somente para ele.<br />
+Se o valor informado for uma array ele interpretará como atributos para a div, mas se for uma string então será uma class de css.<br />
+</div></div><br />
+<br />
+<a name="other"></a><div class="titleDoc">Outras formas de criar um input</div><br />
+<div class="boxDoc"><a name="checkbox"></a><div class="nameMethod">checkbox()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="radio"></a><div class="nameMethod">radio()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="text"></a><div class="nameMethod">text()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="password"></a><div class="nameMethod">password()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="didden"></a><div class="nameMethod">hidden()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="submit"></a><div class="nameMethod">submit()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="reset"></a><div class="nameMethod">reset()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="button"></a><div class="nameMethod">button()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="file"></a><div class="nameMethod">file()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="image"></a><div class="nameMethod">image()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="textarea"></a><div class="nameMethod">textarea()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div><br />
+<div class="lineBoxDoc"></div><a name="select"></a><div class="nameMethod">select()</div><div class="marginDoc">Este método é uma alias para o método <span class="fontCode">FormHelper::input()</span>, ele somente modifica a opção "type" mas continua tendo os mesmos parâmetros e mesmo retorno.<br />
+</div></div><br />
+<br />
+<a name="input"></a><div class="titleDoc">Veja exemplo</div><br />
+<pre class="brush: php">
+echo $this->form->start('contact');
+
+echo $this->form->input('name', array(
+			  'label' => 'Nome:'
+			, 'divForLabel' => array('style' => 'margin-top:5px;')
+			, 'divForInput' => true
+		)
+	);
+
+echo $this->form->input('email', array(
+			  'label' => 'E-mail:'
+			, 'divForLabel' => true
+			, 'divForInput' => true
+		)
+	);
+
+echo $this->form->textarea('mensagem', array(
+			  'label' => 'Mensagem:'
+			, 'divForLabel' => array('style' => 'margin-top:5px;')
+			, 'divForInput' => true
+		)
+	);
+
+echo $this->form->select('test', 
+		array(
+			  'options' => array(
+					  array('optgroup' => true, 'label' => 'grupo')
+						, array('value' => 'valor1', 'text' => 'option 1', 'disabled' => 'disabled')
+						, array('value' => 'valor2', 'text' => 'option 2')
+					, array('optgroup' => 'start', 'label' => 'grupo 2')
+						, array('value' => 'valor3', 'text' => 'option 3', 'selected' => true)
+					, array('optgroup' => 'end')
+					, array('value' => 'valor4', 'text' => 'option 4')
+					, array('value' => 'valor5', 'text' => 'option 5')
+					)
+			, 'class' => 'classCss'
+			, 'label' => 'Teste de select'
+			, 'divForLabel' => true
+			, 'divForInput' => true
+		)
+	);
+
+echo br(2) . $this->form->submit('submit', array('value' => 'Enviar', 'class' => 'submit'));
+</pre></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0379s. Developed with Zeanwork Framework PHP -->

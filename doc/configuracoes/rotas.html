@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Rotas - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes.html">Configurações</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes/rotas.html">Rotas</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Rotas</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  class="selected" href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O roteamento é uma parte muito importante de um framework MVC, como o Zeanwork trabalha com o design pattern MVC, temos que esquecer  por alguns momentos o conceito de um simples servidor web, onde as URL’s refletem diretamente o caminho físico do arquivo no servidor.<br />
+<br />
+O Zeanwork trabalha com a seguite estrutura de URL’s: <span class="fontCode">/controller/action/id</span>. Para executarmos uma página, precisamos saber qual controller e action será executado, por isso podemos criar rotas para personalizar ao máximo as suas URL’s.<br />
+<br />
+Para criar estas rotas, o Zeanwork tem um arquivo de configuração somente para esta tarefa, que é localizada em <span class="fontCode">App/Configs/routers.php</span><br />
+<br />
+<br />
+<a name="setRoot"></a><div class="titleDoc">Controller padrão</div><br />
+Quando você acessar o root da sua aplicação o Zeanwork deve saber qual controller será executado, por isso existe esta configuração. O Zeanwork tem como padrão o controller home.<br />
+Para alterar esta configuração você deve localizar o método <span class="fontCode">Router::setRoot()</span>;<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Router::setRoot('home');
+</pre><br />
+<br />
+<a name="actionIndex"></a><div class="titleDoc">Action padrão</div><br />
+Quando você acessa uma página e não define qual a action deveria ser executada, é a action <span class="fontCode">index</span> que é definida pelo Zeanwork.<br />
+<br />
+<br />
+<a name="addPrefix"></a><div class="titleDoc">Definindo prefixos</div><br />
+Os prefixos servem para separar diversas partes da sua aplicação, por exemplo, você tem uma area administrativa em sua aplicação e deseja acessar pela url (<span class="fontCode">www.seusite.com.br/admin</span>), para que você possa fazer isso sem criar uma pasta e colocar todos os arquivos do Zeanwork e de sua aplicação novamente, então podemos criar prefixos e assim poder utilizar controllers já existente em sua aplicação e somente criar novas actions para sue prefixo.<br />
+<br />
+Para acrescentar um prefixo você deve utilizar o método <span class="fontCode">Router::addPrefix()</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Router::addPrefix('admin');
+</pre><br />
+Quando você acessar uma página utilizando um prefixo, por exemplo <span class="fontCode">/admin/post/add</span>, o que será chamado pelo Zeanwork será o controller <span class="fontCode">post</span> e a action <span class="fontCode">adminAdd</span>. O Zeanwork coloca o nome do prefixo antes do nome da action, isso também acontece o a action <span class="fontCode">index</span>, tornado assim <span class="fontCode">nomeDoPrefixoNomeDaAction</span>.<br />
+<br />
+<br />
+<a name="connect"></a><div class="titleDoc">Definindo rotas</div><br />
+Rotas são utilizadas para criar URL’s mais amigáveis e assim receber o conteúdo de uma outra URL, é quase que um include do PHP! É uma conexão entre URL’s!<br />
+<br />
+Para acrescentar novas rotas a determinadas URL’s, utilizamos o método <span class="fontCode">Router::connect()</span>.<br />
+Este método recebe dois parâmetros:<br />
+1º A URL de acesso<br />
+2º A URL de retorno (Rota)<br />
+Os dois parâmetros podem ter expreções regulares, com isso podemos montar URL’s conforme as suas necessidades. Você também pode utilizar as strings mágicas, que são apenas um nome para algumas expreções prontas do Zeanwork.<br />
+<br />
+Veja quais strings mágicas o Zeanwork possui:<br />
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt;"><tbody><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;">String mágica</td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">Corresponde a:</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;"><span class="fontCode">:any</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">qualquer caracter, incluindo barras .</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;"><span class="fontCode">:fragment</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">qualquer caracter, exceto barras.</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;"><span class="fontCode">:num</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">somente números.</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;"><span class="fontCode">:action</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">ações comuns, taís como: index, show, add, create, edit, update, remove, del, view e item.</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;"><span class="fontCode">:prefix</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">prefixos definidos para sua aplicação.</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 70.85pt;"><span class="fontCode">:lang</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 418.1pt;">idiomas definidos para sua aplicação.</td></tr></tbody></table><br />
+Veja alguns exemplos de roteamento:<br />
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt;"><tbody><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;">URL de acesso</td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;">URL de retorno</td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 190pt;">Código para definição da rota</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">/posts/aprendendo-rotas-do-zeanwork</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">/posts/view/aprendendo-rotas-do-zeanwork</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 190pt;"><span class="fontCode">Router::connect('/posts/:any', '/posts/view/$1');</span></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">/posts/456/aprendendo-rotas-do-zeanwork</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">/posts/view/456/aprendendo-rotas-do-zeanwork</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">Router::connect('/posts/:num/:fragment', '/posts/view/$1/$2');</span></td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">/edit</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 163pt;"><span class="fontCode">/users/edit</span></td><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 190pt;"><span class="fontCode">Router::connect('/edit', '/users/edit');</span></td></tr></tbody></table><br />
+<br />
+<a name="setFilterNamed"></a><div class="titleDoc">Filtrando parâmetros nomeados</div><br />
+O Zeanwork possui esta funcão de filtrar automáticamente parâmetros nomeados, podendo ser parâmetros via GET (<span class="fontCode">/controller/action/?nomeDoParametro=valor</span>) ou via rota (<span class="fontCode">/controller/action/nomeDoParametro:valor</span>), porem para receber estes dados filtrados você deve utilizar a classe do Zeanwork chamada Input.<br />
+Para definir quais parâmetros serem filtrados, você deve utilizar o método <span class="fontCode">Router::setFilterNamed()</span>.<br />
+Este método recebe dois parâmetros:<br />
+1º Nome do parâmetro<br />
+2º Tipo do valor a ser setado<br />
+<br />
+Este filtro nada mais é, do que setar o tipo do valor, por exemplo: o valor informado foi uma string, e você quer que seja um número, então retornará um número.<br />
+<br />
+Tipos de dados que é aceito:<br />
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt;"><tbody><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 56.65pt;">integer</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 56.65pt;">float</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 56.65pt;">string</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 56.65pt;">array</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 56.65pt;">boolean</td></tr><tr><td style="border: 1pt solid rgb(153, 153, 153); padding: 5pt; vertical-align: top; width: 56.65pt;">null</td></tr></tbody></table><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Router::setFilterNamed('id', 'integer');
+</pre></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0344s. Developed with Zeanwork Framework PHP -->

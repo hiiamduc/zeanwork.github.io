@@ -1,0 +1,583 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>HTML - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/helpers.html">Helpers</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/helpers/html.html">HTML</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">HTML</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  class="selected" href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O helper HTML tem muitas opções para lhe ajudar na geração do seu HTML.<br />
+<br />
+<br />
+<a name="load"></a><div class="titleDoc">Carregando o helper</div><br />
+Para você utilizar este helper, você prescisa definir que irá utiliza-lo. Veja mais em: <strong><a href="/doc/controllers">Controllers</a> &gt; <a href="/doc/controllers#loadFeatures">Carregando models, components, helpers e extensions</a></strong>.<br />
+O nome deste helper é <span class="fontCode">html</span>, este é o nome que você irá utilizar para carrega-lo.<br />
+<br />
+<br />
+<a name="helper"></a><div class="titleDoc">Métodos do helper HTML</div><br />
+Veja os métodos disponíveis no helper HTML<br />
+<div class="boxDoc"><a name="div"></a><div class="nameMethod">div()</div><div class="marginDoc">Este método cria uma div.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $text</em><br />
+<div class="marginDoc">Conteúdo da div.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos da div.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->div('Bem-vindo', array('style' => 'font-size: 25px;'));
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="img"></a><div class="nameMethod">img()</div><div class="marginDoc">Este método cria tag de imagem.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $srcImg</em><br />
+<div class="marginDoc">SRC da imagem.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos da tag img.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->img(IMG . 'test.jpg');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="link"></a><div class="nameMethod">link()</div><div class="marginDoc">Este método cria tag de link.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $displayText</em><br />
+<div class="marginDoc">Texto do link.</div><br />
+<div class="lineBoxDoc"></div><em>string $href [opcional]</em><br />
+<div class="marginDoc">URL para onde o link irá apontar.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos da tag a.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->link('Produtos', Router::url('produtos'));
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="meta"></a><div class="nameMethod">meta()</div><div class="marginDoc">Este método cria meta tag.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $name</em><br />
+<div class="marginDoc">Nome da meta.</div><br />
+<div class="lineBoxDoc"></div><em>string $content [opcional]</em><br />
+<div class="marginDoc">URL para onde o link irá apontar.</div><br />
+<div class="lineBoxDoc"></div><em>string $type [opcional]</em><br />
+<div class="marginDoc">Tipo da meta, equiv (http-equiv) ou name.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->meta('Content-Language', 'en', 'equiv');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="metaLanguage"></a><div class="nameMethod">metaLanguage()</div><div class="marginDoc">Este método cria a meta tag de idioma. Para gerar esta tag, o Zeanwork pega o idioma que esta configurado para sua aplicação.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->metaLanguage();
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="metaCharset"></a><div class="nameMethod">metaCharset()</div><div class="marginDoc">Este método cria a meta tag de charset. Para gerar esta tag, o Zeanwork pega o charset que esta configurado para sua aplicação.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->metaCharset();
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="metaLink"></a><div class="nameMethod">metaLink()</div><div class="marginDoc">Este método cria a meta tag de link.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $href</em><br />
+<div class="marginDoc">Link.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para o meta link.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->metaLink('rss', array('rel' => 'alternate', 'type' => 'application/rss+xml', 'title' => 'RSS'));
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="doctype"></a><div class="nameMethod">doctype()</div><div class="marginDoc">Este método cria a tag de doctype.<br />
+Veja mais em: <strong><a href="/doc/configuracoes">Configurações</a> &gt; <a href="/doc/configuracoes#doctypes">Tipos de documentos HTML (doctype)</a></strong>.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $type</em><br />
+<div class="marginDoc">Tipo do doctype.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->doctype('html5');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="css"></a><div class="nameMethod">css()</div><div class="marginDoc">Este método cria a tag de inclução de css.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $href</em><br />
+<div class="marginDoc">Nome/URL do css.</div><br />
+<div class="lineBoxDoc"></div><em>string $rel [opcional] [default = stylesheet]</em><br />
+<div class="marginDoc">Rel.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag.</div><br />
+<div class="lineBoxDoc"></div><em>string $ext [opcional] [default = css]</em><br />
+<div class="marginDoc">Extenção do arquivo de css.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->css('geral');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="js"></a><div class="nameMethod">js()</div><div class="marginDoc">Este método cria a tag de inclução de javascript.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $href</em><br />
+<div class="marginDoc">Nome/URL do javascript.</div><br />
+<div class="lineBoxDoc"></div><em>string $ext [opcional] [default = js]</em><br />
+<div class="marginDoc">Extenção do arquivo de javascript.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->js('geral');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="cssBlock"></a><div class="nameMethod">cssBlock()</div><div class="marginDoc">Este método cria um bloco de código para css.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $style</em><br />
+<div class="marginDoc">Código css.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->cssBlock('body {font-size: 11px;}');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="jsBlock"></a><div class="nameMethod">jsBlock()</div><div class="marginDoc">Este método cria um bloco de código para javascript.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $script</em><br />
+<div class="marginDoc">Código javascript.</div><br />
+<div class="lineBoxDoc"></div><em>boolean $newLine [opcional]</em><br />
+<div class="marginDoc">Criar uma nova linha antes do código ou não.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->jsBlock('var APP_HOST = "' . APP_HOST . '"', null);
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="imgLink"></a><div class="nameMethod">imgLink()</div><div class="marginDoc">Este método cria um link contendo uma imagem como texto do link.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $href</em><br />
+<div class="marginDoc">URL do link.</div><br />
+<div class="lineBoxDoc"></div><em>string $srcImg</em><br />
+<div class="marginDoc">SRC da imagem.</div><br />
+<div class="lineBoxDoc"></div><em>array $attrLink [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag a.</div><br />
+<div class="lineBoxDoc"></div><em>array $attrImg [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag img.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->imgLink(Router::url('produtos'), IMG . 'menu-produtos.jpg');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="tagOpen"></a><div class="nameMethod">tagOpen()</div><div class="marginDoc">Este método abre uma tag.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $tag</em><br />
+<div class="marginDoc">Nome da tag.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->tagOpen('div');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="tagClose"></a><div class="nameMethod">tagClose()</div><div class="marginDoc">Este método fecha uma tag.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $tag</em><br />
+<div class="marginDoc">Nome da tag.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->tagClose('div');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="tag"></a><div class="nameMethod">tag()</div><div class="marginDoc">Este método cria uma tag.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $tag</em><br />
+<div class="marginDoc">Nome da tag.</div><br />
+<div class="lineBoxDoc"></div><em>string $content [opcional]</em><br />
+<div class="marginDoc">Conteúdo para a tag.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->tag('div', 'teste');
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="h"></a><div class="nameMethod">h()</div><div class="marginDoc">Este método cria uma h. ex: h1<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $text [opcional]</em><br />
+<div class="marginDoc">Conteúdo para a tag.</div><br />
+<div class="lineBoxDoc"></div><em>number $num [opcional]</em><br />
+<div class="marginDoc">Numero da tag ex: 1 = h1, 2 = h2, 3 = h3.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag h.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->h('teste', 2);
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="clear"></a><div class="nameMethod">clear()</div><div class="marginDoc">Este método cria uma div com o style=clear:bolth<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->clear();
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="ul"></a><div class="nameMethod">ul()</div><div class="marginDoc">Este método cria uma tag ul atravéz de uma array.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $list</em><br />
+<div class="marginDoc">Array com os dados para o ul, pode ter array dentro de array.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag ul.</div><br />
+<div class="lineBoxDoc"></div><em>array $attrLi [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag li.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->ul(array('Home', 'Produtos', 'Conntato'));
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="ol"></a><div class="nameMethod">ol()</div><div class="marginDoc">Este método cria uma tag ol atravéz de uma array.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $list</em><br />
+<div class="marginDoc">Array com os dados para o ol, pode ter array dentro de array.</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag ul.</div><br />
+<div class="lineBoxDoc"></div><em>array $attrLi [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag li.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->ul(array('Home', 'Produtos', 'Conntato'));
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="zeanworkAllLogo"></a><div class="nameMethod">zeanworkAllLogo()</div><div class="marginDoc">Este método cria um link para o site do Zeanwork e coloca uma imagem do Zeanwork como conteúdo do link.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->zeanworkAllLogo();
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="zeanworkPowerBy"></a><div class="nameMethod">zeanworkPowerBy()</div><div class="marginDoc">Este método cria um link para o site do Zeanwork e coloca uma imagem do Zeanwork como conteúdo do link.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->zeanworkPowerBy();
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="zeanworkPower"></a><div class="nameMethod">zeanworkPower()</div><div class="marginDoc">Este método cria um link para o site do Zeanwork e coloca uma imagem do Zeanwork como conteúdo do link.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->zeanworkPower();
+</pre></div><br />
+<div class="lineBoxDoc"></div><a name="zeanworkPowerByLogo"></a><div class="nameMethod">zeanworkPowerByLogo()</div><div class="marginDoc">Este método cria um link para o site do Zeanwork e coloca uma imagem do Zeanwork como conteúdo do link.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+	echo $this->html->zeanworkPowerByLogo();
+</pre></div><br />
+</div></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0386s. Developed with Zeanwork Framework PHP -->

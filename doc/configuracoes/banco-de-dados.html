@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="pt-br">
 	<head>
-		<title>Documentação - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<title>Banco de dados - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
 			<!-- Salve a web, por favor -->
 			$(document).ready(function(){
@@ -45,11 +45,11 @@
 				<div class="clear"></div>
 			</div>
 			<div class="aplication path">
-				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>			</div>
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes.html">Configurações</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</div>
 		</div>
 				<div class="content">
 			<div class="aplication padding">
-				<div class="title">Documentação</div>
+				<div class="title">Banco de dados</div>
 
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -62,7 +62,7 @@
 		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
 		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
 		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
-			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  class="selected" href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
 			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
 			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
 		</ul>
@@ -107,9 +107,44 @@
 </div>
 
 <div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
-	<p>Ficamos  gratos por voc&ecirc; estar aqui para apreender mais sobre o desenvolvimento  com o Zeanwork. Nesta documenta&ccedil;&atilde;o voc&ecirc; ter&aacute; a chance de apreender a  desenvolver aplica&ccedil;&otilde;es com grande produtividade e boas t&eacute;cnicas no  desenvolvimento web. Tamb&eacute;m apreender&aacute; sobre o design pattern MVC e &aacute;  utilizar o Zeanwork da melhor forma poss&iacute;vel.<br /><br />Se  voc&ecirc; nunca utilizou um Framework PHP com MVC, voc&ecirc; ver&aacute; que n&atilde;o &eacute; t&atilde;o  complicado assim! O Zeanwork &eacute; perfeito para quem esta come&ccedil;ando no  mundo dos frameworks, mas &eacute; preciso saber um pouco sobre POO  (Programa&ccedil;&atilde;o Orientada &agrave; Objetos). No desenvolvimento de uma aplica&ccedil;&atilde;o, o  Zeanwork vai lhe dando o caminho certo para que voc&ecirc; possa prosseguir,  com erros que lhe diz o que fazer para solucionar o seu problema.</p><br />
-<span class="titleDoc">Iniciando</span><br />
-<p>Se  voc&ecirc; esta iniciando no mundo dos frameworks, j&aacute; deve ter notado que  existem muitos outros, ent&atilde;o voc&ecirc; pergunta: Porque mais um framework?<a href="http://zeanwork.com.br/blog/2010/05/14/porque-mais-um-framework/"> Aqui</a> temos uma resposta para esta pergunta! Conhe&ccedil;a tamb&eacute;m nossas <a href="http://zeanwork.com.br/about/caracters"> caracter&iacute;sticas</a>.<br /><br />Se  voc&ecirc; esta iniciando o desenvolvimento de aplica&ccedil;&otilde;es com o Zeanwork,  voc&ecirc; pode ler nossas documenta&ccedil;&otilde;es e os tutoriais, ver os screencasts e  trocar ideias com outros programadores que utilizam o Zeanwork.<br />Para que voc&ecirc; possa desenvolver aplica&ccedil;&otilde;es com o Zeanwork voc&ecirc; deve saber programar em PHP e ter no&ccedil;&otilde;es de POO (Programa&ccedil;&atilde;o Orientada &agrave; Objetos). No&ccedil;&otilde;es sobre o design pattern MVC tamb&eacute;m &eacute; desej&aacute;vel, mas se voc&ecirc; n&atilde;o conhece, n&atilde;o tem problema, pois voc&ecirc; ir&aacute; aprender conosco.</p></div>
+	Bom, se a sua aplicação não requer banco de dados, você não irá precisar fazer nada em relação ao banco de dados, pois o Zeanwork esta pronto para ser executado. Mas se você irá utilizar banco de dados devemos fazer as configurações para o mesmo.<br />
+Para definir a configuração, você deve ir até o arquivo <span class="fontCode">App/Configs/database.php</span> e localizar a configuração chamada <span class="fontCode">database</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('database', array(
+	      'development' => array(
+				  'persistent' => false //Indica se a conexão será persistente.
+				, 'drive' => 'MySql' //Tipo do banco de dados.
+				, 'host' => 'localhost' //Endereço do servidor de banco de dados.
+				, 'user' => 'root' //Usuário para conexão com o banco de dados.
+				, 'password' => '' //Senha para conexão com o banco de dados.
+				, 'database' => 'zeanwork' //Nome da tabela do banco.
+				, 'prefix' => null //Prefixo nos nomes das tabelas do banco de dados
+				, 'charset' => 'utf8' //Charser do banco de dados
+		       )
+	      )
+	  );
+</pre><br />
+<br />
+<a name="connect"></a><div class="titleDoc">Auto conectar-se com o banco de dados</div><br />
+Para definir se o zeanwork conectará automáticamente com o servidor de banco de dados, você deve ir até o arquivo <span class="fontCode">App/Configs/database.php</span> e localizar a configuração chamada <span class="fontCode">auto.connect.database</span>.<br />
+O valor a ser definido é boolean (true/false).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('auto.connect.database', true);
+</pre><br />
+<br />
+<a name="disconnect"></a><div class="titleDoc">Auto desconectar-se com o banco de dados</div><br />
+Para definir se o zeanwork desconectará automáticamente com o servidor de banco de dados, você deve ir até o arquivo <span class="fontCode">App/Configs/database.php</span> e localizar a configuração chamada <span class="fontCode">auto.disconnect.database</span>.<br />
+O valor a ser definido é boolean (true/false).<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+Configure::write('auto.disconnect.database', true);
+</pre><br />
+<div class="nota"><b>Nota:</b> Se a configuração de conexão com o banco de dados for persistente, então será ignorado esta configuração.</div></div>
 
 <div class="clear"></div>
 			</div>
@@ -174,4 +209,4 @@
 			</body>
 </html>
 
-<!-- Runtime: 0.0322s. Developed with Zeanwork Framework PHP -->
+<!-- Runtime: 0.0339s. Developed with Zeanwork Framework PHP -->

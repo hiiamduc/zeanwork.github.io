@@ -1,0 +1,459 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Pagination - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/helpers.html">Helpers</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/helpers/pagination.html">Pagination</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Pagination</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  class="selected" href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	O helper pagination ajuda você a trabalhar com paginação de dados de um model.<br />
+<br />
+<br />
+<a name="load"></a><div class="titleDoc">Carregando o helper</div><br />
+Para você utilizar este helper, você prescisa definir que irá utiliza-lo. Veja mais em: <strong><a href="/doc/controllers">Controllers</a> &gt; <a href="/doc/controllers#loadFeatures">Carregando models, components, helpers e extensions</a></strong>.<br />
+O nome deste helper é <span class="fontCode">pagination</span>, este é o nome que você irá utilizar para carrega-lo.<br />
+<br />
+<br />
+<a name="config"></a><div class="titleDoc">Configurando as opções</div><br />
+<div class="boxDoc"><div class="nameMethod">$numbersOptions</div><div class="marginDoc">Esta variável define as opções para a geração dos números.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->numbersOptions = array(
+		  'maxButtons' => 13 //Máximo de botões
+		, 'separator' => ' ' //seperador
+		, 'tag' => 'span' //Tipo da tag
+		, 'current' => 'current' //Class para o botão selecionado
+	);
+</pre></div><br />
+<div class="lineBoxDoc"></div><div class="nameMethod">$textDescription</div><div class="marginDoc">Esta variável define os textos que será utilizado na função <span class="fontCode">PaginationHelper::description()</span>.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->textDescription = array(
+		  'results' => 'Resultados'
+		, 'of' => 'de'
+		, 'pages' => 'Páginas'
+	);
+</pre></div><br />
+</div><br />
+<br />
+<a name="model"></a><div class="titleDoc">Definindo o model da paginação</div><br />
+<div class="boxDoc"><div class="nameMethod">model()</div><div class="marginDoc">Este método define o model dos dados.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $modelName</em><br />
+<div class="marginDoc">Nome do model.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->model('posts');
+</pre></div><br />
+</div><br />
+<br />
+<a name="getPage"></a><div class="titleDoc">Resgatando o números da página</div><br />
+<div class="boxDoc"><div class="nameMethod">getPage()</div><div class="marginDoc">Este método retorna o número da página que esta sendo visualizada.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número da página.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->getPage();
+</pre></div><br />
+</div><br />
+<br />
+<a name="getTotalPages"></a><div class="titleDoc">Resgatando o total de páginas</div><br />
+<div class="boxDoc"><div class="nameMethod">getTotalPages()</div><div class="marginDoc">Este método retorna o total de páginas.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Total de páginas.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->getTotalPages();
+</pre></div><br />
+</div><br />
+<br />
+<a name="getTotalRecords"></a><div class="titleDoc">Resgatando o total de registros</div><br />
+<div class="boxDoc"><div class="nameMethod">getTotalRecords()</div><div class="marginDoc">Este método retorna o total de registros que resultou da consulta.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Total de registros.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->getTotalRecords();
+</pre></div><br />
+</div><br />
+<br />
+<a name="getTotalRecordsInPage"></a><div class="titleDoc">Resgatando o total de registros na página</div><br />
+<div class="boxDoc"><div class="nameMethod">getTotalRecordsInPage()</div><div class="marginDoc">Este método retorna o total de registros que resultou para a página que esta sendo visualizada.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Total de registros na página.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->getTotalRecordsInPage();
+</pre></div><br />
+</div><br />
+<br />
+<a name="getStartRecord"></a><div class="titleDoc">Resgatando o número do primeiro registro na página</div><br />
+<div class="boxDoc"><div class="nameMethod">getStartRecord()</div><div class="marginDoc">Este método retorna o número do primeiro registro para a página que esta sendo visualizada.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>number</em><br />
+<div class="marginDoc">Número do primeiro registro na página.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->getStartRecord();
+</pre></div><br />
+</div><br />
+<br />
+<a name="hasNext"></a><div class="titleDoc">Verificando se tem próximas páginas</div><br />
+<div class="boxDoc"><div class="nameMethod">hasNext()</div><div class="marginDoc">Este método verifica se existe uma página seguinte.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>boolean</em><br />
+<div class="marginDoc">True se tiver e false se não.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->hasNext();
+</pre></div><br />
+</div><br />
+<br />
+<a name="hasPrevious"></a><div class="titleDoc">Verificando se tem páginas anteriores</div><br />
+<div class="boxDoc"><div class="nameMethod">hasPrevious()</div><div class="marginDoc">Este método verifica se existe uma página anterior.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>boolean</em><br />
+<div class="marginDoc">True se tiver e false se não.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->hasPrevious();
+</pre></div><br />
+</div><br />
+<br />
+<a name="next"></a><div class="titleDoc">Próxima página</div><br />
+<div class="boxDoc"><div class="next">next()</div><div class="marginDoc">Este método monta um link apontando para a próxima página, se existir.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $text [opcional]</em><br />
+<div class="marginDoc">Texto a ser exibido no link</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para o link.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->next();
+</pre></div><br />
+</div><br />
+<br />
+<a name="previous"></a><div class="titleDoc">Página anterior</div><br />
+<div class="boxDoc"><div class="next">previous()</div><div class="marginDoc">Este método monta um link apontando para a página anterior, se existir.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $text [opcional]</em><br />
+<div class="marginDoc">Texto a ser exibido no link</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para o link.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->previous();
+</pre></div><br />
+</div><br />
+<br />
+<a name="first"></a><div class="titleDoc">Primeira página</div><br />
+<div class="boxDoc"><div class="next">first()</div><div class="marginDoc">Este método monta um link apontando para a primeira página.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $text [opcional]</em><br />
+<div class="marginDoc">Texto a ser exibido no link</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para o link.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->first();
+</pre></div><br />
+</div><br />
+<br />
+<a name="last"></a><div class="titleDoc">Última página</div><br />
+<div class="boxDoc"><div class="next">last()</div><div class="marginDoc">Este método monta um link apontando para a última página.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>string $text [opcional]</em><br />
+<div class="marginDoc">Texto a ser exibido no link</div><br />
+<div class="lineBoxDoc"></div><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para o link.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->last();
+</pre></div><br />
+</div><br />
+<br />
+<a name="numbers"></a><div class="titleDoc">Gerando os números das páginas</div><br />
+<div class="boxDoc"><div class="nameMethod">numbers()</div><div class="marginDoc">Este método retorna um HTML com a lista dos números com seus respectivos links.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $options</em><br />
+<div class="marginDoc">Opções para a geração dos números, sobre escreve a configuração definida pela variável PaginationHelper::$numbersOptions.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->numbers();
+</pre></div><br />
+</div><br />
+<br />
+<a name="description"></a><div class="titleDoc">Descrição das páginas</div><br />
+<div class="boxDoc"><div class="nameMethod">description()</div><div class="marginDoc">Este método monta uma descrição das páginas.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $attr [opcional]</em><br />
+<div class="marginDoc">Atributos para a tag.</div><br />
+<div class="lineBoxDoc"></div><em>string $tag [opcional]</em><br />
+<div class="marginDoc">Nome da tag a ser utilizada.</div><br />
+<div class="lineBoxDoc"></div><em>array $text [opcional]</em><br />
+<div class="marginDoc">Textos a serem exibido, sobre escreve a configuração definida pela variável PaginationHelper::$textDescription.</div><br />
+<div class="lineBoxDoc"></div><em>string $separator [opcional]</em><br />
+<div class="marginDoc">Separador da primeira parte com a segunda.</div><br />
+</div><br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->pagination->description();
+</pre></div><br />
+</div><br />
+<br />
+<a name="generateAll"></a><div class="titleDoc">Gerando todas as opções</div><br />
+<div class="boxDoc"><div class="nameMethod">generateAll()</div><div class="marginDoc">Este método gera os links para as páginas, contendo: Próximo, Anterior, Última, Primeira, Números e Descrição.<br />
+<br />
+Retorno:<br />
+<div class="boxDoc"><em>string</em><br />
+<div class="marginDoc">String contendo o html.</div><br />
+</div><br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+echo $this->pagination->generateAll();
+</pre></div><br />
+</div></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0393s. Developed with Zeanwork Framework PHP -->

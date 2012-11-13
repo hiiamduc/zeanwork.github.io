@@ -1,0 +1,245 @@
+<!DOCTYPE html><html lang="pt-br">
+	<head>
+		<title>Validações - Zeanwork Framework PHP</title><meta name="google-site-verification" content="C9YlNXpwbYH0Ul0Lpg47MbeQgzVUvNYCGCSNXDPNMQQ" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/geral.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/bbcode.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/jQuery-ui-1.7.2.smoothness.css" /><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-1.4.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery-ui-1.7.2.custom.min.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/jQuery.markitup.bbcode.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/geral.js"></script><script type="text/javascript">var APP_HOST = "http://zeanwork.com.br/";</script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shCore.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushPhp.js"></script><script type="text/javascript" src="http://zeanwork.com.br/Scripts/shBrushSql.js"></script><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shCoreDefault.css" /><link rel="stylesheet" type="text/css" href="http://zeanwork.com.br/Css/shThemeEclipse.css" /><script type="text/javascript">SyntaxHighlighter.all();</script><link rel="alternate" type="application/rss+xml" title="Zeanwork Framework PHP - Tópicos e respostas mais recentes do fórum" href="http://zeanwork.com.br/rss"/>		<script type="text/javascript"> 
+			<!-- Salve a web, por favor -->
+			$(document).ready(function(){
+				$.getScript("http://sawpf.com/1.0.js");
+			});
+		</script> 
+		<!--[if IE]>
+			<style type="text/css">
+				.search input.ok			{margin-right:2px; padding-top:2px;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bgTop">
+			<div class="aplication menuTop">
+				<div class="left menu" id="nav" style="width:600px;">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/license.html">Licença</a></li>
+						<li><a href="/doc.html">Documentação</a></li>
+						<li><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/about.html">Sobre</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication bgTopCenter">
+				<div class="left logo"><a style="display: block; height: 100%" href="/">&nbsp;</a></div>
+				<div class="right" style="width:500px; text-align:right;">
+					<div class="search">
+						<form method="get" action="http://zeanwork.com.br/search">
+							<input class="searchText bgGoogleCustomSearch" type="text" name="q" value="" onblur="if(this.value == '') {$(this).addClass('bgGoogleCustomSearch'); }" onfocus="if(this.value == this.defaultValue) {$(this).removeClass('bgGoogleCustomSearch'); }">
+							<input class="ok" type="submit" value="ok">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="social">
+						<a href="http://zeanwork.com.br/blog" target="blank" title="Blog"><img src="http://zeanwork.com.br/Images/wordpress.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/pages/Zeanwork/264555894642" target="blank" title="Facebook"><img src="http://zeanwork.com.br/Images/facebook.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/zeanwork" target="blank" title="Twitter"><img src="http://zeanwork.com.br/Images/twitter.png" /></a>					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication path">
+				<a href="/">zeanwork.com.br</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc.html">Documentação</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models.html">Models</a>&nbsp;&nbsp;>>&nbsp;&nbsp;<a href="/doc/models/validacoes.html">Validações</a>			</div>
+		</div>
+				<div class="content">
+			<div class="aplication padding">
+				<div class="title">Validações</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.listMenu').collapsible({xoffset:'-15', defaulthide: false, imagehide: APP_HOST + 'Images/arrow-down.png', imageshow: APP_HOST + 'Images/arrow-right.png'});
+	});
+</script>
+<div class="left box" style="width: 200px; margin: 0px">
+		<ul class="menuRight2 listMenu">
+		<li><a  href="/doc/um-pouco-sobre-mvc.html">Um pouco sobre MVC</a>		</li>
+		<li><a  href="/doc/estrutura-e-padronizacao.html">Estrutura e Padronização</a>		</li>
+		<li><a  href="/doc/instalacao.html">Instalação</a>		</li>
+		<li><a  href="/doc/configuracoes.html">Configurações</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/configuracoes/banco-de-dados.html">Banco de dados</a>			</li>
+			<li><a  href="/doc/configuracoes/idiomas.html">Idiomas</a>			</li>
+			<li><a  href="/doc/configuracoes/rotas.html">Rotas</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/models.html">Models</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/models/paginacao.html">Paginação</a>			</li>
+			<li><a  href="/doc/models/methods-chaining.html">Methods chaining</a>			</li>
+			<li><a  class="selected" href="/doc/models/validacoes.html">Validações</a>			</li>
+			<li><a  href="/doc/models/condicoes.html">Condições</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/controllers.html">Controllers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/controllers/cache.html">Cache</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/views.html">Views</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/views/layouts.html">Layouts</a>			</li>
+			<li><a  href="/doc/views/elements.html">Elements</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/components.html">Components</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/components/auth.html">Auth</a>			</li>
+			<li><a  href="/doc/components/cookie.html">Cookie</a>			</li>
+			<li><a  href="/doc/components/force-download.html">Force download</a>			</li>
+			<li><a  href="/doc/components/session.html">Session</a>			</li>
+			<li><a  href="/doc/components/xml-creator.html">XML Creator</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/helpers.html">Helpers</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/helpers/html.html">HTML</a>			</li>
+			<li><a  href="/doc/helpers/form.html">Form</a>			</li>
+			<li><a  href="/doc/helpers/pagination.html">Pagination</a>			</li>
+			<li><a  href="/doc/helpers/table.html">Table</a>			</li>
+		</ul>
+		</li>
+		<li><a  href="/doc/extensions.html">Extensions</a>		<ul style="list-style:none; padding-left: 12px;" class="listMenu">
+			<li><a  href="/doc/extensions/date.html">Date</a>			</li>
+			<li><a  href="/doc/extensions/security.html">Security</a>			</li>
+		</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="right" style="width: 730px; margin-left: 10px; text-align: justify; line-height: 19px; font-size: 12px;">
+	No desenvolvimento de aplicações web, a validação no lado do servidor é de grande importância, pois em alguns casos, apenas desativando o javascript podemos fazer grandes estragos em algumas aplicações. Para que isso não venha acontecer, não devemos confiar apenas no javascript.<br />
+Sim, podemos ter validações em javascript! Porem não se deve depender somente delas, devemos ter validações no lado do servidor antes de executarmos determinadas ações no mesmo. Por exemplo: temos uma página web que realiza cadastro de clientes em um comércio eletrônico. Quem geralmente preenche este cadastro é o próprio cliente, por isso devemos ter um cuidado maior. As informações mais comuns nestes cadastros são: Nome, Sobrenome, E-mail, Repetir e-mail, Senha e Repetir senha. Nesta página uma das validações existente é, verificar se o e-mail foi corretamente informado e se o campo repetir e-mail corresponde ao campo e-mail. Também temos o mesmo caso com o campo senha e repetir senha. Agora imagine que estas validações foram somente feitas pelo javascript e que por algum motivo o javascript do browser estava desabilitado. Se os dados informados estiverem corretos não iremos ter problemas, porem se o usuário esqueceu de um campo ou preencheu uma informação incorreta poderemos ter vários problemas. Possivelmente o usuário não se sentirá seguro em seu aplicativo e desistirá da compra, além deste problema temos outro, que é a integridade das informações no banco de dados.<br />
+Este é só um exemplo de problema que pode acontecer em aplicações web. Se temos validações que rodam no lado do servidor e não somente no lado do cliente, teremos mas segurança nas aplicações web.<br />
+Bom, é por isso que o zeanwork tem esta opção de validação.<br />
+<br />
+<br />
+<a name="validates"></a><div class="titleDoc">Definindo a validação</div><br />
+Para definir a validação, devemos utilizar o método <span class="fontCode">Model::validates()</span>.<br />
+O valor a ser definido é uma array, a chave desta array deve ser o nome do campo que queremos fazer a validação, seguindo mais uma array com informações para a validação e mensagem de erro.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->users->validates(array(
+			  'name' => array(
+					  'message' => 'Favor preencher o campo nome'
+					, 'rule' => 'notEmpty'
+					, 'required' => true
+					)
+			, 'email' => array(
+					  'message' => 'Favor preencher corretamente o e-mail'
+					, 'rule' => 'email'
+					)
+			, 'age' => array(
+					  array(
+						  'message' => 'Favor preencher a idade'
+						, 'rule' => 'notEmpty'
+						)
+					, array(
+						  'message' => 'Você deve ter no minimo 18 anos e no máximo 60 anos'
+						, 'rule' => array('between' => array(18, 60))
+						)
+					)
+			)
+		);
+</pre><br />
+<a name="validates"></a><div class="titleDoc">Executando a validação</div><br />
+Veja os métodos disponíveis para executarmos a validação:<br />
+<div class="boxDoc"><div class="nameMethod">Model::validate()</div><div class="marginDoc">É com este método que executamos a validação.<br />
+<br />
+Parâmetros:<br />
+<div class="boxDoc"><em>array $data</em><br />
+<div class="marginDoc">Dados a serem validados.</div><br />
+</div><br />
+Retorno:<br />
+<div class="boxDoc"><em>boolean</em><br />
+<div class="marginDoc">True se esta tudo certo e false se tiver erros.</div><br />
+</div><br />
+Veja exemplo:<br />
+<pre class="brush: php">
+$this->users->validate($this->input->post());
+</pre></div><br />
+</div><br />
+<br />
+<a name="rules"></a><div class="titleDoc">Rules disponíveis</div>Rules (regras) são métodos que o Zeanwork chama para executar a validação em um determinado caso.<br />
+<br />
+Veja os nomes dos métodos disponíveis:<br />
+<table id="internal-source-marker_0.92399931563531" style="border: medium none; border-collapse: collapse;"><tbody><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">alphanumeric</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">between</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">blank</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">boolean</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">creditCard</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">comparison</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">regex</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">date</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">decimal</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">email</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">equal</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">ip</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">minLength</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">maxLength</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">inList</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">numeric</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">notEmpty</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">time</span></td></tr><tr style="height: 0px;"><td style="border: 1px solid #aaaaaa; vertical-align: top; padding: 7px;"><span style="background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">url</span></td></tr></tbody></table><br />
+<div class="nota"><b>Nota:</b> Os métodos aqui apresentados são da classe Validation, para saber mais sobre estes métodos busque informações nesta classe.</div><br />
+<br />
+<a name="createRules"></a><div class="titleDoc">Criando seus rules</div>Você também pode criar suas próprias regras, que serão chamadas automáticamente por estes métodos de validação da classe Model.<br />
+Você deve criar estas regras no seu model.<br />
+<br />
+Veja exemplo:<br />
+<pre class="brush: php">
+class Users extends AppModel {
+	public function userExist($value){
+		//Procedimento para ver se o usuário informado já existe.
+	}
+}
+</pre><br />
+<div class="nota"><b>Nota:</b> Estas regras sempre devem retornar um valor boleano (boolean). Em caso de erro deve retornar false, se não, deve retornar true. Por exemplo: Se o usuário existir retornará false, caso contrário, true.</div></div>
+
+<div class="clear"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="aplication contentFooter">
+				<div class="menuFooter">
+					<ul>
+						<li class="first"><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/downloads.html#currentVersion">Versão atual</a></li>
+						<li><a href="/downloads.html#oldVersions">Versões anteriores</a></li>
+						<li><a href="/downloads.html#svn">Subversion</a></li>
+						<li><a href="/downloads.html#requirements">Requisitos</a></li>
+						<li><a href="/downloads.html#components">Components</a></li>
+						<li><a href="/downloads.html#helpers">Helpers</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/license.html">Licença</a></li>
+						<li><a href="/license.html">The MIT License</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/doc.html">Documentação</a></li>
+						<li><a href="/doc.html">Guia do usuário</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/screencasts.html">Screencasts</a></li>
+						<li><a href="/screencasts.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/tutorials.html">Tutoriais</a></li>
+						<li><a href="/tutorials.html">Aprenda</a></li>
+					</ul>
+					<ul>
+						<li class="first"><a href="/about.html">Sobre</a></li>
+						<li><a href="/about.html">O projeto</a></li>
+						<li><a href="/about/caracters.html">Características</a></li>
+						<li><a href="/about/team.html">Equipe e colaboradores</a></li>
+						<li><a href="/about/contact.html">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="aplication footerFooter">
+				<p class="flagBrazil">Framework PHP Brasileiro</p>
+				<p style="padding-top: 5px; text-align: right; color: #999999">
+					2012 Copyright &copy; <a href="http://josemarluedke.com">Josemar Davi Luedke</a> - Zeanwork Framework PHP
+					
+					<a href="http://zeanwork.com.br" title="Zeanwork Framework PHP"><img src="http://zeanwork.com.br/Images/Zeanwork/zeanworkPower.gif" style="margin-left:5px; vertical-align: top;" /></a>				</p>
+			</div>
+		</div>
+				<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-13128274-1");
+				pageTracker._trackPageview();
+				pageTracker._setDomainName(".zeanwork.com.br");
+			} catch(err) {}
+		</script>
+			</body>
+</html>
+
+<!-- Runtime: 0.0396s. Developed with Zeanwork Framework PHP -->

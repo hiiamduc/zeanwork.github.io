@@ -2,12 +2,12 @@
 <rss version="2.0">
 	<channel>
 		<title>Fórum - Zeanwork Framework PHP</title>
-		<link>http://zeanwork.com.br/forum</link>
+		<link>/forum</link>
 		<description>Tópicos e respostas mais recentes do fórum do Zeanwork</description>
 		<item>
 			<title>Resposta: Documentação para Download</title>
-			<link>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-74</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-74</guid>
+			<link>/forum/topics/view/220-documentacao-para-download#response-74</link>
+			<guid>/forum/topics/view/220-documentacao-para-download#response-74</guid>
 			<description><![CDATA[ Muito legal, vou baixar para vê como estar xD<br />
 <br />
 Obrigado por disponibilizar. ]]></description>
@@ -15,8 +15,8 @@ Obrigado por disponibilizar. ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Projeto parado</title>
-			<link>http://zeanwork.com.br/forum/topics/view/226-projeto-parado#response-73</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/226-projeto-parado#response-73</guid>
+			<link>/forum/topics/view/226-projeto-parado#response-73</link>
+			<guid>/forum/topics/view/226-projeto-parado#response-73</guid>
 			<description><![CDATA[ Cara até aonde sei não esta parado, e se estiver estou estudando ele ao máximo para ajudar a continuar ele, eu gosto deste framework, mas vou procurar saber.<br />
 <br />
 Obrigado ]]></description>
@@ -24,15 +24,15 @@ Obrigado ]]></description>
 		</item>
 		<item>
 			<title>Class Folder</title>
-			<link>http://zeanwork.com.br/forum/topics/view/228-class-folder</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/228-class-folder</guid>
+			<link>/forum/topics/view/228-class-folder</link>
+			<guid>/forum/topics/view/228-class-folder</guid>
 			<description><![CDATA[ A classe Folder do Zeanwork lista arquivos que estão dentro de _Elements? ]]></description>
 			<pubDate>Fri, 01 Jun 2012 11:53:44 -0300</pubDate>
 		</item>
 		<item>
 			<title>Resposta: Auth Component</title>
-			<link>http://zeanwork.com.br/forum/topics/view/5-auth-component#response-72</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/5-auth-component#response-72</guid>
+			<link>/forum/topics/view/5-auth-component#response-72</link>
+			<guid>/forum/topics/view/5-auth-component#response-72</guid>
 			<description><![CDATA[ Esse troço não funciona por nada. já estou tentando desde o ano passado, mas como não consegui fiz minha própria classe.<br />
 <br />
 Exemplo: O que eu devo colocar nas seguintes variáveis?<br />
@@ -44,8 +44,8 @@ public $userData = array(); ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Estrutura do Framework</title>
-			<link>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-71</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-71</guid>
+			<link>/forum/topics/view/7-estrutura-do-framework#response-71</link>
+			<guid>/forum/topics/view/7-estrutura-do-framework#response-71</guid>
 			<description><![CDATA[ Bom dia cheguei até aqui após uma busca no Google sobre Framework em PHP. Baixei e instalei o ZW sem problemas mas, agora é que vem as dúvidas. Como nunca mexi em um Framework gostaria de tirar umas dúvidas.<br />
 Vi que ele contém várias pastas e gostaria de saber se vou precisar istalar um ZW para cada Site que for desenvolver. E gostaria de saber por onde começar. Devo alterar o padrão que ele tras para começar um site do zero?<br />
 <br />
@@ -55,8 +55,8 @@ E parabéns pelo projeo. ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Paginação</title>
-			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-70</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-70</guid>
+			<link>/forum/topics/view/3-paginacao#response-70</link>
+			<guid>/forum/topics/view/3-paginacao#response-70</guid>
 			<description><![CDATA[ Resolvi o problema<br />
 <br />
 Deixei o código como está acima e na linha 11 coloquei da seguinte forma:<br />
@@ -66,8 +66,8 @@ Deixei o código como está acima e na linha 11 coloquei da seguinte forma:<br /
 		</item>
 		<item>
 			<title>Resposta: Paginação</title>
-			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-69</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-69</guid>
+			<link>/forum/topics/view/3-paginacao#response-69</link>
+			<guid>/forum/topics/view/3-paginacao#response-69</guid>
 			<description><![CDATA[ Opa, Consegui resolver mas só tirando o array "leftJoin".<br />
 <br />
 Como faço para manter as tabelas relacionadas? ]]></description>
@@ -75,8 +75,8 @@ Como faço para manter as tabelas relacionadas? ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Paginação</title>
-			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-68</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao#response-68</guid>
+			<link>/forum/topics/view/3-paginacao#response-68</link>
+			<guid>/forum/topics/view/3-paginacao#response-68</guid>
 			<description><![CDATA[ Olá, meu controller está assim:<br />
 <br />
     <script src="http://pastebin.com/embed_js.php?i=tvtZ9qc5"></script><br />
@@ -91,8 +91,8 @@ Estou tendo problemas para visualizar as setas de "próximo". Quando estou naveg
 		</item>
 		<item>
 			<title>Resposta: Primary Key</title>
-			<link>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-67</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-67</guid>
+			<link>/forum/topics/view/227-primary-key#response-67</link>
+			<guid>/forum/topics/view/227-primary-key#response-67</guid>
 			<description><![CDATA[ Opa, fiz diferente.<br />
 <br />
 Como vou ter que relacionar algumas tabelas, utilizei o método read(), removi do banco de dados o campo alias e estou filtrando pelo pelo campo "nome" do artigo e utilizando o Inflector::humanize()<br />
@@ -104,15 +104,16 @@ Estou fazendo um cms simples com o zeanwork, quando estiver pronto disponibilizo
 		</item>
 		<item>
 			<title>Resposta: Primary Key</title>
-			<link>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-66</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/227-primary-key#response-66</guid>
+			<link>/forum/topics/view/227-primary-key#response-66</link>
+			<guid>/forum/topics/view/227-primary-key#response-66</guid>
 			<description><![CDATA[ Opa, cara.<br />
 <br />
 Qual é a sua primaryKey do banco de dados? É "id" certo?<br />
 <br />
 O campo "alias" contem o url, certo? Então você pode fazer assim:<br />
 <pre class="code"><code><span style="color: #000000">
-$this-&gt;conteudoArtigos-&gt;findByAlias($_GET&amp;#91;'blabla'&amp;#93;);</span>
+$this-&gt;conteudoArtigos-&gt;findByAlias($_GET&amp;#91;'blabla'&amp;#93;);
+</span>
 </code></pre><br />
 <br />
 Como vc vai usar no site e no admin, você coloca duas actions. ]]></description>
@@ -120,8 +121,8 @@ Como vc vai usar no site e no admin, você coloca duas actions. ]]></description
 		</item>
 		<item>
 			<title>Primary Key</title>
-			<link>http://zeanwork.com.br/forum/topics/view/227-primary-key</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/227-primary-key</guid>
+			<link>/forum/topics/view/227-primary-key</link>
+			<guid>/forum/topics/view/227-primary-key</guid>
 			<description><![CDATA[ Fiz Meus Models assim<br />
 <br />
 <?php<br />
@@ -148,8 +149,8 @@ O problema é que quando eu for utilizar isto na administração vou precizar bu
 		</item>
 		<item>
 			<title>Projeto parado</title>
-			<link>http://zeanwork.com.br/forum/topics/view/226-projeto-parado</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/226-projeto-parado</guid>
+			<link>/forum/topics/view/226-projeto-parado</link>
+			<guid>/forum/topics/view/226-projeto-parado</guid>
 			<description><![CDATA[ Alguém por aqui sabe se o projeto está tendo continuidade ou se foi abandonado?<br />
 <br />
 Obrigado! ]]></description>
@@ -157,8 +158,8 @@ Obrigado! ]]></description>
 		</item>
 		<item>
 			<title>CMS Zeanwork</title>
-			<link>http://zeanwork.com.br/forum/topics/view/225-cms-zeanwork</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/225-cms-zeanwork</guid>
+			<link>/forum/topics/view/225-cms-zeanwork</link>
+			<guid>/forum/topics/view/225-cms-zeanwork</guid>
 			<description><![CDATA[ Olá pessoal, estou desenvolvendo um cms utilizando o zeanwork sendo que ta pegando em um ponto:<br />
 <br />
 Estou criando um formulário de registro de usuário com as validações do zeanwork. Até aí tudo bem.<br />
@@ -170,8 +171,8 @@ Alguém tem alguma sugestão? ]]></description>
 		</item>
 		<item>
 			<title>Tags php</title>
-			<link>http://zeanwork.com.br/forum/topics/view/224-tags-php</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/224-tags-php</guid>
+			<link>/forum/topics/view/224-tags-php</link>
+			<guid>/forum/topics/view/224-tags-php</guid>
 			<description><![CDATA[ Vi que no Zeanwork os arquivos php numca fecham as tags php no final.<br />
 <br />
 Exemplo:<br />
@@ -185,8 +186,8 @@ Se eu fechar pode ocorrer problemas futuramente? ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Back-End Front-End</title>
-			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-65</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-65</guid>
+			<link>/forum/topics/view/218-back-end-front-end#response-65</link>
+			<guid>/forum/topics/view/218-back-end-front-end#response-65</guid>
 			<description><![CDATA[ Eu também consegui com isto:<br />
 <br />
 function blabla(){<br />
@@ -203,8 +204,8 @@ E se eu quiser chamar a função de um controller em outro arquivo de controller
 		</item>
 		<item>
 			<title>Resposta: Validação</title>
-			<link>http://zeanwork.com.br/forum/topics/view/4-validacao#response-64</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/4-validacao#response-64</guid>
+			<link>/forum/topics/view/4-validacao#response-64</link>
+			<guid>/forum/topics/view/4-validacao#response-64</guid>
 			<description><![CDATA[ Eu fiz as validações assim:<br />
 <br />
 No controller:<br />
@@ -243,8 +244,8 @@ A variável $campos é utilizada para manter os campos preenchidos caso algum ca
 		</item>
 		<item>
 			<title>Resposta: Estrutura do Framework</title>
-			<link>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-63</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework#response-63</guid>
+			<link>/forum/topics/view/7-estrutura-do-framework#response-63</link>
+			<guid>/forum/topics/view/7-estrutura-do-framework#response-63</guid>
 			<description><![CDATA[ Mas não vale a pena. É melhor utilizar o prefixo admin.<br />
 <br />
 Agora que eu vi que se for adicionado o prefixo admin no nome do arquivo o mesmo pode ser acessado como se estivesse dentro de uma pasta chamada admin se o prefixo estiver configurado em routers.<br />
@@ -264,8 +265,8 @@ Um ponto bastatnte interessante. ]]></description>
 		</item>
 		<item>
 			<title>Resposta: foreach</title>
-			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-62</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-62</guid>
+			<link>/forum/topics/view/222-foreach#response-62</link>
+			<guid>/forum/topics/view/222-foreach#response-62</guid>
 			<description><![CDATA[ Opa consegui. Fiz o seguinte:<br />
 <br />
 <?php<br />
@@ -300,26 +301,41 @@ echo $this->form->select('estadoId', array(<br />
 		</item>
 		<item>
 			<title>Resposta: foreach</title>
-			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-61</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-61</guid>
+			<link>/forum/topics/view/222-foreach#response-61</link>
+			<guid>/forum/topics/view/222-foreach#response-61</guid>
 			<description><![CDATA[ e neste caso como eu faria para deixar um campo selecionado com o comando selected? ]]></description>
 			<pubDate>Tue, 20 Dec 2011 04:18:46 -0300</pubDate>
 		</item>
 		<item>
 			<title>Resposta: foreach</title>
-			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-60</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-60</guid>
+			<link>/forum/topics/view/222-foreach#response-60</link>
+			<guid>/forum/topics/view/222-foreach#response-60</guid>
 			<description><![CDATA[ Opa, obrigado. Deu certinho aqui. ]]></description>
 			<pubDate>Tue, 20 Dec 2011 03:03:43 -0300</pubDate>
 		</item>
 		<item>
 			<title>Resposta: foreach</title>
-			<link>http://zeanwork.com.br/forum/topics/view/222-foreach#response-59</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach#response-59</guid>
+			<link>/forum/topics/view/222-foreach#response-59</link>
+			<guid>/forum/topics/view/222-foreach#response-59</guid>
 			<description><![CDATA[ Opa, você pode fazer assim:<br />
 <br />
 <pre class="code"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php$options&nbsp;</span><span style="color: #007700">=&nbsp;array(array(</span><span style="color: #DD0000">'label'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Selecione&nbsp;o&nbsp;Estado'</span><span style="color: #007700">));foreach(</span><span style="color: #0000BB">$usuariosestados&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$estado</span><span style="color: #007700">):&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$options</span><span style="color: #007700">&amp;</span><span style="color: #FF8000">#91;&amp;#93;&nbsp;=&nbsp;array('value'&nbsp;=&gt;&nbsp;$estado&amp;#91;'sigla'&amp;#93;,&nbsp;'text'&nbsp;=&gt;&nbsp;$estado&amp;#91;'nome'&amp;#93;);</span><span style="color: #007700">endforeach;echo&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">form</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">select</span><span style="color: #007700">(</span><span style="color: #DD0000">'estado'</span><span style="color: #007700">,&nbsp;array(&nbsp;&nbsp;</span><span style="color: #DD0000">'options'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$options</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'classCss'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'label'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Estado'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'divForLabel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'divForInput'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">)).</span><span style="color: #0000BB">br</span><span style="color: #007700">();</span>
+<span style="color: #0000BB">&lt;?php
+$options&nbsp;</span><span style="color: #007700">=&nbsp;array(array(</span><span style="color: #DD0000">'label'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Selecione&nbsp;o&nbsp;Estado'</span><span style="color: #007700">));
+
+foreach(</span><span style="color: #0000BB">$usuariosestados&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$estado</span><span style="color: #007700">):
+&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$options</span><span style="color: #007700">&amp;</span><span style="color: #FF8000">#91;&amp;#93;&nbsp;=&nbsp;array('value'&nbsp;=&gt;&nbsp;$estado&amp;#91;'sigla'&amp;#93;,&nbsp;'text'&nbsp;=&gt;&nbsp;$estado&amp;#91;'nome'&amp;#93;);
+</span><span style="color: #007700">endforeach;
+
+echo&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">form</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">select</span><span style="color: #007700">(</span><span style="color: #DD0000">'estado'</span><span style="color: #007700">,&nbsp;array(
+&nbsp;&nbsp;</span><span style="color: #DD0000">'options'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$options
+</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'classCss'
+</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'label'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Estado'
+</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'divForLabel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">true
+</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'divForInput'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">true
+</span><span style="color: #007700">)
+).</span><span style="color: #0000BB">br</span><span style="color: #007700">();
+</span>
 </span>
 </code></pre><br />
 <br />
@@ -328,8 +344,8 @@ Att, ]]></description>
 		</item>
 		<item>
 			<title>foreach</title>
-			<link>http://zeanwork.com.br/forum/topics/view/222-foreach</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/222-foreach</guid>
+			<link>/forum/topics/view/222-foreach</link>
+			<guid>/forum/topics/view/222-foreach</guid>
 			<description><![CDATA[ Como faço um foreach para exibir dados do banco de dados no select do formulário?<br />
 <br />
 Só consegui resposta deste modo mas só que deste modo fica um select para cada opção.<br />
@@ -355,28 +371,37 @@ endforeach; ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Back-End Front-End</title>
-			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-58</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-58</guid>
+			<link>/forum/topics/view/218-back-end-front-end#response-58</link>
+			<guid>/forum/topics/view/218-back-end-front-end#response-58</guid>
 			<description><![CDATA[ Obrigado ]]></description>
 			<pubDate>Mon, 19 Dec 2011 17:31:57 -0300</pubDate>
 		</item>
 		<item>
 			<title>Resposta: innerJoin</title>
-			<link>http://zeanwork.com.br/forum/topics/view/221-innerjoin#response-57</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/221-innerjoin#response-57</guid>
+			<link>/forum/topics/view/221-innerjoin#response-57</link>
+			<guid>/forum/topics/view/221-innerjoin#response-57</guid>
 			<description><![CDATA[ Obrigado, abri um tópico com nome igual ao anterior porque não estava conseguindo adicionar resposta no outro. Se quiser pode apagar o outro. ]]></description>
 			<pubDate>Mon, 19 Dec 2011 17:31:44 -0300</pubDate>
 		</item>
 		<item>
 			<title>Resposta: Back-End Front-End</title>
-			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-56</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end#response-56</guid>
+			<link>/forum/topics/view/218-back-end-front-end#response-56</link>
+			<guid>/forum/topics/view/218-back-end-front-end#response-56</guid>
 			<description><![CDATA[ Então, para você aproveitar a action você pode chamar ela dentro na action do admin.<br />
 <br />
 Por exemplo:<br />
 <br />
 <pre class="code"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php</span><span style="color: #007700">....function&nbsp;</span><span style="color: #0000BB">blabla</span><span style="color: #007700">(){}function&nbsp;</span><span style="color: #0000BB">adminBlabla</span><span style="color: #007700">(){&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">blabla</span><span style="color: #007700">();}</span>
+<span style="color: #0000BB">&lt;?php
+
+</span><span style="color: #007700">....
+function&nbsp;</span><span style="color: #0000BB">blabla</span><span style="color: #007700">(){
+}
+
+function&nbsp;</span><span style="color: #0000BB">adminBlabla</span><span style="color: #007700">(){
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">blabla</span><span style="color: #007700">();
+}
+</span>
 </span>
 </code></pre><br />
 <br />
@@ -385,8 +410,8 @@ Att, ]]></description>
 		</item>
 		<item>
 			<title>Resposta: Documentação para Download</title>
-			<link>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-55</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download#response-55</guid>
+			<link>/forum/topics/view/220-documentacao-para-download#response-55</link>
+			<guid>/forum/topics/view/220-documentacao-para-download#response-55</guid>
 			<description><![CDATA[ Cara, você está de nota 10!<br />
 <br />
 Parabéns pela iniciativa.<br />
@@ -396,8 +421,8 @@ Att, ]]></description>
 		</item>
 		<item>
 			<title>innerJoin</title>
-			<link>http://zeanwork.com.br/forum/topics/view/221-innerjoin</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/221-innerjoin</guid>
+			<link>/forum/topics/view/221-innerjoin</link>
+			<guid>/forum/topics/view/221-innerjoin</guid>
 			<description><![CDATA[ Não estou conseguindo fazer o innerJoin para relacionar mais de uma tabela<br />
 <br />
 <strong>Deste modo não da certo</strong><br />
@@ -440,10 +465,10 @@ public function adminIndex(){<br />
 		</item>
 		<item>
 			<title>Documentação para Download</title>
-			<link>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/220-documentacao-para-download</guid>
+			<link>/forum/topics/view/220-documentacao-para-download</link>
+			<guid>/forum/topics/view/220-documentacao-para-download</guid>
 			<description><![CDATA[ Fiz uma cópia da documentação e converti para PDF para poder ser disponibilizada para download.<br />
-O conteúdo da documentação PDF é igual ao conteúdo da documentação do site oficial do zeanwork: http://zeanwork.com.br/doc<br />
+O conteúdo da documentação PDF é igual ao conteúdo da documentação do site oficial do zeanwork: /doc<br />
 <br />
 E ainda peguei mais alguns conteúdos do site para acrescentar na documentação.<br />
 Possui Índice e Bookmarks<br />
@@ -456,8 +481,8 @@ https://skydrive.live.com/redir.aspx?cid=c9f1de420d1f9342&resid=C9F1DE420D1F9342
 		</item>
 		<item>
 			<title>INNER JOIN</title>
-			<link>http://zeanwork.com.br/forum/topics/view/219-inner-join</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/219-inner-join</guid>
+			<link>/forum/topics/view/219-inner-join</link>
+			<guid>/forum/topics/view/219-inner-join</guid>
 			<description><![CDATA[ Como fazer o Inner Join para relacionar tabelas do banco de dados? Se possível postar um exemplo de como fazer isso.<br />
 <br />
 Outra dúvida. Como colocar uma condição com um valor do banco de dados? EX.:<br />
@@ -477,8 +502,8 @@ Até consegui fazer esta condição mas só consegui colocando o código na View
 		</item>
 		<item>
 			<title>Back-End Front-End</title>
-			<link>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/218-back-end-front-end</guid>
+			<link>/forum/topics/view/218-back-end-front-end</link>
+			<guid>/forum/topics/view/218-back-end-front-end</guid>
 			<description><![CDATA[ Estava lendo sobre rotas do ZeanWork e pelo que vi, se eu quiser ter uma área de administração tenho que criar o prefixo "admin".<br />
 Sendo assim me ficou uma dúvida:<br />
 Os arquivos do admin devem ficar na pasta "App\Views\NomeDaPasta" junto com os arquivos visualizados pelos usuários do site?<br />
@@ -487,8 +512,8 @@ Não daria para fazer como se fosse no joomla, com uma pasta separada chamada "A
 		</item>
 		<item>
 			<title>Estrutura do Framework</title>
-			<link>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/7-estrutura-do-framework</guid>
+			<link>/forum/topics/view/7-estrutura-do-framework</link>
+			<guid>/forum/topics/view/7-estrutura-do-framework</guid>
 			<description><![CDATA[ Olá Galera, sou novo com framework e achei o ZW muito legal e facil de mexer,<br />
 estou desenvolvendo um portal onde terá que ter 3 setores separados,<br />
 setor de aministração do portal<br />
@@ -510,8 +535,8 @@ att wender ]]></description>
 		</item>
 		<item>
 			<title>Rotas</title>
-			<link>http://zeanwork.com.br/forum/topics/view/6-rotas</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/6-rotas</guid>
+			<link>/forum/topics/view/6-rotas</link>
+			<guid>/forum/topics/view/6-rotas</guid>
 			<description><![CDATA[ Olá estava dando uma olhada no zeanwork, e tive alguns problemas de como criar rotas...<br />
 tenho dentro de Controllers/produtos.php com o seguinte<br />
 class ProdutosController extends AppController {<br />
@@ -534,8 +559,8 @@ Pois a minha Router::setRoot('home') funciona certinha... ]]></description>
 		</item>
 		<item>
 			<title>Auth Component</title>
-			<link>http://zeanwork.com.br/forum/topics/view/5-auth-component</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/5-auth-component</guid>
+			<link>/forum/topics/view/5-auth-component</link>
+			<guid>/forum/topics/view/5-auth-component</guid>
 			<description><![CDATA[ Bom Dia,<br />
 <br />
 <br />
@@ -550,8 +575,8 @@ No meu site eu terei uma área do cliente, e teria outra área para administraç
 		</item>
 		<item>
 			<title>Validação</title>
-			<link>http://zeanwork.com.br/forum/topics/view/4-validacao</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/4-validacao</guid>
+			<link>/forum/topics/view/4-validacao</link>
+			<guid>/forum/topics/view/4-validacao</guid>
 			<description><![CDATA[ Sobre a validação, não entendi como ele valida o campo dentro do array, por exemplo validar cada campo com uma rule diferente ... com na documentação.<br />
 <br />
 fiz assim:<br />
@@ -575,8 +600,8 @@ OBS. quando o usuário envia o campo vazio ele valida mas nao exbie a mensagem d
 		</item>
 		<item>
 			<title>Paginação</title>
-			<link>http://zeanwork.com.br/forum/topics/view/3-paginacao</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/3-paginacao</guid>
+			<link>/forum/topics/view/3-paginacao</link>
+			<guid>/forum/topics/view/3-paginacao</guid>
 			<description><![CDATA[ Preciso de um help na paginação<br />
 <br />
 Como insiro a paginação?<br />
@@ -596,8 +621,8 @@ Aguardo. ]]></description>
 		</item>
 		<item>
 			<title>Aonde ficam os exemplos do Zeanwork</title>
-			<link>http://zeanwork.com.br/forum/topics/view/2-aonde-ficam-os-exemplos-do-zeanwork</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/2-aonde-ficam-os-exemplos-do-zeanwork</guid>
+			<link>/forum/topics/view/2-aonde-ficam-os-exemplos-do-zeanwork</link>
+			<guid>/forum/topics/view/2-aonde-ficam-os-exemplos-do-zeanwork</guid>
 			<description><![CDATA[ Olá!<br />
 Não sei se estou postando no local correto.<br />
 Mas aonde estão os exemplos do Zeanwork.<br />
@@ -606,8 +631,8 @@ Obrigado. ]]></description>
 		</item>
 		<item>
 			<title>Ops!   View não encontrada.</title>
-			<link>http://zeanwork.com.br/forum/topics/view/1-ops-view-nao-encontrada</link>
-			<guid>http://zeanwork.com.br/forum/topics/view/1-ops-view-nao-encontrada</guid>
+			<link>/forum/topics/view/1-ops-view-nao-encontrada</link>
+			<guid>/forum/topics/view/1-ops-view-nao-encontrada</guid>
 			<description><![CDATA[ Tentei rodar o ZW e obtive a mensagem:<br />
 <blockquote>Ops!   Controller não encontrado.<br />
 <br />
@@ -615,7 +640,13 @@ O controlador solicitado não foi encontrado. Verifique se o arquivo zeanwork.ph
 <br />
 Caso o arquivo não exista ou a classe não esteja declarada, crie em App/Controllers/zeanwork.php com a seguinte estrutura abaixo.<br />
 <pre class="code"><code><span style="color: #000000">
-<span style="color: #0000BB">&lt;?php</span><span style="color: #007700">class&nbsp;</span><span style="color: #0000BB">ZeanworkController&nbsp;</span><span style="color: #007700">extends&nbsp;</span><span style="color: #0000BB">AppController&nbsp;</span><span style="color: #007700">{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;function&nbsp;</span><span style="color: #0000BB">index</span><span style="color: #007700">(){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}</span>
+<span style="color: #0000BB">&lt;?php
+</span><span style="color: #007700">class&nbsp;</span><span style="color: #0000BB">ZeanworkController&nbsp;</span><span style="color: #007700">extends&nbsp;</span><span style="color: #0000BB">AppController&nbsp;</span><span style="color: #007700">{
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;function&nbsp;</span><span style="color: #0000BB">index</span><span style="color: #007700">(){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</span>
 </span>
 </code></pre><br />
 <br />
